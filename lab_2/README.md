@@ -84,7 +84,7 @@ exponentially with a rate of 0.99985.
 
 ![Comparison of the MeshGraphNet prediction and the filetered prediction against the
 ground truth for velocity and pressure for one
-of the samples from the test dataset.](../../../docs/img/stokes.png)
+of the samples from the test dataset.](./images/stokes.png)
 
 ## Prerequisites
 
