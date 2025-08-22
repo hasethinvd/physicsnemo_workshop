@@ -17,4 +17,4 @@ The content is structured in two modules covering the following:
 
   - Part 1: Physics-Informed inference using PINNs
 
-  - Part 2: Physics-Informed inferened using Meshgraphnet finetuning
+  - Part 2: Physics-Informed inference using Meshgraphnet finetuning
