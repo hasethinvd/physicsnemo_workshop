@@ -1,0 +1,33 @@
+# =============================================================================
+# Diffusion FWI Lab - Git Ignore
+# =============================================================================
+
+# NOTE: Large files (*.mdlus, *.npz, *.pth) are tracked via Git LFS
+# See .gitattributes for LFS patterns
+
+# Generated outputs (recreated at runtime)
+outputs_notebook/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
