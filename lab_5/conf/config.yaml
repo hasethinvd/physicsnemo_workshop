@@ -1,11 +1,9 @@
+# SPDX-FileCopyrightText: Copyright (c) 2023 - 2025 NVIDIA CORPORATION & AFFILIATES.
+# SPDX-License-Identifier: Apache-2.0
+#
 # Transolver Training Configuration for Stokes Flow
 # Lab 5: Physics-Attention and Transolver
 
-# Dataset
-data:
-  dataset_path: "../lab_2/dataset"
-  train_split: 0.9  # 90% for training
-  
 # Model Architecture (PhysicsNeMo Transolver)
 model:
   # Input/Output dimensions
@@ -13,47 +11,51 @@ model:
   embedding_dim: 2         # 2D coordinates as spatial embeddings
   out_dim: 3               # Output: u, v, p
   
-  # Architecture
-  n_hidden: 256            # Hidden dimension
-  n_layers: 4              # Number of PhysicsAttention blocks
-  n_head: 8                # Number of attention heads
+  # Architecture (following PhysicsNeMo defaults)
+  n_hidden: 256
+  n_layers: 4
+  n_head: 8
+  dropout: 0.0
+  act: gelu
+  mlp_ratio: 4
   slice_num: 32            # Number of learned slices (M)
-  dropout: 0.0             # Dropout rate
-  mlp_ratio: 4             # MLP hidden ratio
   
-  # Mesh type
+  # Mesh type (unstructured for Stokes)
   unified_pos: false       # We provide our own embeddings
   structured_shape: null   # Irregular/unstructured mesh
+  ref: 8                   # Reference grid for unified_pos (unused here)
   use_te: false            # Don't require Transformer Engine
+  time_input: false        # No time dependence
+
+# Data
+data:
+  dataset_path: "../lab_2/dataset"
+
+# Scheduler (following PhysicsNeMo pattern)
+scheduler:
+  initial_lr: 1.0e-3
+  decay_rate: 0.5
+  decay_epochs: 50         # Decay every N epochs
 
 # Training
 training:
   epochs: 100
   batch_size: 1            # Process one sample at a time (variable mesh sizes)
-  
-  # Optimizer
-  optimizer: "adamw"
-  learning_rate: 1.0e-3
   weight_decay: 1.0e-4
-  
-  # Scheduler
-  scheduler: "cosine"
-  scheduler_T_max: 100
-  scheduler_eta_min: 1.0e-5
-  
-  # Regularization
   gradient_clip: 1.0
+  rec_results_freq: 25     # Save checkpoint every N epochs
+
+# Validation
+validation:
+  validation_epochs: 10    # Validate every N epochs
 
 # Visualization
 visualization:
-  # Epochs to capture slice assignments
   snapshot_epochs: [10, 25, 50, 100]
-  
-  # Colormap for slices
   slice_cmap: "tab20"
   field_cmap_velocity: "RdBu_r"
   field_cmap_pressure: "viridis"
 
 # Logging
 logging:
-  print_every: 10          # Print loss every N epochs
+  print_every: 10

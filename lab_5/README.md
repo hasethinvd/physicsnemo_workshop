@@ -2,12 +2,35 @@
 
 This lab introduces **Transolver**, a transformer architecture designed for physics simulations. Unlike standard transformers that have O(N²) complexity, Transolver uses **Physics-Attention** to achieve O(N) complexity while learning physically meaningful representations.
 
+This lab follows the same structure as PhysicsNeMo examples (see `examples/cfd/darcy_transolver`).
+
+## Structure
+
+```
+lab_5/
+├── conf/
+│   └── config.yaml              # Configuration (Hydra/OmegaConf)
+├── 01_physics_attention.ipynb   # Theory: Standard vs Physics-Attention
+├── 02_transolver_stokes.ipynb   # Training with visualization
+├── train_transolver_stokes.py   # Production training script
+├── utils.py                     # Utility functions
+└── requirements.txt
+```
+
 ## Notebooks
 
 | Notebook | Description |
 |----------|-------------|
-| `01_physics_attention.ipynb` | Understand why standard attention fails for physics and how Physics-Attention solves it |
-| `02_transolver_stokes.ipynb` | Apply Transolver to the Stokes flow problem (same as lab_2) |
+| `01_physics_attention.ipynb` | Understand why standard attention is expensive for physics and how Physics-Attention solves it |
+| `02_transolver_stokes.ipynb` | Train PhysicsNeMo's Transolver on Stokes flow and visualize learned slices |
+
+## Training Script
+
+For production training (following PhysicsNeMo patterns):
+
+```bash
+python train_transolver_stokes.py
+```
 
 ## Key Concepts
 
