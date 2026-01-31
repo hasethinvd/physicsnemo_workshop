@@ -17,8 +17,7 @@
 import torch
 import torch.nn.functional as F
 import numpy as np
-from physicsnemo.models.layers.spectral_layers import fourier_derivatives
-
+from physicsnemo.nn.module.spectral_layers import fourier_derivatives
 
 class LpLoss(object):
     "Relative MSE loss used for data loss with multiple equations"
