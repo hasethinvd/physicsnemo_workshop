@@ -8,28 +8,25 @@ __pycache__/
 # Jupyter checkpoints
 .ipynb_checkpoints/
 
-# lab_3 large files (excluding model checkpoints)
-# Ignore large binary files in dataset but keep directory structure and small files
-lab_3/dataset/**/*.pt
+# MLflow (tracking logs, not needed in repo)
+mlruns/
+mlartifacts/
+
+# lab_3 dataset large simulation files (not model files)
 lab_3/dataset/**/*.GRDECL
+
+# lab_5 downloaded data
+lab_5/dataset/
+lab_5/results/
 lab_3/dataset/**/*.UNRST
 lab_3/dataset/**/*.EGRID
 lab_3/dataset/**/*.INIT
 lab_3/dataset/**/*.RFT
 lab_3/dataset/**/*.SMSPEC
+lab_3/dataset/**/*.UNSMRY
+lab_3/dataset/**/*.DBG
+lab_3/dataset/**/*.PRT
 
-# Ignore large inference files
-lab_3/xmgn/outputs/*/inference/*.hdf5
-
-# Keep checkpoint directories (negating above ignores)
-!lab_3/xmgn/outputs/*/checkpoints/
-!lab_3/xmgn/outputs/*/best_checkpoints/
-
-# Keep at least 2 example inference files from each model
-!lab_3/xmgn/outputs/XMGN_Norne/inference/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0003.hdf5
-!lab_3/xmgn/outputs/XMGN_Norne/inference/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0012.hdf5
-!lab_3/xmgn/outputs/XMGN_2D_Q5SP_Waterflood/inference/CASE_2D_103.hdf5
-!lab_3/xmgn/outputs/XMGN_2D_Q5SP_Waterflood/inference/CASE_2D_120.hdf5
-__pycache__/
-*.pyc
-*.pyo
+# OS files
+.DS_Store
+Thumbs.db

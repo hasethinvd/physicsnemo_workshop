@@ -1,0 +1,36 @@
+# Lab 5: Transolver - Physics-Aware Transformers for PDEs
+
+This lab introduces **Transolver**, a transformer architecture designed for physics simulations. Unlike standard transformers that have O(N²) complexity, Transolver uses **Physics-Attention** to achieve O(N) complexity while learning physically meaningful representations.
+
+## Notebooks
+
+| Notebook | Description |
+|----------|-------------|
+| `01_physics_attention.ipynb` | Understand why standard attention fails for physics and how Physics-Attention solves it |
+| `02_transolver_stokes.ipynb` | Apply Transolver to the Stokes flow problem (same as lab_2) |
+
+## Key Concepts
+
+### The Problem with Standard Attention
+- Standard transformers compute attention between ALL pairs of points: O(N²)
+- For meshes with 100K+ points, this is computationally prohibitive
+- But physics is mostly **local** - distant points rarely interact directly
+
+### The Transolver Solution: Physics-Attention
+1. **Slice**: Learn to group mesh points into M physics-meaningful "slices"
+2. **Aggregate**: Compress N points → M tokens (N >> M)
+3. **Attend**: Standard attention on M tokens only: O(M²) where M ≈ 64
+4. **Deslice**: Broadcast back to N points
+
+This reduces complexity from O(N²) to O(N·M) ≈ O(N).
+
+## Prerequisites
+
+```bash
+pip install -r requirements.txt
+```
+
+## References
+
+- [Transolver: A Fast Transformer Solver for PDEs on General Geometries](https://arxiv.org/abs/2402.02366)
+- [Learning Mesh-Based Simulation with Graph Networks](https://arxiv.org/abs/2010.03409)
