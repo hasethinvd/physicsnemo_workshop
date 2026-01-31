@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: Copyright (c) 2023 - 2024 NVIDIA CORPORATION & AFFILIATES.
+# SPDX-FileCopyrightText: Copyright (c) 2023 - 2025 NVIDIA CORPORATION & AFFILIATES.
 # SPDX-FileCopyrightText: All rights reserved.
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -40,11 +40,11 @@ except:
 from collections import OrderedDict
 from typing import Dict
 
-from physicsnemo.launch.logging import (
+from physicsnemo.utils.logging import (
     PythonLogger,
     RankZeroLoggingWrapper,
 )
-from physicsnemo.launch.logging.wandb import initialize_wandb
+from physicsnemo.utils.logging.wandb import initialize_wandb
 from physicsnemo.models.mlp.fully_connected import FullyConnected
 from physicsnemo.sym.eq.pde import PDE
 from physicsnemo.sym.eq.phy_informer import PhysicsInformer
@@ -533,20 +533,12 @@ def main(cfg: DictConfig) -> None:
         pred_v_inf = pred_v_inf.detach().cpu().numpy()
         pred_p_inf = pred_p_inf.detach().cpu().numpy()
 
-
         polydata = pv.read(path)
         polydata["filtered_u"] = pred_u_inf
         polydata["filtered_v"] = pred_v_inf
         polydata["filtered_p"] = pred_p_inf
-        print(f"Input path: {path}")
-
-        # Dynamically modify the save path to append '_ftune'
-        dir_name, file_name = os.path.split(path)
-        file_base, file_ext = os.path.splitext(file_name)
-        new_file_name = f"{file_base}_ftune{file_ext}"
-        new_path = os.path.join(dir_name, new_file_name)
-        polydata.save(new_path)
-        print(f"Saved fine-tuned output to: {new_path}")
+        print(path)
+        polydata.save(path)
 
     logger.info("Inference completed!")
 
