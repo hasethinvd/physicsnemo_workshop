@@ -1,0 +1,59 @@
+# Transolver Training Configuration for Stokes Flow
+# Lab 5: Physics-Attention and Transolver
+
+# Dataset
+data:
+  dataset_path: "../lab_2/dataset"
+  train_split: 0.9  # 90% for training
+  
+# Model Architecture (PhysicsNeMo Transolver)
+model:
+  # Input/Output dimensions
+  functional_dim: 0        # No additional functional input (coordinates only)
+  embedding_dim: 2         # 2D coordinates as spatial embeddings
+  out_dim: 3               # Output: u, v, p
+  
+  # Architecture
+  n_hidden: 256            # Hidden dimension
+  n_layers: 4              # Number of PhysicsAttention blocks
+  n_head: 8                # Number of attention heads
+  slice_num: 32            # Number of learned slices (M)
+  dropout: 0.0             # Dropout rate
+  mlp_ratio: 4             # MLP hidden ratio
+  
+  # Mesh type
+  unified_pos: false       # We provide our own embeddings
+  structured_shape: null   # Irregular/unstructured mesh
+  use_te: false            # Don't require Transformer Engine
+
+# Training
+training:
+  epochs: 100
+  batch_size: 1            # Process one sample at a time (variable mesh sizes)
+  
+  # Optimizer
+  optimizer: "adamw"
+  learning_rate: 1.0e-3
+  weight_decay: 1.0e-4
+  
+  # Scheduler
+  scheduler: "cosine"
+  scheduler_T_max: 100
+  scheduler_eta_min: 1.0e-5
+  
+  # Regularization
+  gradient_clip: 1.0
+
+# Visualization
+visualization:
+  # Epochs to capture slice assignments
+  snapshot_epochs: [10, 25, 50, 100]
+  
+  # Colormap for slices
+  slice_cmap: "tab20"
+  field_cmap_velocity: "RdBu_r"
+  field_cmap_pressure: "viridis"
+
+# Logging
+logging:
+  print_every: 10          # Print loss every N epochs
