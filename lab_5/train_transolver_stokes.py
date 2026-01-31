@@ -106,7 +106,7 @@ def stokes_trainer(cfg: DictConfig) -> None:
     )
     
     # Load dataset
-    dataset = StokesDataset()
+    dataset = StokesDataset(num_samples=cfg.training.num_samples)
     log.info(f"Loaded {len(dataset)} training samples")
     
     # Checkpoint setup

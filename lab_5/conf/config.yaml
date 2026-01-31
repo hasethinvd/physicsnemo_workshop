@@ -39,19 +39,20 @@ scheduler:
 
 # Training
 training:
-  epochs: 100
+  epochs: 200
+  num_samples: 100         # Number of training samples to use
   batch_size: 1            # Process one sample at a time (variable mesh sizes)
   weight_decay: 1.0e-4
   gradient_clip: 1.0
-  rec_results_freq: 25     # Save checkpoint every N epochs
+  rec_results_freq: 50     # Save checkpoint every N epochs
 
 # Validation
 validation:
-  validation_epochs: 10    # Validate every N epochs
+  validation_epochs: 20    # Validate every N epochs
 
 # Visualization
 visualization:
-  snapshot_epochs: [10, 25, 50, 100]
+  snapshot_epochs: [10, 50, 100, 150, 200]
   slice_cmap: "tab20"
   field_cmap_velocity: "RdBu_r"
   field_cmap_pressure: "viridis"
