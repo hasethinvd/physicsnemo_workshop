@@ -1,3 +1,11 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter checkpoints
 .ipynb_checkpoints/
 
 # lab_3 large files (excluding model checkpoints)
@@ -22,3 +30,6 @@ lab_3/xmgn/outputs/*/inference/*.hdf5
 !lab_3/xmgn/outputs/XMGN_Norne/inference/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0012.hdf5
 !lab_3/xmgn/outputs/XMGN_2D_Q5SP_Waterflood/inference/CASE_2D_103.hdf5
 !lab_3/xmgn/outputs/XMGN_2D_Q5SP_Waterflood/inference/CASE_2D_120.hdf5
+__pycache__/
+*.pyc
+*.pyo
