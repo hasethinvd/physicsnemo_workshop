@@ -1,0 +1,17 @@
+{
+  "sim_dir": "/workspace/physicsnemo/examples/reservoir_simulation/xmgn/../dataset/2D_OW/CASE_2D.sim",
+  "dataset_dir": "/workspace/physicsnemo/examples/reservoir_simulation/xmgn/../dataset/2D_OW/CASE_2D.sim.dataset/XMGN_2D_Q5SP_Waterflood",
+  "graphs_dir": "/workspace/physicsnemo/examples/reservoir_simulation/xmgn/../dataset/2D_OW/CASE_2D.sim.dataset/XMGN_2D_Q5SP_Waterflood/graphs",
+  "partitions_dir": "/workspace/physicsnemo/examples/reservoir_simulation/xmgn/../dataset/2D_OW/CASE_2D.sim.dataset/XMGN_2D_Q5SP_Waterflood/partitions",
+  "stats_file": "/workspace/physicsnemo/examples/reservoir_simulation/xmgn/../dataset/2D_OW/CASE_2D.sim.dataset/XMGN_2D_Q5SP_Waterflood/global_stats.json",
+  "preprocessing_completed": true,
+  "job_name": "XMGN_2D_Q5SP_Waterflood",
+  "config": {
+    "simulator": "OPM",
+    "num_samples": null
+  },
+  "partition_config": {
+    "num_partitions": 2,
+    "halo_size": 3
+  }
+}

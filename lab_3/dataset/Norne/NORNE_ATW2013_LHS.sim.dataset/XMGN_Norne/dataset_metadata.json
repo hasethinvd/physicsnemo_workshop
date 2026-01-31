@@ -1,0 +1,13 @@
+{
+  "sim_dir": "/workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim",
+  "dataset_dir": "/workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim.dataset/XMGN_Norne",
+  "graphs_dir": "/workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim.dataset/XMGN_Norne/graphs",
+  "partitions_dir": "/workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim.dataset/XMGN_Norne/partitions",
+  "stats_file": "/workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim.dataset/XMGN_Norne/global_stats.json",
+  "preprocessing_completed": true,
+  "job_name": "XMGN_Norne",
+  "config": {
+    "simulator": "OPM",
+    "num_samples": null
+  }
+}

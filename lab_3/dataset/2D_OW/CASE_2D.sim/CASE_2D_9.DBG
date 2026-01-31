@@ -1,0 +1,1309 @@
+
+
+
+ ########  #          ######   #           #
+ #         #         #      #   #         # 
+ #####     #         #      #    #   #   #  
+ #         #         #      #     # # # #   
+ #         #######    ######       #   #    
+
+Flow is a simulator for fully implicit three-phase black-oil flow, and is part of OPM.
+For more information visit: https://opm-project.org 
+
+Flow Version     =  2025.04 (Ubuntu 24.04.2 LTS: 2025.04-1~noble)
+Machine name     =  TONISHI-DT (Number of logical cores: 32, Memory size: 128492.87 MB) 
+Operating system =  Linux x86_64 (Kernel: 6.14.0-29-generic, #29~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Aug 14 16:52:50 UTC 2 )
+Build time       =  
+User             =  tonishi
+Simulation started on 29-09-2025 at 10:07:29 hrs
+Using 1 MPI processes with 2 OMP threads on each 
+Parameters used by Flow:
+# [known parameters which were specified at run-time]
+EclDeckFileName="CASE_2D_9.DATA" # default: ""
+# [parameters which were specified at compile-time]
+AcceleratorMode="none"
+ActionParsingStrictness="normal"
+AddCorners="0"
+AllowDistributedWells="0"
+AllowSplittingInactiveWells="1"
+AlternativeWellRateInit="1"
+CheckGroupConstraintsInnerWellIterations="1"
+CheckSatfuncConsistency="0"
+ContinueOnConvergenceError="0"
+ConvergenceMonitoring="0"
+ConvergenceMonitoringCutOff="6"
+ConvergenceMonitoringDecayFactor="0.75"
+CprReuseInterval="30"
+CprReuseSetup="4"
+DbhpMaxRel="1"
+DebugEmitCellPartition="0"
+DpMaxRel="0.3"
+DsMax="0.2"
+DwellFractionMax="0.2"
+EclOutputDoublePrecision="0"
+EclOutputInterval="-1"
+EdgeWeightsMethod="1"
+EnableAdaptiveTimeStepping="1"
+EnableAsyncEclOutput="1"
+EnableAsyncVtkOutput="1"
+EnableDriftCompensation="0"
+EnableDryRun="auto"
+EnableEclOutput="1"
+EnableEsmry="0"
+EnableGravity="1"
+EnableGridAdaptation="0"
+EnableIntensiveQuantityCache="1"
+EnableLoggingFalloutWarning="0"
+EnableOpmRstFile="0"
+EnableStorageCache="1"
+EnableTerminalOutput="1"
+EnableThermodynamicHints="0"
+EnableTuning="0"
+EnableVtkOutput="0"
+EnableWellOperabilityCheck="1"
+EnableWellOperabilityCheckIter="0"
+EnableWriteAllSolutions="0"
+EndTime="1e+100"
+ExplicitRockCompaction="0"
+ExternalPartition=""
+ForceDisableFluidInPlaceOutput="0"
+ForceDisableResvFluidInPlaceOutput="0"
+FullTimeStepInitially="0"
+GpuDeviceId="0"
+IgnoreKeywords=""
+IluFillinLevel="0"
+IluRedblack="0"
+IluRelaxation="0.9"
+IluReorderSpheres="0"
+ImbalanceTol="1.1"
+InitialTimeStepInDays="1"
+InitialTimeStepSize="86400"
+InjMultDampMult="0.9"
+InjMultMinDampFactor="0.05"
+InjMultOscThreshold="0.1"
+InputSkipMode="100"
+LinearSolver="cprw"
+LinearSolverIgnoreConvergenceFailure="0"
+LinearSolverMaxIter="200"
+LinearSolverPrintJsonDefinition="1"
+LinearSolverReduction="0.01"
+LinearSolverRestart="40"
+LinearSolverVerbosity="0"
+LoadFile=""
+LoadStep="-1"
+LocalDomainsOrderingMeasure="maxpressure"
+LocalDomainsPartitionWellNeighborLevels="1"
+LocalDomainsPartitioningImbalance="1.03"
+LocalDomainsPartitioningMethod="zoltan"
+LocalSolveApproach="gauss-seidel"
+LocalToleranceScalingCnv="0.1"
+LocalToleranceScalingMb="1"
+LocalWellSolveControlSwitching="1"
+MatrixAddWellContributions="0"
+MaxInnerIterMsWells="100"
+MaxInnerIterWells="50"
+MaxLocalSolveIterations="20"
+MaxNewtonIterationsWithInnerWellIterations="8"
+MaxPressureChangeMsWells="1e+06"
+MaxResidualAllowed="1e+07"
+MaxSinglePrecisionDays="20"
+MaxTemperatureChange="5"
+MaxTimeStepDivisions="10"
+MaxTimeStepSize="inf"
+MaxWelleqIter="30"
+MaximumNumberOfGroupSwitches="3"
+MaximumNumberOfWellSwitches="3"
+MaximumWaterSaturation="1"
+MetisParams="default"
+MiluVariant="ILU"
+MinStrictCnvIter="-1"
+MinStrictMbIter="-1"
+MinTimeStepBasedOnNewtonIterations="0"
+MinTimeStepBeforeShuttingProblematicWellsInDays="0.01"
+MinTimeStepSize="0"
+NetworkMaxOuterIterations="10"
+NetworkMaxPressureUpdateInBars="5"
+NetworkMaxStrictOuterIterations="10"
+NetworkMaxSubIterations="20"
+NetworkPressureUpdateDampingFactor="0.1"
+NewtonMaxError="1e+100"
+NewtonMaxIterations="20"
+NewtonMaxRelax="0.5"
+NewtonMinIterations="2"
+NewtonRelaxationType="dampen"
+NewtonTargetIterations="10"
+NewtonTolerance="0.01"
+NewtonVerbose="1"
+NewtonWriteConvergence="0"
+NlddLocalLinearSolver="ilu0"
+NlddLocalLinearSolverMaxIter="200"
+NlddLocalLinearSolverReduction="0.01"
+NlddNumInitialNewtonIter="1"
+NonlinearSolver="newton"
+NumLocalDomains="0"
+NumOverlap="1"
+NumPressurePointsEquil="2000"
+NumSatfuncConsistencySamplePoints="5"
+NupcolGroupRateTolerance="0.001"
+OpenclIluParallel="1"
+OpenclPlatformId="0"
+OutputDir=""
+OutputExtraConvergenceInfo="none"
+OutputInterval="1"
+OutputMode="all"
+OwnerCellsFirst="1"
+ParameterFile=""
+ParsingStrictness="normal"
+PartitionMethod="3"
+PreSolveNetwork="1"
+PredeterminedTimeStepsFile=""
+PressureMax="1e+99"
+PressureMin="-1e+99"
+PressureScale="1"
+PriVarOscilationThreshold="1e-05"
+PrintParameters="2"
+ProjectSaturations="0"
+RegularizationFactorWells="100"
+RelaxedLinearSolverReduction="0.01"
+RelaxedMaxPvFraction="0.03"
+RelaxedPressureTolMsw="10000"
+RelaxedWellFlowTol="0.001"
+RestartTime="-1e+35"
+RestartWritingInterval="16777215"
+SaveFile=""
+SaveStep=""
+ScaleLinearSystem="0"
+SchedRestart="0"
+SerialPartitioning="0"
+ShutUnsolvableWells="1"
+Slave="0"
+SolveWelleqInitially="1"
+SolverContinueOnConvergenceFailure="0"
+SolverGrowthFactor="2"
+SolverMaxGrowth="3"
+SolverMaxRestarts="10"
+SolverMaxTimeStepInDays="365"
+SolverMinTimeStep="1e-12"
+SolverRestartFactor="0.33"
+SolverVerbosity="1"
+StrictInnerIterWells="40"
+StrictOuterIterWells="6"
+TemperatureMax="1e+09"
+TemperatureMin="0"
+ThreadsPerProcess="2"
+TimeStepAfterEventInDays="-1"
+TimeStepControl="pid+newtoniteration"
+TimeStepControlDecayDampingFactor="1"
+TimeStepControlDecayRate="0.75"
+TimeStepControlFileName="timesteps"
+TimeStepControlGrowthDampingFactor="3.2"
+TimeStepControlGrowthRate="1.25"
+TimeStepControlSafetyFactor="0.8"
+TimeStepControlTargetIterations="30"
+TimeStepControlTargetNewtonIterations="8"
+TimeStepControlTolerance="0.1"
+TimeStepVerbosity="1"
+ToleranceCnv="0.01"
+ToleranceCnvEnergy="0.01"
+ToleranceCnvEnergyRelaxed="1"
+ToleranceCnvRelaxed="1"
+ToleranceEnergyBalance="1e-07"
+ToleranceEnergyBalanceRelaxed="1e-06"
+ToleranceMb="1e-07"
+ToleranceMbRelaxed="1e-06"
+TolerancePressureMsWells="1000"
+ToleranceWellControl="1e-07"
+ToleranceWells="0.0001"
+UpdateEquationsScaling="0"
+UseAverageDensityMsWells="0"
+UseGmres="0"
+UseImplicitIpr="1"
+UseMultisegmentWell="1"
+UseUpdateStabilization="1"
+VtkWriteAverageMolarMasses="0"
+VtkWriteDensities="1"
+VtkWriteDiffusionCoefficients="0"
+VtkWriteDofIndex="0"
+VtkWriteEffectiveDiffusionCoefficients="0"
+VtkWriteExtrusionFactor="0"
+VtkWriteFilterVelocities="0"
+VtkWriteFugacities="0"
+VtkWriteFugacityCoeffs="0"
+VtkWriteGasDissolutionFactor="0"
+VtkWriteGasFormationVolumeFactor="0"
+VtkWriteGasSaturationPressure="0"
+VtkWriteIntrinsicPermeabilities="0"
+VtkWriteMassFractions="0"
+VtkWriteMobilities="0"
+VtkWriteMolarities="0"
+VtkWriteMoleFractions="1"
+VtkWriteOilFormationVolumeFactor="0"
+VtkWriteOilSaturationPressure="0"
+VtkWriteOilVaporizationFactor="0"
+VtkWritePorosity="1"
+VtkWritePotentialGradients="0"
+VtkWritePressures="1"
+VtkWritePrimaryVars="0"
+VtkWritePrimaryVarsMeaning="0"
+VtkWriteProcessRank="0"
+VtkWriteRelativePermeabilities="1"
+VtkWriteSaturatedGasOilVaporizationFactor="0"
+VtkWriteSaturatedOilGasDissolutionFactor="0"
+VtkWriteSaturationRatios="0"
+VtkWriteSaturations="1"
+VtkWriteTemperature="1"
+VtkWriteTortuosities="0"
+VtkWriteTotalMassFractions="0"
+VtkWriteTotalMoleFractions="0"
+VtkWriteTracerConcentration="0"
+VtkWriteViscosities="0"
+VtkWriteWaterFormationVolumeFactor="0"
+WaterOnlyThreshold="1"
+ZoltanImbalanceTol="1.1"
+ZoltanParams="graph"
+ZoltanPhgEdgeSizeThreshold="0.35"
+
+Reading deck file 'CASE_2D_9.DATA'
+    0 Reading RUNSPEC  in CASE_2D_9.DATA line 4
+    1 Reading TITLE    in CASE_2D_9.DATA line 5
+    2 Reading DIMENS   in CASE_2D_9.DATA line 8
+    3 Reading OIL      in CASE_2D_9.DATA line 11
+    4 Reading WATER    in CASE_2D_9.DATA line 13
+    5 Reading FIELD    in CASE_2D_9.DATA line 15
+    6 Reading EQLDIMS  in CASE_2D_9.DATA line 17
+    7 Reading TABDIMS  in CASE_2D_9.DATA line 20
+    8 Reading WELLDIMS in CASE_2D_9.DATA line 23
+    9 Reading NUPCOL   in CASE_2D_9.DATA line 26
+   10 Reading START    in CASE_2D_9.DATA line 30
+   11 Reading UNIFOUT  in CASE_2D_9.DATA line 33
+   12 Reading GRID     in CASE_2D_9.DATA line 35
+   13 Reading GRIDFILE in CASE_2D_9.DATA line 37
+   14 Reading INIT     in CASE_2D_9.DATA line 40
+   15 Reading DX       in CASE_2D_9.DATA line 42
+   16 Reading DY       in CASE_2D_9.DATA line 44
+   17 Reading DZ       in CASE_2D_9.DATA line 46
+   18 Reading PORO     in CASE_2D_9.DATA line 48
+   19 Reading TOPS     in CASE_2D_9.DATA line 50
+   20 Reading PERMX    in /home/tonishi/Workdir/repos/reservoir_simulation_surrogate_modeling/dataset/2D_OW/INCLUDE/PERMX_9.GRDECL line 1
+   21 Reading COPY     in CASE_2D_9.DATA line 59
+   22 Reading ACTNUM   in CASE_2D_9.DATA line 64
+   23 Reading EDIT     in CASE_2D_9.DATA line 72
+   24 Reading PROPS    in CASE_2D_9.DATA line 75
+   25 Reading SWFN     in CASE_2D_9.DATA line 81
+   26 Reading SOF2     in CASE_2D_9.DATA line 92
+   27 Reading PVTW     in CASE_2D_9.DATA line 102
+   28 Reading PVDO     in CASE_2D_9.DATA line 105
+   29 Reading ROCK     in CASE_2D_9.DATA line 110
+   30 Reading DENSITY  in CASE_2D_9.DATA line 113
+   31 Reading REGIONS  in CASE_2D_9.DATA line 117
+   32 Reading SATNUM   in CASE_2D_9.DATA line 119
+   33 Reading SOLUTION in CASE_2D_9.DATA line 123
+   34 Reading PRESSURE in CASE_2D_9.DATA line 125
+   35 Reading SWAT     in CASE_2D_9.DATA line 129
+   36 Reading RPTRST   in CASE_2D_9.DATA line 132
+   37 Reading SUMMARY  in CASE_2D_9.DATA line 135
+   38 Reading FOPR     in CASE_2D_9.DATA line 137
+   39 Reading FWPR     in CASE_2D_9.DATA line 138
+   40 Reading FPR      in CASE_2D_9.DATA line 139
+   41 Reading FWCT     in CASE_2D_9.DATA line 140
+   42 Reading FOPT     in CASE_2D_9.DATA line 141
+   43 Reading FWPT     in CASE_2D_9.DATA line 142
+   44 Reading WBHP     in CASE_2D_9.DATA line 144
+   45 Reading WOPR     in CASE_2D_9.DATA line 146
+   46 Reading WWIR     in CASE_2D_9.DATA line 148
+   47 Reading WWPR     in CASE_2D_9.DATA line 150
+   48 Reading WWCT     in CASE_2D_9.DATA line 152
+   49 Reading SCHEDULE in CASE_2D_9.DATA line 155
+   50 Reading RPTRST   in CASE_2D_9.DATA line 157
+   51 Reading RPTSCHED in CASE_2D_9.DATA line 160
+   52 Reading WELSPECS in CASE_2D_9.DATA line 163
+   53 Reading COMPDAT  in CASE_2D_9.DATA line 168
+   54 Reading WCONINJE in CASE_2D_9.DATA line 173
+   55 Reading WCONPROD in CASE_2D_9.DATA line 177
+   56 Reading TSTEP    in CASE_2D_9.DATA line 182
+Unsupported keywords or keyword items:
+
+  GRIDFILE: invalid value '2' for item 1
+  In file: CASE_2D_9.DATA, line 37
+  GRIDFILE(NGRID): output of GRID file is not supported.
+Minimum NUPCOL value is 6 - see keyword MINNPCOL to adjust the minimum value
+
+Creating grid from keywords DX, DY, DZ and TOPS
+2 fluid phases are active
+Error in keyword RPTRST, unrecognized mnemonic PRESSURE
+In CASE_2D_9.DATA line 132.
+
+Processing dynamic information from
+CASE_2D_9.DATA line 155
+Initializing report step 0/20 at 2000-01-01 0 DAYS line 155
+Processing keyword RPTRST at line 157
+Error in keyword RPTRST, unrecognized mnemonic PRESSURE
+In CASE_2D_9.DATA line 157.
+Processing keyword RPTSCHED at line 160
+Processing keyword WELSPECS at line 163
+Processing keyword COMPDAT at line 168
+Processing keyword WCONINJE at line 173
+Processing keyword WCONPROD at line 177
+Complete report step 1 (182.5 DAYS) at 2000-07-01 (0 DAYS)
+
+Initializing report step 2/20 at 2000-07-01 (0 DAYS) line 182
+Complete report step 2 (182.5 DAYS) at 2000-12-31 (182.5 DAYS)
+
+Initializing report step 3/20 at 2000-12-31 (182.5 DAYS) line 182
+Complete report step 3 (182.5 DAYS) at 2001-07-01 (365 DAYS)
+
+Initializing report step 4/20 at 2001-07-01 (365 DAYS) line 182
+Complete report step 4 (182.5 DAYS) at 2001-12-31 (547.5 DAYS)
+
+Initializing report step 5/20 at 2001-12-31 (547.5 DAYS) line 182
+Complete report step 5 (182.5 DAYS) at 2002-07-01 (730 DAYS)
+Report limit reached, see PRT-file for remaining Schedule initialization.
+
+Initializing report step 6/20 at 2002-07-01 (730 DAYS) line 182
+Complete report step 6 (182.5 DAYS) at 2002-12-31 (912.5 DAYS)
+
+Initializing report step 7/20 at 2002-12-31 (912.5 DAYS) line 182
+Complete report step 7 (182.5 DAYS) at 2003-07-01 (1095 DAYS)
+
+Initializing report step 8/20 at 2003-07-01 (1095 DAYS) line 182
+Complete report step 8 (182.5 DAYS) at 2003-12-31 (1277.5 DAYS)
+
+Initializing report step 9/20 at 2003-12-31 (1277.5 DAYS) line 182
+Complete report step 9 (182.5 DAYS) at 2004-06-30 (1460 DAYS)
+
+Initializing report step 10/20 at 2004-06-30 (1460 DAYS) line 182
+Complete report step 10 (182.5 DAYS) at 2004-12-30 (1642.5 DAYS)
+
+Initializing report step 11/20 at 2004-12-30 (1642.5 DAYS) line 182
+Complete report step 11 (182.5 DAYS) at 2005-06-30 (1825 DAYS)
+
+Initializing report step 12/20 at 2005-06-30 (1825 DAYS) line 182
+Complete report step 12 (182.5 DAYS) at 2005-12-30 (2007.5 DAYS)
+
+Initializing report step 13/20 at 2005-12-30 (2007.5 DAYS) line 182
+Complete report step 13 (182.5 DAYS) at 2006-06-30 (2190 DAYS)
+
+Initializing report step 14/20 at 2006-06-30 (2190 DAYS) line 182
+Complete report step 14 (182.5 DAYS) at 2006-12-30 (2372.5 DAYS)
+
+Initializing report step 15/20 at 2006-12-30 (2372.5 DAYS) line 182
+Complete report step 15 (182.5 DAYS) at 2007-06-30 (2555 DAYS)
+
+Initializing report step 16/20 at 2007-06-30 (2555 DAYS) line 182
+Complete report step 16 (182.5 DAYS) at 2007-12-30 (2737.5 DAYS)
+
+Initializing report step 17/20 at 2007-12-30 (2737.5 DAYS) line 182
+Complete report step 17 (182.5 DAYS) at 2008-06-29 (2920 DAYS)
+
+Initializing report step 18/20 at 2008-06-29 (2920 DAYS) line 182
+Complete report step 18 (182.5 DAYS) at 2008-12-29 (3102.5 DAYS)
+
+Initializing report step 19/20 at 2008-12-29 (3102.5 DAYS) line 182
+Complete report step 19 (182.5 DAYS) at 2009-06-29 (3285 DAYS)
+
+Initializing report step 20/20 at 2009-06-29 (3285 DAYS) line 182
+Complete report step 20 (182.5 DAYS) at 2009-12-29 (3467.5 DAYS)
+
+
+Processing grid
+Total number of active cells: 441 / total pore volume: 392727 RB
+
+Property tree for linear solvers:
+{
+    "maxiter": "20",
+    "tol": "0.0050000000000000001",
+    "verbosity": "0",
+    "solver": "bicgstab",
+    "preconditioner": {
+        "type": "cprw",
+        "use_well_weights": "false",
+        "add_wells": "true",
+        "weight_type": "trueimpes",
+        "pre_smooth": "0",
+        "post_smooth": "1",
+        "finesmoother": {
+            "type": "ParOverILU0",
+            "relaxation": "1"
+        },
+        "verbosity": "0",
+        "coarsesolver": {
+            "maxiter": "1",
+            "tol": "0.10000000000000001",
+            "solver": "loopsolver",
+            "verbosity": "0",
+            "preconditioner": {
+                "type": "amg",
+                "alpha": "0.33333333333300003",
+                "relaxation": "1",
+                "iterations": "1",
+                "coarsenTarget": "1200",
+                "pre_smooth": "1",
+                "post_smooth": "1",
+                "beta": "0",
+                "smoother": "ILU0",
+                "verbosity": "0",
+                "maxlevel": "15",
+                "skip_isolated": "0",
+                "accumulate": "1",
+                "prolongationdamping": "1",
+                "maxdistance": "2",
+                "maxconnectivity": "15",
+                "maxaggsize": "6",
+                "minaggsize": "4"
+            }
+        }
+    }
+}
+
+
+===============Saturation Functions Diagnostics===============
+
+System: Oil-Water system.
+Relative permeability input format: Saturation Family II.
+Number of saturation regions: 1
+
+
+
+================ Starting main simulation loop ===============
+
+
+
+---------------    Simulation step number 0    ---------------
+      Current time (days)     0
+      Current stepsize (days) 182.5
+      Total time (days)       3650
+
+
+
+Report step  0/20 at day 0/3650, date = 01-Jan-2000
+Keyword 'BG' is unhandled for output to restart file.
+Keyword 'KRG' is unhandled for output to restart file.
+Keyword 'VGAS' is unhandled for output to restart file.
+Using Newton nonlinear solver.
+
+Starting time step 0, stepsize 1 days, at day 0/182.5, date = 01-Jan-2000
+Restart file written for report step  0/20, date = 01-Jan-2000 00:00:00
+Iter    MB(O)      MB(W)      CNV(O)     CNV(W) 
+   0  1.485e-06  4.318e-06  6.550e-04  1.904e-03
+Linear system blocksize: 2 size:     441 block nonzeroes:      2121
+    Switching control mode for well P1 from LRAT to BHP
+   1  8.896e-07  7.563e-05  5.045e-02  3.445e-02
+   2  2.688e-07  1.196e-06  4.863e-03  2.196e-03
+   3  8.415e-10  1.447e-10  4.373e-05  1.598e-05
+    Well P1 control mode changed from LRAT to BHP
+Overall linear iterations used: 1
+ Newton its= 3, linearizations= 4 (0.0sec), linear its=  1 (0.0sec)
+
+Starting time step 1, stepsize 2.59439 days, at day 1/182.5, date = 02-Jan-2000
+Iter    MB(O)      MB(W)      CNV(O)     CNV(W) 
+   0  2.111e-04  3.266e-04  1.105e-01  1.324e-01
+   1  1.237e-06  2.789e-05  2.476e-03  5.383e-03
+   2  1.122e-08  2.554e-07  1.383e-04  2.073e-04
+   3  2.777e-10  1.869e-10  3.479e-07  2.852e-07
+Overall linear iterations used: 3
+ Newton its= 3, linearizations= 4 (0.0sec), linear its=  3 (0.0sec)
+
+Starting time step 2, stepsize 4.46357 days, at day 3.59439/182.5, date = 04-Jan-2000
+Iter    MB(O)      MB(W)      CNV(O)     CNV(W) 
+   0  3.055e-04  5.619e-04  1.597e-01  1.709e-01
+   1  1.637e-06  1.112e-04  1.862e-02  2.061e-02
+   2  2.052e-07  1.408e-07  5.121e-05  7.105e-05
+   3  2.684e-11  2.700e-11  8.922e-09  1.712e-08
+Overall linear iterations used: 2
+ Newton its= 3, linearizations= 4 (0.0sec), linear its=  2 (0.0sec)
+
+Starting time step 3, stepsize 8.61775 days, at day 8.05796/182.5, date = 09-Jan-2000
+Iter    MB(O)      MB(W)      CNV(O)     CNV(W) 
+   0  5.608e-04  1.085e-03  1.872e-01  1.960e-01
+   1  2.255e-06  5.840e-05  2.586e-02  2.600e-02
+   2  4.908e-08  5.370e-07  1.428e-03  8.355e-04
+   3  2.225e-09  2.224e-09  6.770e-07  7.749e-07
+Overall linear iterations used: 3
+ Newton its= 3, linearizations= 4 (0.0sec), linear its=  3 (0.0sec)
+
+Starting time step 4, stepsize 16.4933 days, at day 16.6757/182.5, date = 17-Jan-2000
+Iter    MB(O)      MB(W)      CNV(O)     CNV(W) 
+   0  1.071e-03  2.076e-03  1.946e-01  2.016e-01
+   1  2.833e-06  6.827e-05  4.228e-02  3.834e-02
+   2  1.143e-07  7.791e-07  2.608e-03  1.230e-03
+   3  3.400e-09  3.488e-09  3.194e-06  1.159e-06
+Overall linear iterations used: 3
+ Newton its= 3, linearizations= 4 (0.0sec), linear its=  3 (0.0sec)
+
+Starting time step 5, stepsize 28.2221 days, at day 33.169/182.5, date = 03-Feb-2000
+Iter    MB(O)      MB(W)      CNV(O)     CNV(W) 
+   0  1.925e-03  3.552e-03  1.933e-01  1.987e-01
+   1  6.188e-06  1.969e-05  2.637e-02  8.890e-02
+   2  1.875e-07  1.929e-07  4.464e-03  2.768e-03
+   3  1.289e-08  1.290e-08  7.529e-06  2.903e-06
+Overall linear iterations used: 3
+ Newton its= 3, linearizations= 4 (0.0sec), linear its=  3 (0.0sec)
+
+Starting time step 6, stepsize 43.3702 days, at day 61.3912/182.5, date = 02-Mar-2000
+Iter    MB(O)      MB(W)      CNV(O)     CNV(W) 
+   0  3.234e-03  5.456e-03  1.776e-01  1.828e-01
+   1  1.065e-05  2.025e-05  6.567e-02  1.013e-01
+   2  1.202e-07  1.224e-07  3.168e-02  1.180e-02
+   3  1.085e-08  1.081e-08  1.130e-02  4.207e-03
+Overall linear iterations used: 3
+ Newton its= 3, linearizations= 4 (0.0sec), linear its=  3 (0.0sec)
+
+Starting time step 7, stepsize 38.8693 days, at day 104.761/182.5, date = 14-Apr-2000
+Iter    MB(O)      MB(W)      CNV(O)     CNV(W) 
+   0  3.225e-03  4.887e-03  9.821e-02  1.013e-01
+   1  3.803e-06  7.491e-06  3.351e-02  2.723e-02
+   2  5.889e-08  5.938e-08  1.126e-03  6.486e-04
+Overall linear iterations used: 2
+ Newton its= 2, linearizations= 3 (0.0sec), linear its=  2 (0.0sec)
+
+Starting time step 8, stepsize 38.8693 days, at day 143.631/182.5, date = 23-May-2000
+Iter    MB(O)      MB(W)      CNV(O)     CNV(W) 
+   0  3.472e-03  4.883e-03  7.400e-02  7.628e-02
+   1  2.639e-06  6.064e-06  3.701e-02  3.031e-02
+   2  5.531e-08  5.407e-08  2.465e-03  8.592e-04
+Keyword 'BG' is unhandled for output to restart file.
+Keyword 'FLOOIL' is unhandled for output to restart file.
+Keyword 'FLOWAT' is unhandled for output to restart file.
+Keyword 'KRG' is unhandled for output to restart file.
+Keyword 'VGAS' is unhandled for output to restart file.
+Overall linear iterations used: 2
+ Newton its= 2, linearizations= 3 (0.0sec), linear its=  2 (0.0sec)
+Sub steps started at time = 0 (days)
+ step[ 0 ] = 1 (days)
+ step[ 1 ] = 2.59439 (days)
+ step[ 2 ] = 4.46357 (days)
+ step[ 3 ] = 8.61775 (days)
+ step[ 4 ] = 16.4933 (days)
+ step[ 5 ] = 28.2221 (days)
+ step[ 6 ] = 43.3702 (days)
+ step[ 7 ] = 38.8693 (days)
+ step[ 8 ] = 38.8693 (days)
+sub steps end time = 182.5 (days)
+Suggested next step size = 74.7219 (days)
+
+Time step took 0.027111 seconds; total solver time 0.027111 seconds.
+
+
+
+---------------    Simulation step number 1    ---------------
+      Current time (days)     182.5
+      Current stepsize (days) 182.5
+      Total time (days)       3650
+
+
+
+Report step  1/20 at day 182.5/3650, date = 01-Jul-2000
+
+Starting time step 0, stepsize 74.7219 days, at day 182.5/365, date = 01-Jul-2000
+Iter    MB(O)      MB(W)      CNV(O)     CNV(W) 
+   0  7.076e-03  9.380e-03  1.206e-01  1.239e-01
+Restart file written for report step  1/20, date = 01-Jul-2000 12:00:00
+    Switching control mode for well P1 from BHP to LRAT
+   1  9.638e-06  1.957e-05  2.201e-01  8.177e-02
+   2  2.107e-04  5.771e-08  1.938e-01  7.212e-02
+   3  1.016e-04  2.301e-08  5.194e-02  1.933e-02
+   4  7.378e-09  7.445e-09  1.638e-02  6.095e-03
+    Well P1 control mode changed from BHP to LRAT
+Overall linear iterations used: 4
+ Newton its= 4, linearizations= 5 (0.0sec), linear its=  4 (0.0sec)
+
+Starting time step 1, stepsize 107.778 days, at day 257.222/365, date = 14-Sep-2000
+Iter    MB(O)      MB(W)      CNV(O)     CNV(W) 
+   0  1.091e-02  1.351e-02  1.332e-01  1.365e-01
+   1  2.331e-03  4.784e-05  1.042e+00  1.527e-01
+Linear system blocksize: 2 size:     441 block nonzeroes:      2121
+   2  1.449e-03  1.265e-07  6.390e-01  2.121e-02
+   3  1.979e-08  2.051e-08  1.368e-02  5.088e-03
+Keyword 'BG' is unhandled for output to restart file.
+Keyword 'FLOOIL' is unhandled for output to restart file.
+Keyword 'FLOWAT' is unhandled for output to restart file.
+Keyword 'KRG' is unhandled for output to restart file.
+Keyword 'VGAS' is unhandled for output to restart file.
+Overall linear iterations used: 3
+ Newton its= 3, linearizations= 4 (0.0sec), linear its=  3 (0.0sec)
+Sub steps started at time = 182.5 (days)
+ step[ 0 ] = 74.7219 (days)
+ step[ 1 ] = 107.778 (days)
+sub steps end time = 365 (days)
+Suggested next step size = 157.568 (days)
+
+Time step took 0.006877 seconds; total solver time 0.033988 seconds.
+
+
+
+---------------    Simulation step number 2    ---------------
+      Current time (days)     365
+      Current stepsize (days) 182.5
+      Total time (days)       3650
+
+
+
+Report step  2/20 at day 365/3650, date = 31-Dec-2000
+
+Starting time step 0, stepsize 91.25 days, at day 365/547.5, date = 31-Dec-2000
+Iter    MB(O)      MB(W)      CNV(O)     CNV(W) 
+   0  9.229e-03  1.142e-02  8.223e-02  8.469e-02
+Restart file written for report step  2/20, date = 31-Dec-2000 00:00:00
+   1  1.185e-05  2.408e-05  7.605e-02  5.684e-02
+   2  1.444e-07  1.463e-07  4.602e-03  1.711e-03
+   3  9.639e-09  9.673e-09  4.395e-06  1.606e-06
+Overall linear iterations used: 3
+ Newton its= 3, linearizations= 4 (0.0sec), linear its=  3 (0.0sec)
+
+Starting time step 1, stepsize 91.25 days, at day 456.25/547.5, date = 01-Apr-2001
+Iter    MB(O)      MB(W)      CNV(O)     CNV(W) 
+   0  9.224e-03  1.141e-02  6.617e-02  6.858e-02
+   1  1.106e-05  2.287e-05  6.297e-02  4.583e-02
+   2  7.192e-08  7.307e-08  1.981e-03  6.972e-04
+Keyword 'BG' is unhandled for output to restart file.
+Keyword 'FLOOIL' is unhandled for output to restart file.
+Keyword 'FLOWAT' is unhandled for output to restart file.
+Keyword 'KRG' is unhandled for output to restart file.
+Keyword 'VGAS' is unhandled for output to restart file.
+Overall linear iterations used: 2
+ Newton its= 2, linearizations= 3 (0.0sec), linear its=  2 (0.0sec)
+Sub steps started at time = 365 (days)
+ step[ 0 ] = 91.25 (days)
+ step[ 1 ] = 91.25 (days)
+sub steps end time = 547.5 (days)
+Suggested next step size = 156.855 (days)
+
+Time step took 0.005066 seconds; total solver time 0.039054 seconds.
+
+
+
+---------------    Simulation step number 3    ---------------
+      Current time (days)     547.5
+      Current stepsize (days) 182.5
+      Total time (days)       3650
+
+
+
+Report step  3/20 at day 547.5/3650, date = 01-Jul-2001
+
+Starting time step 0, stepsize 91.25 days, at day 547.5/730, date = 01-Jul-2001
+Iter    MB(O)      MB(W)      CNV(O)     CNV(W) 
+   0  9.219e-03  1.139e-02  5.705e-02  5.941e-02
+Restart file written for report step  3/20, date = 01-Jul-2001 12:00:00
+   1  1.374e-05  2.515e-05  5.059e-02  3.320e-02
+   2  1.114e-07  1.114e-07  6.550e-03  2.437e-03
+   3  1.280e-09  1.271e-09  1.111e-05  4.042e-06
+Overall linear iterations used: 3
+ Newton its= 3, linearizations= 4 (0.0sec), linear its=  3 (0.0sec)
+
+Starting time step 1, stepsize 91.25 days, at day 638.75/730, date = 30-Sep-2001
+Iter    MB(O)      MB(W)      CNV(O)     CNV(W) 
+   0  9.214e-03  1.138e-02  5.124e-02  5.353e-02
+   1  1.596e-05  2.704e-05  5.828e-02  2.352e-02
+   2  2.636e-08  2.669e-08  1.503e-02  5.587e-03
+Keyword 'BG' is unhandled for output to restart file.
+Keyword 'FLOOIL' is unhandled for output to restart file.
+Keyword 'FLOWAT' is unhandled for output to restart file.
+Keyword 'KRG' is unhandled for output to restart file.
+Keyword 'VGAS' is unhandled for output to restart file.
+Overall linear iterations used: 2
+ Newton its= 2, linearizations= 3 (0.0sec), linear its=  2 (0.0sec)
+Sub steps started at time = 547.5 (days)
+ step[ 0 ] = 91.25 (days)
+ step[ 1 ] = 91.25 (days)
+sub steps end time = 730 (days)
+Suggested next step size = 165.315 (days)
+
+Time step took 0.005085 seconds; total solver time 0.044139 seconds.
+
+
+
+---------------    Simulation step number 4    ---------------
+      Current time (days)     730
+      Current stepsize (days) 182.5
+      Total time (days)       3650
+
+
+
+Report step  4/20 at day 730/3650, date = 31-Dec-2001
+
+Starting time step 0, stepsize 91.25 days, at day 730/912.5, date = 31-Dec-2001
+Iter    MB(O)      MB(W)      CNV(O)     CNV(W) 
+   0  9.209e-03  1.136e-02  4.684e-02  4.906e-02
+   1  1.704e-05  2.779e-05  4.553e-02  1.692e-02
+Restart file written for report step  4/20, date = 31-Dec-2001 00:00:00
+   2  6.071e-08  6.063e-08  3.620e-02  1.346e-02
+Overall linear iterations used: 2
+ Newton its= 2, linearizations= 3 (0.0sec), linear its=  2 (0.0sec)
+
+Starting time step 1, stepsize 91.25 days, at day 821.25/912.5, date = 01-Apr-2002
+Iter    MB(O)      MB(W)      CNV(O)     CNV(W) 
+   0  9.204e-03  1.135e-02  4.370e-02  4.582e-02
+   1  1.681e-05  2.731e-05  1.410e-01  5.247e-02
+   2  1.195e-07  1.196e-07  9.405e-02  3.496e-02
+   3  2.170e-08  2.214e-08  4.015e-04  1.514e-04
+Keyword 'BG' is unhandled for output to restart file.
+Keyword 'FLOOIL' is unhandled for output to restart file.
+Keyword 'FLOWAT' is unhandled for output to restart file.
+Keyword 'KRG' is unhandled for output to restart file.
+Keyword 'VGAS' is unhandled for output to restart file.
+Overall linear iterations used: 3
+ Newton its= 3, linearizations= 4 (0.0sec), linear its=  3 (0.0sec)
+Sub steps started at time = 730 (days)
+ step[ 0 ] = 91.25 (days)
+ step[ 1 ] = 91.25 (days)
+sub steps end time = 912.5 (days)
+Suggested next step size = 172.719 (days)
+
+Time step took 0.005087 seconds; total solver time 0.049226 seconds.
+
+
+
+---------------    Simulation step number 5    ---------------
+      Current time (days)     912.5
+      Current stepsize (days) 182.5
+      Total time (days)       3650
+
+
+
+Report step  5/20 at day 912.5/3650, date = 01-Jul-2002
+
+Starting time step 0, stepsize 91.25 days, at day 912.5/1095, date = 01-Jul-2002
+Iter    MB(O)      MB(W)      CNV(O)     CNV(W) 
+   0  9.199e-03  1.133e-02  4.207e-02  4.418e-02
+   1  1.680e-05  2.717e-05  2.201e-01  8.183e-02
+Restart file written for report step  5/20, date = 01-Jul-2002 12:00:00
+   2  1.025e-07  1.025e-07  9.848e-02  3.659e-02
+   3  1.026e-08  1.040e-08  2.943e-02  1.093e-02
+Overall linear iterations used: 3
+ Newton its= 3, linearizations= 4 (0.0sec), linear its=  3 (0.0sec)
+
+Starting time step 1, stepsize 91.25 days, at day 1003.75/1095, date = 30-Sep-2002
+Iter    MB(O)      MB(W)      CNV(O)     CNV(W) 
+   0  9.194e-03  1.132e-02  3.953e-02  4.163e-02
+   1  1.904e-05  2.964e-05  9.539e-02  3.543e-02
+   2  2.070e-08  1.754e-08  8.697e-02  3.230e-02
+Keyword 'BG' is unhandled for output to restart file.
+Keyword 'FLOOIL' is unhandled for output to restart file.
+Keyword 'FLOWAT' is unhandled for output to restart file.
+Keyword 'KRG' is unhandled for output to restart file.
+Keyword 'VGAS' is unhandled for output to restart file.
+Overall linear iterations used: 2
+ Newton its= 2, linearizations= 3 (0.0sec), linear its=  2 (0.0sec)
+Sub steps started at time = 912.5 (days)
+ step[ 0 ] = 91.25 (days)
+ step[ 1 ] = 91.25 (days)
+sub steps end time = 1095 (days)
+Suggested next step size = 179.708 (days)
+
+Time step took 0.005074 seconds; total solver time 0.054300 seconds.
+
+
+
+---------------    Simulation step number 6    ---------------
+      Current time (days)     1095
+      Current stepsize (days) 182.5
+      Total time (days)       3650
+
+
+
+Report step  6/20 at day 1095/3650, date = 31-Dec-2002
+
+Starting time step 0, stepsize 182.5 days, at day 1095/1277.5, date = 31-Dec-2002
+Iter    MB(O)      MB(W)      CNV(O)     CNV(W) 
+   0  1.838e-02  2.261e-02  1.680e-01  7.998e-02
+   1  1.587e-06  3.852e-05  2.503e+00  1.257e+00
+Restart file written for report step  6/20, date = 31-Dec-2002 00:00:00
+   2  9.952e-05  9.918e-05  4.300e+00  1.861e+00
+   3  7.551e-03  3.146e-03  5.460e+00  1.531e+00
+   4  1.159e-03  4.327e-05  4.659e+00  1.993e+00
+   5  7.717e-03  3.230e-03  5.556e+00  1.569e+00
+   6  1.166e-03  5.025e-05  4.631e+00  1.979e+00
+   7  7.696e-03  3.220e-03  5.546e+00  1.564e+00
+   8  1.166e-03  5.012e-05  4.631e+00  1.979e+00
+Linear system blocksize: 2 size:     441 block nonzeroes:      2121
+   9  7.697e-03  3.220e-03  5.546e+00  1.564e+00
+  10  1.166e-03  5.012e-05  4.631e+00  1.979e+00
+  11  7.697e-03  3.220e-03  5.546e+00  1.564e+00
+  12  1.166e-03  5.012e-05  4.631e+00  1.979e+00
+  13  7.697e-03  3.220e-03  5.546e+00  1.564e+00
+  14  1.166e-03  5.012e-05  4.631e+00  1.979e+00
+  15  7.697e-03  3.220e-03  5.546e+00  1.564e+00
+  16  1.166e-03  5.012e-05  4.631e+00  1.979e+00
+  17  7.697e-03  3.220e-03  5.546e+00  1.564e+00
+  18  1.166e-03  5.012e-05  4.631e+00  1.979e+00
+  19  7.697e-03  3.220e-03  5.546e+00  1.564e+00
+Number of newton iterations reached its maximum try to continue with relaxed tolerances:  MB: 1.0e-06 CNV: 1.0e+00
+  20  1.166e-03  5.012e-05  4.631e+00  1.979e+00
+Caught Exception: [./opm/simulators/flow/NonlinearSolver.hpp:175] Solver convergence failure - Failed to complete a time step within 20 iterations.
+Solver convergence failure - Iteration limit reached
+Timestep chopped to 60.225 days
+
+
+Starting time step 0, stepsize 60.225 days, at day 1095/1277.5, date = 31-Dec-2002
+Iter    MB(O)      MB(W)      CNV(O)     CNV(W) 
+   0  6.065e-03  7.460e-03  5.545e-02  2.639e-02
+   1  7.554e-06  1.196e-05  1.133e-01  4.210e-02
+   2  4.685e-08  4.000e-08  3.621e-02  1.337e-02
+Overall linear iterations used: 2
+ Newton its= 2, linearizations= 3 (0.0sec), linear its=  2 (0.0sec)
+
+Starting time step 1, stepsize 122.275 days, at day 1155.22/1277.5, date = 01-Mar-2003
+Iter    MB(O)      MB(W)      CNV(O)     CNV(W) 
+   0  1.231e-02  1.513e-02  6.855e-02  5.255e-02
+   1  5.030e-03  2.145e-03  1.625e+00  7.127e-01
+   2  1.399e-03  3.187e-04  6.087e-01  1.376e-01
+   3  3.435e-05  1.272e-05  1.516e-02  5.578e-03
+   4  5.415e-09  2.325e-09  3.103e-06  4.748e-07
+Keyword 'BG' is unhandled for output to restart file.
+Keyword 'FLOOIL' is unhandled for output to restart file.
+Keyword 'FLOWAT' is unhandled for output to restart file.
+Keyword 'KRG' is unhandled for output to restart file.
+Keyword 'VGAS' is unhandled for output to restart file.
+Overall linear iterations used: 4
+ Newton its= 4, linearizations= 5 (0.0sec), linear its=  4 (0.0sec)
+Sub steps started at time = 1095 (days)
+ step[ 0 ] = 60.225 (days)
+ step[ 1 ] = 122.275 (days)
+sub steps end time = 1277.5 (days)
+Suggested next step size = 198.435 (days)
+
+Time step took 0.022597 seconds; total solver time 0.076897 seconds.
+
+
+
+---------------    Simulation step number 7    ---------------
+      Current time (days)     1277.5
+      Current stepsize (days) 182.5
+      Total time (days)       3650
+
+
+
+Report step  7/20 at day 1277.5/3650, date = 01-Jul-2003
+
+Starting time step 0, stepsize 182.5 days, at day 1277.5/1460, date = 01-Jul-2003
+Iter    MB(O)      MB(W)      CNV(O)     CNV(W) 
+   0  1.789e-02  2.209e-02  6.652e-02  7.064e-02
+   1  3.256e-04  2.003e-04  2.665e-01  4.802e-02
+Restart file written for report step  7/20, date = 01-Jul-2003 12:00:00
+   2  8.064e-08  2.671e-07  2.705e-02  1.003e-02
+   3  2.092e-08  1.694e-08  9.805e-05  9.047e-06
+Keyword 'BG' is unhandled for output to restart file.
+Keyword 'FLOOIL' is unhandled for output to restart file.
+Keyword 'FLOWAT' is unhandled for output to restart file.
+Keyword 'KRG' is unhandled for output to restart file.
+Keyword 'VGAS' is unhandled for output to restart file.
+Overall linear iterations used: 3
+ Newton its= 3, linearizations= 4 (0.0sec), linear its=  3 (0.0sec)
+Sub steps started at time = 1277.5 (days)
+ step[ 0 ] = 182.5 (days)
+sub steps end time = 1460 (days)
+Suggested next step size = 287.305 (days)
+
+Time step took 0.003164 seconds; total solver time 0.080061 seconds.
+
+
+
+---------------    Simulation step number 8    ---------------
+      Current time (days)     1460
+      Current stepsize (days) 182.5
+      Total time (days)       3650
+
+
+
+Report step  8/20 at day 1460/3650, date = 31-Dec-2003
+
+Starting time step 0, stepsize 182.5 days, at day 1460/1642.5, date = 31-Dec-2003
+Iter    MB(O)      MB(W)      CNV(O)     CNV(W) 
+   0  1.673e-02  2.091e-02  5.622e-02  6.028e-02
+   1  5.441e-04  9.207e-05  3.296e-01  9.141e-02
+Restart file written for report step  8/20, date = 31-Dec-2003 00:00:00
+   2  6.467e-06  2.853e-06  2.885e-03  1.447e-03
+   3  9.516e-09  9.786e-09  5.651e-06  6.609e-06
+Keyword 'BG' is unhandled for output to restart file.
+Keyword 'FLOOIL' is unhandled for output to restart file.
+Keyword 'FLOWAT' is unhandled for output to restart file.
+Keyword 'KRG' is unhandled for output to restart file.
+Keyword 'VGAS' is unhandled for output to restart file.
+Overall linear iterations used: 3
+ Newton its= 3, linearizations= 4 (0.0sec), linear its=  3 (0.0sec)
+Sub steps started at time = 1460 (days)
+ step[ 0 ] = 182.5 (days)
+sub steps end time = 1642.5 (days)
+Suggested next step size = 314.225 (days)
+
+Time step took 0.003066 seconds; total solver time 0.083126 seconds.
+
+
+
+---------------    Simulation step number 9    ---------------
+      Current time (days)     1642.5
+      Current stepsize (days) 182.5
+      Total time (days)       3650
+
+
+
+Report step  9/20 at day 1642.5/3650, date = 30-Jun-2004
+
+Starting time step 0, stepsize 182.5 days, at day 1642.5/1825, date = 30-Jun-2004
+Iter    MB(O)      MB(W)      CNV(O)     CNV(W) 
+   0  1.527e-02  1.945e-02  4.705e-02  5.091e-02
+   1  2.323e-04  1.745e-04  1.063e-01  6.725e-02
+Restart file written for report step  9/20, date = 30-Jun-2004 12:00:00
+   2  2.011e-06  1.894e-06  2.200e-02  8.186e-03
+   3  5.611e-09  2.211e-09  6.677e-05  2.605e-05
+Keyword 'BG' is unhandled for output to restart file.
+Keyword 'FLOOIL' is unhandled for output to restart file.
+Keyword 'FLOWAT' is unhandled for output to restart file.
+Keyword 'KRG' is unhandled for output to restart file.
+Keyword 'VGAS' is unhandled for output to restart file.
+Overall linear iterations used: 3
+ Newton its= 3, linearizations= 4 (0.0sec), linear its=  3 (0.0sec)
+Sub steps started at time = 1642.5 (days)
+ step[ 0 ] = 182.5 (days)
+sub steps end time = 1825 (days)
+Suggested next step size = 319.735 (days)
+
+Time step took 0.003047 seconds; total solver time 0.086173 seconds.
+
+
+
+---------------    Simulation step number 10    ---------------
+      Current time (days)     1825
+      Current stepsize (days) 182.5
+      Total time (days)       3650
+
+
+
+Report step 10/20 at day 1825/3650, date = 30-Dec-2004
+
+Starting time step 0, stepsize 182.5 days, at day 1825/2007.5, date = 30-Dec-2004
+Iter    MB(O)      MB(W)      CNV(O)     CNV(W) 
+   0  1.370e-02  1.788e-02  4.030e-02  4.416e-02
+   1  1.872e-04  1.468e-04  1.946e-01  7.557e-02
+Restart file written for report step 10/20, date = 30-Dec-2004 00:00:00
+   2  1.297e-07  9.732e-08  1.373e-03  4.825e-04
+Linear system blocksize: 2 size:     441 block nonzeroes:      2121
+   3  4.167e-10  5.795e-10  5.371e-07  1.487e-07
+Keyword 'BG' is unhandled for output to restart file.
+Keyword 'FLOOIL' is unhandled for output to restart file.
+Keyword 'FLOWAT' is unhandled for output to restart file.
+Keyword 'KRG' is unhandled for output to restart file.
+Keyword 'VGAS' is unhandled for output to restart file.
+Overall linear iterations used: 3
+ Newton its= 3, linearizations= 4 (0.0sec), linear its=  3 (0.0sec)
+Sub steps started at time = 1825 (days)
+ step[ 0 ] = 182.5 (days)
+sub steps end time = 2007.5 (days)
+Suggested next step size = 327.394 (days)
+
+Time step took 0.003171 seconds; total solver time 0.089344 seconds.
+
+
+
+---------------    Simulation step number 11    ---------------
+      Current time (days)     2007.5
+      Current stepsize (days) 182.5
+      Total time (days)       3650
+
+
+
+Report step 11/20 at day 2007.5/3650, date = 30-Jun-2005
+
+Starting time step 0, stepsize 182.5 days, at day 2007.5/2190, date = 30-Jun-2005
+Iter    MB(O)      MB(W)      CNV(O)     CNV(W) 
+   0  1.223e-02  1.641e-02  3.762e-02  4.169e-02
+Restart file written for report step 11/20, date = 30-Jun-2005 12:00:00
+   1  4.202e-04  3.113e-04  2.138e-01  1.018e-01
+   2  1.400e-06  1.333e-06  9.522e-04  6.531e-04
+   3  9.151e-11  6.892e-11  1.688e-07  1.611e-07
+Keyword 'BG' is unhandled for output to restart file.
+Keyword 'FLOOIL' is unhandled for output to restart file.
+Keyword 'FLOWAT' is unhandled for output to restart file.
+Keyword 'KRG' is unhandled for output to restart file.
+Keyword 'VGAS' is unhandled for output to restart file.
+Overall linear iterations used: 3
+ Newton its= 3, linearizations= 4 (0.0sec), linear its=  3 (0.0sec)
+Sub steps started at time = 2007.5 (days)
+ step[ 0 ] = 182.5 (days)
+sub steps end time = 2190 (days)
+Suggested next step size = 334.771 (days)
+
+Time step took 0.002941 seconds; total solver time 0.092284 seconds.
+
+
+
+---------------    Simulation step number 12    ---------------
+      Current time (days)     2190
+      Current stepsize (days) 182.5
+      Total time (days)       3650
+
+
+
+Report step 12/20 at day 2190/3650, date = 30-Dec-2005
+
+Starting time step 0, stepsize 182.5 days, at day 2190/2372.5, date = 30-Dec-2005
+Iter    MB(O)      MB(W)      CNV(O)     CNV(W) 
+   0  1.097e-02  1.515e-02  3.652e-02  4.056e-02
+Restart file written for report step 12/20, date = 30-Dec-2005 00:00:00
+   1  3.050e-05  5.705e-05  3.418e-02  2.017e-02
+   2  8.421e-09  3.009e-08  1.227e-04  1.660e-04
+Keyword 'BG' is unhandled for output to restart file.
+Keyword 'FLOOIL' is unhandled for output to restart file.
+Keyword 'FLOWAT' is unhandled for output to restart file.
+Keyword 'KRG' is unhandled for output to restart file.
+Keyword 'VGAS' is unhandled for output to restart file.
+Overall linear iterations used: 2
+ Newton its= 2, linearizations= 3 (0.0sec), linear its=  2 (0.0sec)
+Sub steps started at time = 2190 (days)
+ step[ 0 ] = 182.5 (days)
+sub steps end time = 2372.5 (days)
+Suggested next step size = 341.877 (days)
+
+Time step took 0.002187 seconds; total solver time 0.094472 seconds.
+
+
+
+---------------    Simulation step number 13    ---------------
+      Current time (days)     2372.5
+      Current stepsize (days) 182.5
+      Total time (days)       3650
+
+
+
+Report step 13/20 at day 2372.5/3650, date = 30-Jun-2006
+
+Starting time step 0, stepsize 182.5 days, at day 2372.5/2555, date = 30-Jun-2006
+Iter    MB(O)      MB(W)      CNV(O)     CNV(W) 
+   0  9.879e-03  1.407e-02  3.495e-02  3.893e-02
+   1  2.861e-05  5.330e-05  3.051e-02  1.429e-02
+Restart file written for report step 13/20, date = 30-Jun-2006 12:00:00
+   2  1.141e-08  4.145e-09  1.985e-04  8.743e-05
+Keyword 'BG' is unhandled for output to restart file.
+Keyword 'FLOOIL' is unhandled for output to restart file.
+Keyword 'FLOWAT' is unhandled for output to restart file.
+Keyword 'KRG' is unhandled for output to restart file.
+Keyword 'VGAS' is unhandled for output to restart file.
+Overall linear iterations used: 2
+ Newton its= 2, linearizations= 3 (0.0sec), linear its=  2 (0.0sec)
+Sub steps started at time = 2372.5 (days)
+ step[ 0 ] = 182.5 (days)
+sub steps end time = 2555 (days)
+Suggested next step size = 348.762 (days)
+
+Time step took 0.002188 seconds; total solver time 0.096659 seconds.
+
+
+
+---------------    Simulation step number 14    ---------------
+      Current time (days)     2555
+      Current stepsize (days) 182.5
+      Total time (days)       3650
+
+
+
+Report step 14/20 at day 2555/3650, date = 30-Dec-2006
+
+Starting time step 0, stepsize 182.5 days, at day 2555/2737.5, date = 30-Dec-2006
+Iter    MB(O)      MB(W)      CNV(O)     CNV(W) 
+   0  8.964e-03  1.315e-02  3.297e-02  3.701e-02
+   1  2.709e-05  5.039e-05  2.199e-02  1.432e-02
+Restart file written for report step 14/20, date = 30-Dec-2006 00:00:00
+   2  1.797e-08  2.715e-09  8.076e-05  1.129e-04
+Keyword 'BG' is unhandled for output to restart file.
+Keyword 'FLOOIL' is unhandled for output to restart file.
+Keyword 'FLOWAT' is unhandled for output to restart file.
+Keyword 'KRG' is unhandled for output to restart file.
+Keyword 'VGAS' is unhandled for output to restart file.
+Overall linear iterations used: 2
+ Newton its= 2, linearizations= 3 (0.0sec), linear its=  2 (0.0sec)
+Sub steps started at time = 2555 (days)
+ step[ 0 ] = 182.5 (days)
+sub steps end time = 2737.5 (days)
+Suggested next step size = 355.42 (days)
+
+Time step took 0.002205 seconds; total solver time 0.098864 seconds.
+
+
+
+---------------    Simulation step number 15    ---------------
+      Current time (days)     2737.5
+      Current stepsize (days) 182.5
+      Total time (days)       3650
+
+
+
+Report step 15/20 at day 2737.5/3650, date = 30-Jun-2007
+
+Starting time step 0, stepsize 182.5 days, at day 2737.5/2920, date = 30-Jun-2007
+Iter    MB(O)      MB(W)      CNV(O)     CNV(W) 
+   0  8.175e-03  1.236e-02  3.149e-02  3.546e-02
+   1  2.463e-05  4.689e-05  2.823e-02  1.132e-02
+Restart file written for report step 15/20, date = 30-Jun-2007 12:00:00
+   2  7.982e-09  5.613e-09  2.555e-04  9.307e-05
+Keyword 'BG' is unhandled for output to restart file.
+Keyword 'FLOOIL' is unhandled for output to restart file.
+Keyword 'FLOWAT' is unhandled for output to restart file.
+Keyword 'KRG' is unhandled for output to restart file.
+Keyword 'VGAS' is unhandled for output to restart file.
+Overall linear iterations used: 2
+ Newton its= 2, linearizations= 3 (0.0sec), linear its=  2 (0.0sec)
+Sub steps started at time = 2737.5 (days)
+ step[ 0 ] = 182.5 (days)
+sub steps end time = 2920 (days)
+Suggested next step size = 361.879 (days)
+
+Time step took 0.002218 seconds; total solver time 0.101083 seconds.
+
+
+
+---------------    Simulation step number 16    ---------------
+      Current time (days)     2920
+      Current stepsize (days) 182.5
+      Total time (days)       3650
+
+
+
+Report step 16/20 at day 2920/3650, date = 30-Dec-2007
+
+Starting time step 0, stepsize 182.5 days, at day 2920/3102.5, date = 30-Dec-2007
+Iter    MB(O)      MB(W)      CNV(O)     CNV(W) 
+   0  7.491e-03  1.168e-02  2.956e-02  3.357e-02
+   1  2.321e-05  4.432e-05  7.398e-03  6.570e-03
+Restart file written for report step 16/20, date = 30-Dec-2007 00:00:00
+   2  5.125e-09  2.925e-09  7.245e-05  1.449e-04
+Keyword 'BG' is unhandled for output to restart file.
+Keyword 'FLOOIL' is unhandled for output to restart file.
+Keyword 'FLOWAT' is unhandled for output to restart file.
+Keyword 'KRG' is unhandled for output to restart file.
+Keyword 'VGAS' is unhandled for output to restart file.
+Overall linear iterations used: 2
+ Newton its= 2, linearizations= 3 (0.0sec), linear its=  2 (0.0sec)
+Sub steps started at time = 2920 (days)
+ step[ 0 ] = 182.5 (days)
+sub steps end time = 3102.5 (days)
+Suggested next step size = 365 (days)
+
+Time step took 0.002191 seconds; total solver time 0.103273 seconds.
+
+
+
+---------------    Simulation step number 17    ---------------
+      Current time (days)     3102.5
+      Current stepsize (days) 182.5
+      Total time (days)       3650
+
+
+
+Report step 17/20 at day 3102.5/3650, date = 29-Jun-2008
+
+Starting time step 0, stepsize 182.5 days, at day 3102.5/3285, date = 29-Jun-2008
+Iter    MB(O)      MB(W)      CNV(O)     CNV(W) 
+   0  6.889e-03  1.107e-02  2.832e-02  3.225e-02
+   1  7.074e-05  4.175e-05  4.180e-02  1.549e-02
+Restart file written for report step 17/20, date = 29-Jun-2008 12:00:00
+   2  2.470e-07  3.497e-07  7.526e-04  2.829e-04
+   3  2.713e-10  2.314e-10  1.319e-07  9.419e-08
+Keyword 'BG' is unhandled for output to restart file.
+Keyword 'FLOOIL' is unhandled for output to restart file.
+Keyword 'FLOWAT' is unhandled for output to restart file.
+Keyword 'KRG' is unhandled for output to restart file.
+Keyword 'VGAS' is unhandled for output to restart file.
+Overall linear iterations used: 3
+ Newton its= 3, linearizations= 4 (0.0sec), linear its=  3 (0.0sec)
+Sub steps started at time = 3102.5 (days)
+ step[ 0 ] = 182.5 (days)
+sub steps end time = 3285 (days)
+Suggested next step size = 365 (days)
+
+Time step took 0.002942 seconds; total solver time 0.106216 seconds.
+
+
+
+---------------    Simulation step number 18    ---------------
+      Current time (days)     3285
+      Current stepsize (days) 182.5
+      Total time (days)       3650
+
+
+
+Report step 18/20 at day 3285/3650, date = 29-Dec-2008
+
+Starting time step 0, stepsize 182.5 days, at day 3285/3467.5, date = 29-Dec-2008
+Iter    MB(O)      MB(W)      CNV(O)     CNV(W) 
+   0  6.369e-03  1.055e-02  2.831e-02  3.221e-02
+   1  1.697e-05  3.475e-05  2.018e-02  1.455e-02
+Restart file written for report step 18/20, date = 29-Dec-2008 00:00:00
+   2  1.027e-09  4.664e-09  1.389e-04  5.334e-05
+Keyword 'BG' is unhandled for output to restart file.
+Keyword 'FLOOIL' is unhandled for output to restart file.
+Keyword 'FLOWAT' is unhandled for output to restart file.
+Keyword 'KRG' is unhandled for output to restart file.
+Keyword 'VGAS' is unhandled for output to restart file.
+Overall linear iterations used: 2
+ Newton its= 2, linearizations= 3 (0.0sec), linear its=  2 (0.0sec)
+Sub steps started at time = 3285 (days)
+ step[ 0 ] = 182.5 (days)
+sub steps end time = 3467.5 (days)
+Suggested next step size = 365 (days)
+
+Time step took 0.002188 seconds; total solver time 0.108404 seconds.
+
+
+
+---------------    Simulation step number 19    ---------------
+      Current time (days)     3467.5
+      Current stepsize (days) 182.5
+      Total time (days)       3650
+
+
+
+Report step 19/20 at day 3467.5/3650, date = 29-Jun-2009
+
+Starting time step 0, stepsize 182.5 days, at day 3467.5/3650, date = 29-Jun-2009
+Iter    MB(O)      MB(W)      CNV(O)     CNV(W) 
+   0  5.922e-03  1.010e-02  2.761e-02  3.154e-02
+   1  1.623e-05  3.356e-05  5.414e-03  6.711e-03
+Restart file written for report step 19/20, date = 29-Jun-2009 12:00:00
+   2  8.786e-09  9.148e-09  7.347e-06  6.722e-06
+Keyword 'BG' is unhandled for output to restart file.
+Keyword 'FLOOIL' is unhandled for output to restart file.
+Keyword 'FLOWAT' is unhandled for output to restart file.
+Keyword 'KRG' is unhandled for output to restart file.
+Keyword 'VGAS' is unhandled for output to restart file.
+Overall linear iterations used: 2
+ Newton its= 2, linearizations= 3 (0.0sec), linear its=  2 (0.0sec)
+Sub steps started at time = 3467.5 (days)
+ step[ 0 ] = 182.5 (days)
+sub steps end time = 3650 (days)
+Suggested next step size = 365 (days)
+
+Time step took 0.002189 seconds; total solver time 0.110593 seconds.
+
+Restart file written for report step 20/20, date = 29-Dec-2009 00:00:00
+
+
+================    End of simulation     ===============
+
+Number of MPI processes:         1
+Threads per MPI process:         2
+Setup time:                      0.02 s
+  Deck input:                    0.02 s
+Number of timesteps:            35
+Simulation time:                 0.11 s
+  Assembly time:                 0.01 s (Wasted: 0.0 s; 11.5%)
+    Well assembly:               0.00 s (Wasted: 0.0 s; 10.8%)
+  Linear solve time:             0.07 s (Wasted: 0.0 s; 19.0%)
+    Linear setup:                0.06 s (Wasted: 0.0 s; 18.7%)
+  Props/update time:             0.01 s (Wasted: 0.0 s; 16.4%)
+  Pre/post step:                 0.01 s (Wasted: 0.0 s; 0.3%)
+  Output write time:             0.00 s
+Overall Linearizations:        145      (Wasted:    21; 14.5%)
+Overall Newton Iterations:     111      (Wasted:    21; 18.9%)
+Overall Linear Iterations:     108      (Wasted:    21; 19.4%)
+
+
+
+Error summary:
+Warnings          106
+Info              204
+Errors            0
+Bugs              0
+Debug             282
+Problems          1
+

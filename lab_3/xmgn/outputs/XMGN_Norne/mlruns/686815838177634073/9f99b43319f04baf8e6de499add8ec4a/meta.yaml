@@ -1,0 +1,14 @@
+artifact_uri: file:///workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/mlruns/686815838177634073/9f99b43319f04baf8e6de499add8ec4a/artifacts
+end_time: 1769083165057
+entry_point_name: ''
+experiment_id: '686815838177634073'
+lifecycle_stage: active
+run_id: 9f99b43319f04baf8e6de499add8ec4a
+run_name: XMGN_Norne_20260122_035843
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1769083123199
+status: 5
+tags: []
+user_id: root

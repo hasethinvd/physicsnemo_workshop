@@ -1,0 +1,72 @@
+runspec:
+  job_name: ${hydra:job.name}
+  description: Experiment with Norne field
+dataset:
+  simulator: OPM
+  sim_dir: ../dataset/Norne/NORNE_ATW2013_LHS.sim
+  graph:
+    node_features:
+      static:
+      - PERMX
+      - PORV
+      - X
+      - 'Y'
+      - Z
+      dynamic:
+        variables:
+        - PRESSURE
+        - SWAT
+        - WCID
+        prev_timesteps: 2
+    edge_features:
+    - TRANX
+    - TRANY
+    - TRANZ
+    - TRANNNC
+    global_features:
+      delta_t: true
+      time: true
+    target_vars:
+      node_features:
+      - PRESSURE
+      - SWAT
+      weights:
+      - 1.0
+      - 1.0
+      loss_functions:
+      - L2
+      - L1
+    nonlinear_scaling:
+    - PERMX:LOG10
+    - TRAN:LOG10
+preprocessing:
+  skip_graphs: false
+  num_partitions: 3
+  halo_size: 5
+  num_preprocess_workers: 8
+  data_split:
+    train_ratio: 0.8
+    val_ratio: 0.1
+    test_ratio: 0.1
+model:
+  num_message_passing_layers: 5
+  hidden_dim: 128
+  activation: silu
+training:
+  num_epochs: 1000
+  batch_size: 1
+  start_lr: 0.001
+  end_lr: 1.0e-06
+  weight_decay: 0.001
+  validation_freq: 5
+  resume: true
+  early_stopping:
+    patience: 20
+    min_delta: 1.0e-06
+performance:
+  use_concat_trick: true
+  checkpoint_segments: 2
+  enable_cudnn_benchmark: true
+inference:
+  checkpoint_path: null
+  model_path: null

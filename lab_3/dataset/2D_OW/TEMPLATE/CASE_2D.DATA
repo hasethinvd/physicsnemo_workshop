@@ -1,0 +1,187 @@
+------------------------------------------------------------------------
+-->This is the first SPE comparison problem, reported by Odeh
+------------------------------------------------------------------------
+RUNSPEC
+TITLE
+   ODEH PROBLEM - IMPLICIT OPTION
+
+DIMENS
+21 21 1  /
+
+OIL
+
+WATER
+
+FIELD
+
+EQLDIMS
+    1  100   10    1    1 /
+
+TABDIMS
+    1    1   16   12    1   12 /
+
+WELLDIMS
+    2    1    1    2 /
+
+NUPCOL
+    4 /
+
+
+START
+  1 'JAN' 2000  /
+
+UNIFOUT
+
+GRID    ================================================================
+
+GRIDFILE
+2 /
+
+INIT
+
+DX
+441*50   /
+DY
+441*50   /
+DZ 
+441*10  /
+PORO
+441*0.2 /
+TOPS
+441*5000 /
+
+--PERMX
+--441*100.0 /
+INCLUDE
+'../INCLUDE/PERMX_${ID}.GRDECL'
+/
+
+COPY
+'PERMX'    'PERMY'   /
+'PERMX'    'PERMZ'   /
+/
+
+ACTNUM
+441*1
+/
+
+--INCLUDE
+--'NNC.DAT'
+--/
+
+EDIT
+
+
+PROPS    ===============================================================
+-------- THE PROPS SECTION DEFINES THE REL. PERMEABILITIES, CAPILLARY
+-------- PRESSURES, AND THE PVT PROPERTIES OF THE RESERVOIR FLUIDS
+----------------------------------------------------------------------
+
+
+SWFN
+    .2500  .0000 .0
+    .3000  .0200 .0
+    .4000  .0550 .0
+    .5000  .1000 .0
+    .6000  .1450 .0
+    .7000  .2000 .0
+/
+
+
+
+SOF2
+    .3000  .0000
+    .4000  .1100
+    .5000  .2400
+    .6000  .4200
+    .7000  .7050
+    .7500  .9200
+/
+
+
+PVTW
+  .0000000   1.00000    3.03E-06    .50000    0.00E-01 /
+
+PVDO
+  .00000 1.00000 2.00000
+ 8000.00  .99000 2.00000
+/
+
+ROCK
+ 4000.00        .30E-05 /
+
+DENSITY
+ 52.0000  64.0000   .04400 /
+
+
+REGIONS ===============================================================
+
+SATNUM
+441*1
+/
+
+SOLUTION ===============================================================
+
+PRESSURE
+441*3000.0 
+/
+
+SWAT
+441*0.25 /
+
+RPTRST
+BASIC=2 FLOWS PRESSURE ALLPROPS / 
+
+SUMMARY  ===============================================================
+
+FOPR
+FWPR
+FPR
+FWCT
+FOPT
+FWPT
+
+WBHP
+/
+WOPR
+/
+WWIR
+/
+WWPR
+/
+WWCT
+/
+
+SCHEDULE ===============================================================
+
+RPTRST
+BASIC=2 FLOWS PRESSURE ALLPROPS / 
+
+RPTSCHED
+'FLOWAT=3' 'FLOOIL=3' /
+
+WELSPECS
+'I1' 'FLD'   1   1  1* 'WATER'  /
+'P1' 'FLD'  21  21  1* 'OIL'  /
+/
+
+COMPDAT
+'I1'  1  1 1 1  'OPEN' 2*   0.5  /
+'P1' 21 21 1 1  'OPEN' 2*   0.5  /
+/
+
+WCONINJE
+'I1' 'WAT' 'OPEN' 'RATE'  50 /
+/
+
+WCONPROD
+--'P1' 'OPEN' 'BHP' 5* 1500 /
+'P1' 'OPEN' 'LRAT' 3* 40 /
+/
+
+TSTEP
+20*182.5
+/
+
+END
+

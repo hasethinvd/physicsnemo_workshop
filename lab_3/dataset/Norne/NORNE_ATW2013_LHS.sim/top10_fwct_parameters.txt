@@ -1,0 +1,12 @@
+Top 10 Most Influential Parameters for FWCT:
+==================================================
+ 1. C_26_MULT
+ 2. PERMZ_L14
+ 3. PERMZ_L8
+ 4. PERMZ_L13
+ 5. PERMZ_L15
+ 6. PERMZ_L10
+ 7. PERMZ_L12
+ 8. PERMZ_L9
+ 9. PERMZ_L6
+10. PERMZ_L7

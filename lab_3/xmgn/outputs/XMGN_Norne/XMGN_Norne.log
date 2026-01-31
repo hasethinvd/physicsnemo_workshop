@@ -1,0 +1,1021 @@
+[2026-01-22 00:07:41,820][__main__][INFO] - Dataset directory: /workspace/examples/reservoir_simulation/xmgn/../dataset/norne/NORNE_LHS.sim.dataset/XMGN_Norne
+[2026-01-22 00:07:41,820][__main__][INFO] - Job name: XMGN_Norne
+[2026-01-22 00:07:41,821][__main__][INFO] - Reservoir Simulation XMeshGraphNet Preprocessor
+[2026-01-22 00:07:41,821][__main__][INFO] - ==================================================
+[2026-01-22 00:07:41,821][__main__][INFO] - Validating configuration...
+[2026-01-22 00:11:05,188][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 00:11:05,188][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 00:11:05,188][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 00:11:05,188][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 00:11:05,188][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 00:11:05,188][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 00:11:05,188][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 00:11:05,188][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 00:59:41,330][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 00:59:41,331][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 00:59:41,331][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 00:59:41,331][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 00:59:41,336][xmgn_reservoir][INFO] - [94mCleaned mlruns/.trash directory to avoid deleted experiment conflicts[0m
+[2026-01-22 01:00:26,256][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 01:00:26,256][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 01:00:26,256][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 01:00:26,257][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 01:00:26,257][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 01:00:26,257][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 01:00:26,257][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 01:00:26,257][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 01:00:26,259][xmgn_reservoir][INFO] - [94mCleaned mlruns/.trash directory to avoid deleted experiment conflicts[0m
+[2026-01-22 01:01:10,085][__main__][INFO] - Dataset directory: /workspace/examples/reservoir_simulation/xmgn/../dataset/norne/NORNE_ATW2013_LHS.sim.dataset/XMGN_Norne
+[2026-01-22 01:01:10,085][__main__][INFO] - Job name: XMGN_Norne
+[2026-01-22 01:01:10,085][__main__][INFO] - Reservoir Simulation XMeshGraphNet Preprocessor
+[2026-01-22 01:01:10,085][__main__][INFO] - ==================================================
+[2026-01-22 01:01:10,085][__main__][INFO] - Validating configuration...
+[2026-01-22 01:01:46,295][__main__][INFO] - Dataset directory: /workspace/examples/reservoir_simulation/xmgn/../dataset/norne/NORNE_LHS.sim.dataset/XMGN_Norne
+[2026-01-22 01:01:46,296][__main__][INFO] - Job name: XMGN_Norne
+[2026-01-22 01:01:46,296][__main__][INFO] - Reservoir Simulation XMeshGraphNet Preprocessor
+[2026-01-22 01:01:46,296][__main__][INFO] - ==================================================
+[2026-01-22 01:01:46,296][__main__][INFO] - Validating configuration...
+[2026-01-22 01:03:02,206][__main__][INFO] - Dataset directory: /workspace/examples/reservoir_simulation/xmgn/../dataset/norne/NORNE_ATW2013_LHS.sim.dataset/XMGN_Norne
+[2026-01-22 01:03:02,206][__main__][INFO] - Job name: XMGN_Norne
+[2026-01-22 01:03:02,206][__main__][INFO] - Reservoir Simulation XMeshGraphNet Preprocessor
+[2026-01-22 01:03:02,206][__main__][INFO] - ==================================================
+[2026-01-22 01:03:02,206][__main__][INFO] - Validating configuration...
+[2026-01-22 01:08:51,808][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 01:08:51,808][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 01:08:51,808][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 01:08:51,808][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 01:08:51,808][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 01:08:51,808][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 01:08:51,808][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 01:08:51,810][xmgn_reservoir][INFO] - [94mCleaned mlruns/.trash directory to avoid deleted experiment conflicts[0m
+[2026-01-22 01:08:51,810][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 01:12:27,475][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 01:12:27,475][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 01:12:27,475][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 01:12:27,475][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 01:12:27,475][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 01:12:27,475][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 01:12:27,475][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 01:12:27,475][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 01:12:27,477][xmgn_reservoir][INFO] - [94mCleaned mlruns/.trash directory to avoid deleted experiment conflicts[0m
+[2026-01-22 01:13:17,376][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 01:13:17,376][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 01:13:17,376][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 01:13:17,376][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 01:13:17,377][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 01:13:17,377][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 01:13:17,377][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 01:13:17,377][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 01:13:17,380][xmgn_reservoir][INFO] - [94mCleaned mlruns/.trash directory to avoid deleted experiment conflicts[0m
+[2026-01-22 01:13:17,493][xmgn_reservoir][INFO] - [94mUsing partitioned data loader with 3100 batches[0m
+[2026-01-22 01:13:17,509][xmgn_reservoir][INFO] - [94mUsing partitioned data loader with 388 batches[0m
+[2026-01-22 01:13:17,509][xmgn_reservoir][INFO] - [94mDataset: 3100 training samples, 388 validation samples[0m
+[2026-01-22 01:13:18,806][xmgn_reservoir][INFO] - [94mOptimizer: AdamW (lr=0.001, weight_decay=0.001)[0m
+[2026-01-22 01:13:18,807][xmgn_reservoir][INFO] - [94mTarget variables: ['PRESSURE', 'SWAT'][0m
+[2026-01-22 01:13:18,807][xmgn_reservoir][INFO] - [94mTarget variable weights: [1.0, 1.0][0m
+[2026-01-22 01:13:18,807][xmgn_reservoir][INFO] - [94mLoss functions: ['L2', 'L1'][0m
+[2026-01-22 01:13:18,807][xmgn_reservoir][INFO] - [94mEarly stopping enabled: patience=20, min_delta=1e-06[0m
+[2026-01-22 01:13:18,808][xmgn_reservoir][INFO] - [94mCheckpoint directory: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints[0m
+[2026-01-22 01:13:18,808][xmgn_reservoir][INFO] - [94mBest checkpoint directory: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints[0m
+[2026-01-22 01:13:18,809][xmgn_reservoir][INFO] - [94mStarting fresh training...[0m
+[2026-01-22 01:13:18,810][xmgn_reservoir][INFO] - [94mStarting Epoch 1/1000[0m
+[2026-01-22 01:18:46,951][train][INFO] - [94mEpoch 1 Metrics: train_loss =  5.975e-02, learning_rate =  1.000e-03, best_val_loss =  0.000e+00[0m
+[2026-01-22 01:18:46,952][train][INFO] - [94mEpoch Execution Time:  3.281e+02s, Time/Iter:  3.281e+05ms[0m
+[2026-01-22 01:18:46,970][xmgn_reservoir][INFO] - [94mEpoch 1/1000, Train loss: 0.059749, LR: 0.001000[0m
+[2026-01-22 01:18:46,970][xmgn_reservoir][INFO] - [94mStarting Epoch 2/1000[0m
+[2026-01-22 01:23:08,151][train][INFO] - [94mEpoch 2 Metrics: train_loss =  2.765e-02, learning_rate =  1.000e-03, best_val_loss =  0.000e+00[0m
+[2026-01-22 01:23:08,151][train][INFO] - [94mEpoch Execution Time:  2.612e+02s, Time/Iter:  2.612e+05ms[0m
+[2026-01-22 01:23:08,165][xmgn_reservoir][INFO] - [94mEpoch 2/1000, Train loss: 0.027654, LR: 0.001000[0m
+[2026-01-22 01:23:08,166][xmgn_reservoir][INFO] - [94mStarting Epoch 3/1000[0m
+[2026-01-22 01:27:41,305][train][INFO] - [94mEpoch 3 Metrics: train_loss =  1.635e-02, learning_rate =  1.000e-03, best_val_loss =  0.000e+00[0m
+[2026-01-22 01:27:41,306][train][INFO] - [94mEpoch Execution Time:  2.731e+02s, Time/Iter:  2.731e+05ms[0m
+[2026-01-22 01:27:41,319][xmgn_reservoir][INFO] - [94mEpoch 3/1000, Train loss: 0.016355, LR: 0.001000[0m
+[2026-01-22 01:27:41,319][xmgn_reservoir][INFO] - [94mStarting Epoch 4/1000[0m
+[2026-01-22 01:32:02,276][train][INFO] - [94mEpoch 4 Metrics: train_loss =  1.176e-02, learning_rate =  1.000e-03, best_val_loss =  0.000e+00[0m
+[2026-01-22 01:32:02,276][train][INFO] - [94mEpoch Execution Time:  2.610e+02s, Time/Iter:  2.610e+05ms[0m
+[2026-01-22 01:32:02,288][xmgn_reservoir][INFO] - [94mEpoch 4/1000, Train loss: 0.011760, LR: 0.001000[0m
+[2026-01-22 01:32:02,288][xmgn_reservoir][INFO] - [94mStarting Epoch 5/1000[0m
+[2026-01-22 01:36:25,217][train][INFO] - [94mEpoch 5 Metrics: train_loss =  9.713e-03, learning_rate =  1.000e-03, best_val_loss =  0.000e+00[0m
+[2026-01-22 01:36:25,217][train][INFO] - [94mEpoch Execution Time:  2.629e+02s, Time/Iter:  2.629e+05ms[0m
+[2026-01-22 01:36:47,465][valid][INFO] - [94mEpoch 5 Metrics: val_loss =  1.073e-02, val_denorm_loss =  1.079e+01, val_mae =  2.304e-02, val_mse =  2.314e-03, val_rmse =  4.747e-02, val_mae_pressure =  3.976e-02, val_rmse_pressure =  6.538e-02, val_mae_swat =  6.316e-03, val_rmse_swat =  1.503e-02, val_mae_pressure_denorm =  1.970e+00, val_rmse_pressure_denorm =  3.239e+00, val_mae_swat_denorm =  2.584e-03, val_rmse_swat_denorm =  6.147e-03[0m
+[2026-01-22 01:36:47,465][valid][INFO] - [94mEpoch Execution Time:  1.168e-02s, Time/Iter:  1.168e+01ms[0m
+[2026-01-22 01:36:47,526][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints/MeshGraphNet.0.5.mdlus[0m
+[2026-01-22 01:36:47,546][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints/checkpoint.0.5.pt[0m
+[2026-01-22 01:36:47,565][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/MeshGraphNet.0.5.mdlus[0m
+[2026-01-22 01:36:47,588][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/checkpoint.0.5.pt[0m
+[2026-01-22 01:36:47,588][xmgn_reservoir][INFO] - [94mEpoch 5/1000, Train loss: 0.009713, LR: 0.001000[0m
+[2026-01-22 01:36:47,588][xmgn_reservoir][INFO] - [94mStarting Epoch 6/1000[0m
+[2026-01-22 01:41:00,099][train][INFO] - [94mEpoch 6 Metrics: train_loss =  8.601e-03, learning_rate =  9.999e-04, best_val_loss =  1.073e-02[0m
+[2026-01-22 01:41:00,099][train][INFO] - [94mEpoch Execution Time:  2.525e+02s, Time/Iter:  2.525e+05ms[0m
+[2026-01-22 01:41:00,113][xmgn_reservoir][INFO] - [94mEpoch 6/1000, Train loss: 0.008601, LR: 0.001000[0m
+[2026-01-22 01:41:00,113][xmgn_reservoir][INFO] - [94mStarting Epoch 7/1000[0m
+[2026-01-22 01:45:11,328][train][INFO] - [94mEpoch 7 Metrics: train_loss =  7.843e-03, learning_rate =  9.999e-04, best_val_loss =  1.073e-02[0m
+[2026-01-22 01:45:11,328][train][INFO] - [94mEpoch Execution Time:  2.512e+02s, Time/Iter:  2.512e+05ms[0m
+[2026-01-22 01:45:11,341][xmgn_reservoir][INFO] - [94mEpoch 7/1000, Train loss: 0.007843, LR: 0.001000[0m
+[2026-01-22 01:45:11,342][xmgn_reservoir][INFO] - [94mStarting Epoch 8/1000[0m
+[2026-01-22 01:49:32,549][train][INFO] - [94mEpoch 8 Metrics: train_loss =  7.307e-03, learning_rate =  9.999e-04, best_val_loss =  1.073e-02[0m
+[2026-01-22 01:49:32,550][train][INFO] - [94mEpoch Execution Time:  2.612e+02s, Time/Iter:  2.612e+05ms[0m
+[2026-01-22 01:49:32,562][xmgn_reservoir][INFO] - [94mEpoch 8/1000, Train loss: 0.007307, LR: 0.001000[0m
+[2026-01-22 01:49:32,562][xmgn_reservoir][INFO] - [94mStarting Epoch 9/1000[0m
+[2026-01-22 01:53:55,284][train][INFO] - [94mEpoch 9 Metrics: train_loss =  6.842e-03, learning_rate =  9.998e-04, best_val_loss =  1.073e-02[0m
+[2026-01-22 01:53:55,284][train][INFO] - [94mEpoch Execution Time:  2.627e+02s, Time/Iter:  2.627e+05ms[0m
+[2026-01-22 01:53:55,296][xmgn_reservoir][INFO] - [94mEpoch 9/1000, Train loss: 0.006842, LR: 0.001000[0m
+[2026-01-22 01:53:55,296][xmgn_reservoir][INFO] - [94mStarting Epoch 10/1000[0m
+[2026-01-22 01:58:52,461][train][INFO] - [94mEpoch 10 Metrics: train_loss =  6.281e-03, learning_rate =  9.998e-04, best_val_loss =  1.073e-02[0m
+[2026-01-22 01:58:52,461][train][INFO] - [94mEpoch Execution Time:  2.972e+02s, Time/Iter:  2.972e+05ms[0m
+[2026-01-22 01:59:10,470][valid][INFO] - [94mEpoch 10 Metrics: val_loss =  9.834e-03, val_denorm_loss =  3.428e+00, val_mae =  1.476e-02, val_mse =  7.840e-04, val_rmse =  2.796e-02, val_mae_pressure =  2.110e-02, val_rmse_pressure =  3.734e-02, val_mae_swat =  8.427e-03, val_rmse_swat =  1.300e-02, val_mae_pressure_denorm =  1.045e+00, val_rmse_pressure_denorm =  1.850e+00, val_mae_swat_denorm =  3.447e-03, val_rmse_swat_denorm =  5.319e-03[0m
+[2026-01-22 01:59:10,470][valid][INFO] - [94mEpoch Execution Time:  1.836e-02s, Time/Iter:  1.836e+01ms[0m
+[2026-01-22 01:59:10,518][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints/MeshGraphNet.0.10.mdlus[0m
+[2026-01-22 01:59:10,538][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints/checkpoint.0.10.pt[0m
+[2026-01-22 01:59:10,553][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/MeshGraphNet.0.10.mdlus[0m
+[2026-01-22 01:59:10,571][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/checkpoint.0.10.pt[0m
+[2026-01-22 01:59:10,571][xmgn_reservoir][INFO] - [94mEpoch 10/1000, Train loss: 0.006281, LR: 0.001000[0m
+[2026-01-22 01:59:10,571][xmgn_reservoir][INFO] - [94mStarting Epoch 11/1000[0m
+[2026-01-22 02:04:32,318][train][INFO] - [94mEpoch 11 Metrics: train_loss =  6.073e-03, learning_rate =  9.998e-04, best_val_loss =  9.834e-03[0m
+[2026-01-22 02:04:32,319][train][INFO] - [94mEpoch Execution Time:  3.218e+02s, Time/Iter:  3.218e+05ms[0m
+[2026-01-22 02:04:32,333][xmgn_reservoir][INFO] - [94mEpoch 11/1000, Train loss: 0.006073, LR: 0.001000[0m
+[2026-01-22 02:04:32,333][xmgn_reservoir][INFO] - [94mStarting Epoch 12/1000[0m
+[2026-01-22 02:08:57,792][train][INFO] - [94mEpoch 12 Metrics: train_loss =  5.693e-03, learning_rate =  9.997e-04, best_val_loss =  9.834e-03[0m
+[2026-01-22 02:08:57,793][train][INFO] - [94mEpoch Execution Time:  2.655e+02s, Time/Iter:  2.655e+05ms[0m
+[2026-01-22 02:08:57,806][xmgn_reservoir][INFO] - [94mEpoch 12/1000, Train loss: 0.005693, LR: 0.001000[0m
+[2026-01-22 02:08:57,806][xmgn_reservoir][INFO] - [94mStarting Epoch 13/1000[0m
+[2026-01-22 02:13:24,196][train][INFO] - [94mEpoch 13 Metrics: train_loss =  5.599e-03, learning_rate =  9.996e-04, best_val_loss =  9.834e-03[0m
+[2026-01-22 02:13:24,196][train][INFO] - [94mEpoch Execution Time:  2.664e+02s, Time/Iter:  2.664e+05ms[0m
+[2026-01-22 02:13:24,209][xmgn_reservoir][INFO] - [94mEpoch 13/1000, Train loss: 0.005599, LR: 0.001000[0m
+[2026-01-22 02:13:24,209][xmgn_reservoir][INFO] - [94mStarting Epoch 14/1000[0m
+[2026-01-22 02:17:44,955][train][INFO] - [94mEpoch 14 Metrics: train_loss =  5.287e-03, learning_rate =  9.996e-04, best_val_loss =  9.834e-03[0m
+[2026-01-22 02:17:44,955][train][INFO] - [94mEpoch Execution Time:  2.607e+02s, Time/Iter:  2.607e+05ms[0m
+[2026-01-22 02:17:44,968][xmgn_reservoir][INFO] - [94mEpoch 14/1000, Train loss: 0.005287, LR: 0.001000[0m
+[2026-01-22 02:17:44,968][xmgn_reservoir][INFO] - [94mStarting Epoch 15/1000[0m
+[2026-01-22 02:22:07,397][train][INFO] - [94mEpoch 15 Metrics: train_loss =  5.151e-03, learning_rate =  9.995e-04, best_val_loss =  9.834e-03[0m
+[2026-01-22 02:22:07,397][train][INFO] - [94mEpoch Execution Time:  2.624e+02s, Time/Iter:  2.624e+05ms[0m
+[2026-01-22 02:22:22,160][valid][INFO] - [94mEpoch 15 Metrics: val_loss =  4.781e-03, val_denorm_loss =  1.640e+00, val_mae =  9.601e-03, val_mse =  3.693e-04, val_rmse =  1.903e-02, val_mae_pressure =  1.509e-02, val_rmse_pressure =  2.554e-02, val_mae_swat =  4.107e-03, val_rmse_swat =  8.356e-03, val_mae_pressure_denorm =  7.478e-01, val_rmse_pressure_denorm =  1.266e+00, val_mae_swat_denorm =  1.680e-03, val_rmse_swat_denorm =  3.418e-03[0m
+[2026-01-22 02:22:22,161][valid][INFO] - [94mEpoch Execution Time:  1.533e-02s, Time/Iter:  1.533e+01ms[0m
+[2026-01-22 02:22:22,205][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints/MeshGraphNet.0.15.mdlus[0m
+[2026-01-22 02:22:22,226][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints/checkpoint.0.15.pt[0m
+[2026-01-22 02:22:22,240][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/MeshGraphNet.0.15.mdlus[0m
+[2026-01-22 02:22:22,259][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/checkpoint.0.15.pt[0m
+[2026-01-22 02:22:22,259][xmgn_reservoir][INFO] - [94mEpoch 15/1000, Train loss: 0.005151, LR: 0.000999[0m
+[2026-01-22 02:22:22,259][xmgn_reservoir][INFO] - [94mStarting Epoch 16/1000[0m
+[2026-01-22 02:26:41,793][train][INFO] - [94mEpoch 16 Metrics: train_loss =  4.978e-03, learning_rate =  9.994e-04, best_val_loss =  4.781e-03[0m
+[2026-01-22 02:26:41,793][train][INFO] - [94mEpoch Execution Time:  2.595e+02s, Time/Iter:  2.595e+05ms[0m
+[2026-01-22 02:26:41,805][xmgn_reservoir][INFO] - [94mEpoch 16/1000, Train loss: 0.004978, LR: 0.000999[0m
+[2026-01-22 02:26:41,806][xmgn_reservoir][INFO] - [94mStarting Epoch 17/1000[0m
+[2026-01-22 02:31:02,274][train][INFO] - [94mEpoch 17 Metrics: train_loss =  4.939e-03, learning_rate =  9.994e-04, best_val_loss =  4.781e-03[0m
+[2026-01-22 02:31:02,274][train][INFO] - [94mEpoch Execution Time:  2.605e+02s, Time/Iter:  2.605e+05ms[0m
+[2026-01-22 02:31:02,287][xmgn_reservoir][INFO] - [94mEpoch 17/1000, Train loss: 0.004939, LR: 0.000999[0m
+[2026-01-22 02:31:02,287][xmgn_reservoir][INFO] - [94mStarting Epoch 18/1000[0m
+[2026-01-22 02:35:28,224][train][INFO] - [94mEpoch 18 Metrics: train_loss =  4.666e-03, learning_rate =  9.993e-04, best_val_loss =  4.781e-03[0m
+[2026-01-22 02:35:28,224][train][INFO] - [94mEpoch Execution Time:  2.659e+02s, Time/Iter:  2.659e+05ms[0m
+[2026-01-22 02:35:28,236][xmgn_reservoir][INFO] - [94mEpoch 18/1000, Train loss: 0.004666, LR: 0.000999[0m
+[2026-01-22 02:35:28,237][xmgn_reservoir][INFO] - [94mStarting Epoch 19/1000[0m
+[2026-01-22 02:40:46,392][train][INFO] - [94mEpoch 19 Metrics: train_loss =  4.624e-03, learning_rate =  9.992e-04, best_val_loss =  4.781e-03[0m
+[2026-01-22 02:40:46,392][train][INFO] - [94mEpoch Execution Time:  3.182e+02s, Time/Iter:  3.182e+05ms[0m
+[2026-01-22 02:40:46,404][xmgn_reservoir][INFO] - [94mEpoch 19/1000, Train loss: 0.004624, LR: 0.000999[0m
+[2026-01-22 02:40:46,404][xmgn_reservoir][INFO] - [94mStarting Epoch 20/1000[0m
+[2026-01-22 02:45:33,411][train][INFO] - [94mEpoch 20 Metrics: train_loss =  4.400e-03, learning_rate =  9.991e-04, best_val_loss =  4.781e-03[0m
+[2026-01-22 02:45:33,411][train][INFO] - [94mEpoch Execution Time:  2.870e+02s, Time/Iter:  2.870e+05ms[0m
+[2026-01-22 02:45:56,012][valid][INFO] - [94mEpoch 20 Metrics: val_loss =  3.522e-03, val_denorm_loss =  1.916e+00, val_mae =  8.674e-03, val_mse =  4.148e-04, val_rmse =  1.995e-02, val_mae_pressure =  1.461e-02, val_rmse_pressure =  2.734e-02, val_mae_swat =  2.736e-03, val_rmse_swat =  6.826e-03, val_mae_pressure_denorm =  7.239e-01, val_rmse_pressure_denorm =  1.354e+00, val_mae_swat_denorm =  1.119e-03, val_rmse_swat_denorm =  2.792e-03[0m
+[2026-01-22 02:45:56,012][valid][INFO] - [94mEpoch Execution Time:  1.768e-02s, Time/Iter:  1.768e+01ms[0m
+[2026-01-22 02:45:56,058][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints/MeshGraphNet.0.20.mdlus[0m
+[2026-01-22 02:45:56,078][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints/checkpoint.0.20.pt[0m
+[2026-01-22 02:45:56,094][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/MeshGraphNet.0.20.mdlus[0m
+[2026-01-22 02:45:56,114][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/checkpoint.0.20.pt[0m
+[2026-01-22 02:45:56,114][xmgn_reservoir][INFO] - [94mEpoch 20/1000, Train loss: 0.004400, LR: 0.000999[0m
+[2026-01-22 02:45:56,114][xmgn_reservoir][INFO] - [94mStarting Epoch 21/1000[0m
+[2026-01-22 02:51:11,240][train][INFO] - [94mEpoch 21 Metrics: train_loss =  4.288e-03, learning_rate =  9.990e-04, best_val_loss =  3.522e-03[0m
+[2026-01-22 02:51:11,240][train][INFO] - [94mEpoch Execution Time:  3.151e+02s, Time/Iter:  3.151e+05ms[0m
+[2026-01-22 02:51:11,253][xmgn_reservoir][INFO] - [94mEpoch 21/1000, Train loss: 0.004288, LR: 0.000999[0m
+[2026-01-22 02:51:11,253][xmgn_reservoir][INFO] - [94mStarting Epoch 22/1000[0m
+[2026-01-22 02:55:31,933][train][INFO] - [94mEpoch 22 Metrics: train_loss =  4.162e-03, learning_rate =  9.989e-04, best_val_loss =  3.522e-03[0m
+[2026-01-22 02:55:31,933][train][INFO] - [94mEpoch Execution Time:  2.607e+02s, Time/Iter:  2.607e+05ms[0m
+[2026-01-22 02:55:31,945][xmgn_reservoir][INFO] - [94mEpoch 22/1000, Train loss: 0.004162, LR: 0.000999[0m
+[2026-01-22 02:55:31,945][xmgn_reservoir][INFO] - [94mStarting Epoch 23/1000[0m
+[2026-01-22 02:59:54,806][train][INFO] - [94mEpoch 23 Metrics: train_loss =  4.105e-03, learning_rate =  9.988e-04, best_val_loss =  3.522e-03[0m
+[2026-01-22 02:59:54,807][train][INFO] - [94mEpoch Execution Time:  2.629e+02s, Time/Iter:  2.629e+05ms[0m
+[2026-01-22 02:59:54,819][xmgn_reservoir][INFO] - [94mEpoch 23/1000, Train loss: 0.004105, LR: 0.000999[0m
+[2026-01-22 02:59:54,819][xmgn_reservoir][INFO] - [94mStarting Epoch 24/1000[0m
+[2026-01-22 03:04:15,960][train][INFO] - [94mEpoch 24 Metrics: train_loss =  4.261e-03, learning_rate =  9.987e-04, best_val_loss =  3.522e-03[0m
+[2026-01-22 03:04:15,962][train][INFO] - [94mEpoch Execution Time:  2.611e+02s, Time/Iter:  2.611e+05ms[0m
+[2026-01-22 03:04:16,200][xmgn_reservoir][INFO] - [94mEpoch 24/1000, Train loss: 0.004261, LR: 0.000999[0m
+[2026-01-22 03:04:16,200][xmgn_reservoir][INFO] - [94mStarting Epoch 25/1000[0m
+[2026-01-22 03:09:08,811][train][INFO] - [94mEpoch 25 Metrics: train_loss =  4.045e-03, learning_rate =  9.986e-04, best_val_loss =  3.522e-03[0m
+[2026-01-22 03:09:08,813][train][INFO] - [94mEpoch Execution Time:  2.926e+02s, Time/Iter:  2.926e+05ms[0m
+[2026-01-22 03:09:25,434][valid][INFO] - [94mEpoch 25 Metrics: val_loss =  3.317e-03, val_denorm_loss =  1.441e+00, val_mae =  1.128e-02, val_mse =  3.123e-04, val_rmse =  1.767e-02, val_mae_pressure =  1.984e-02, val_rmse_pressure =  2.419e-02, val_mae_swat =  2.722e-03, val_rmse_swat =  6.242e-03, val_mae_pressure_denorm =  9.830e-01, val_rmse_pressure_denorm =  1.198e+00, val_mae_swat_denorm =  1.114e-03, val_rmse_swat_denorm =  2.553e-03[0m
+[2026-01-22 03:09:25,434][valid][INFO] - [94mEpoch Execution Time:  2.925e-02s, Time/Iter:  2.925e+01ms[0m
+[2026-01-22 03:09:25,495][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints/MeshGraphNet.0.25.mdlus[0m
+[2026-01-22 03:09:25,514][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints/checkpoint.0.25.pt[0m
+[2026-01-22 03:09:25,530][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/MeshGraphNet.0.25.mdlus[0m
+[2026-01-22 03:09:25,548][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/checkpoint.0.25.pt[0m
+[2026-01-22 03:09:25,549][xmgn_reservoir][INFO] - [94mEpoch 25/1000, Train loss: 0.004045, LR: 0.000998[0m
+[2026-01-22 03:09:25,549][xmgn_reservoir][INFO] - [94mStarting Epoch 26/1000[0m
+[2026-01-22 03:14:02,916][train][INFO] - [94mEpoch 26 Metrics: train_loss =  3.950e-03, learning_rate =  9.985e-04, best_val_loss =  3.317e-03[0m
+[2026-01-22 03:14:02,916][train][INFO] - [94mEpoch Execution Time:  2.774e+02s, Time/Iter:  2.774e+05ms[0m
+[2026-01-22 03:14:03,002][xmgn_reservoir][INFO] - [94mEpoch 26/1000, Train loss: 0.003950, LR: 0.000998[0m
+[2026-01-22 03:14:03,002][xmgn_reservoir][INFO] - [94mStarting Epoch 27/1000[0m
+[2026-01-22 03:18:35,220][train][INFO] - [94mEpoch 27 Metrics: train_loss =  3.870e-03, learning_rate =  9.983e-04, best_val_loss =  3.317e-03[0m
+[2026-01-22 03:18:35,221][train][INFO] - [94mEpoch Execution Time:  2.722e+02s, Time/Iter:  2.722e+05ms[0m
+[2026-01-22 03:18:35,234][xmgn_reservoir][INFO] - [94mEpoch 27/1000, Train loss: 0.003870, LR: 0.000998[0m
+[2026-01-22 03:18:35,234][xmgn_reservoir][INFO] - [94mStarting Epoch 28/1000[0m
+[2026-01-22 03:23:11,542][train][INFO] - [94mEpoch 28 Metrics: train_loss =  3.969e-03, learning_rate =  9.982e-04, best_val_loss =  3.317e-03[0m
+[2026-01-22 03:23:11,543][train][INFO] - [94mEpoch Execution Time:  2.763e+02s, Time/Iter:  2.763e+05ms[0m
+[2026-01-22 03:23:11,665][xmgn_reservoir][INFO] - [94mEpoch 28/1000, Train loss: 0.003969, LR: 0.000998[0m
+[2026-01-22 03:23:11,665][xmgn_reservoir][INFO] - [94mStarting Epoch 29/1000[0m
+[2026-01-22 03:27:37,074][train][INFO] - [94mEpoch 29 Metrics: train_loss =  3.822e-03, learning_rate =  9.981e-04, best_val_loss =  3.317e-03[0m
+[2026-01-22 03:27:37,074][train][INFO] - [94mEpoch Execution Time:  2.654e+02s, Time/Iter:  2.654e+05ms[0m
+[2026-01-22 03:27:37,086][xmgn_reservoir][INFO] - [94mEpoch 29/1000, Train loss: 0.003822, LR: 0.000998[0m
+[2026-01-22 03:27:37,086][xmgn_reservoir][INFO] - [94mStarting Epoch 30/1000[0m
+[2026-01-22 03:31:58,495][train][INFO] - [94mEpoch 30 Metrics: train_loss =  3.684e-03, learning_rate =  9.979e-04, best_val_loss =  3.317e-03[0m
+[2026-01-22 03:31:58,496][train][INFO] - [94mEpoch Execution Time:  2.614e+02s, Time/Iter:  2.614e+05ms[0m
+[2026-01-22 03:32:13,433][valid][INFO] - [94mEpoch 30 Metrics: val_loss =  2.890e-03, val_denorm_loss =  6.565e-01, val_mae =  6.809e-03, val_mse =  1.514e-04, val_rmse =  1.230e-02, val_mae_pressure =  1.100e-02, val_rmse_pressure =  1.632e-02, val_mae_swat =  2.618e-03, val_rmse_swat =  6.017e-03, val_mae_pressure_denorm =  5.450e-01, val_rmse_pressure_denorm =  8.087e-01, val_mae_swat_denorm =  1.071e-03, val_rmse_swat_denorm =  2.462e-03[0m
+[2026-01-22 03:32:13,433][valid][INFO] - [94mEpoch Execution Time:  1.464e-02s, Time/Iter:  1.464e+01ms[0m
+[2026-01-22 03:32:13,480][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints/MeshGraphNet.0.30.mdlus[0m
+[2026-01-22 03:32:13,503][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints/checkpoint.0.30.pt[0m
+[2026-01-22 03:32:13,520][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/MeshGraphNet.0.30.mdlus[0m
+[2026-01-22 03:32:13,540][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/checkpoint.0.30.pt[0m
+[2026-01-22 03:32:13,540][xmgn_reservoir][INFO] - [94mEpoch 30/1000, Train loss: 0.003684, LR: 0.000998[0m
+[2026-01-22 03:32:13,540][xmgn_reservoir][INFO] - [94mStarting Epoch 31/1000[0m
+[2026-01-22 03:36:34,220][train][INFO] - [94mEpoch 31 Metrics: train_loss =  3.719e-03, learning_rate =  9.978e-04, best_val_loss =  2.890e-03[0m
+[2026-01-22 03:36:34,220][train][INFO] - [94mEpoch Execution Time:  2.607e+02s, Time/Iter:  2.607e+05ms[0m
+[2026-01-22 03:36:34,232][xmgn_reservoir][INFO] - [94mEpoch 31/1000, Train loss: 0.003719, LR: 0.000998[0m
+[2026-01-22 03:36:34,232][xmgn_reservoir][INFO] - [94mStarting Epoch 32/1000[0m
+[2026-01-22 03:40:53,596][train][INFO] - [94mEpoch 32 Metrics: train_loss =  3.600e-03, learning_rate =  9.976e-04, best_val_loss =  2.890e-03[0m
+[2026-01-22 03:40:53,596][train][INFO] - [94mEpoch Execution Time:  2.594e+02s, Time/Iter:  2.594e+05ms[0m
+[2026-01-22 03:40:53,608][xmgn_reservoir][INFO] - [94mEpoch 32/1000, Train loss: 0.003600, LR: 0.000997[0m
+[2026-01-22 03:40:53,608][xmgn_reservoir][INFO] - [94mStarting Epoch 33/1000[0m
+[2026-01-22 03:45:14,710][train][INFO] - [94mEpoch 33 Metrics: train_loss =  3.654e-03, learning_rate =  9.975e-04, best_val_loss =  2.890e-03[0m
+[2026-01-22 03:45:14,710][train][INFO] - [94mEpoch Execution Time:  2.611e+02s, Time/Iter:  2.611e+05ms[0m
+[2026-01-22 03:45:14,723][xmgn_reservoir][INFO] - [94mEpoch 33/1000, Train loss: 0.003654, LR: 0.000997[0m
+[2026-01-22 03:45:14,723][xmgn_reservoir][INFO] - [94mStarting Epoch 34/1000[0m
+[2026-01-22 03:58:43,160][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 03:58:43,160][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 03:58:43,160][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 03:58:43,161][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 03:58:43,161][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 03:58:43,161][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 03:58:43,161][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 03:58:43,161][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 03:58:43,167][xmgn_reservoir][INFO] - [94mCleaned mlruns/.trash directory to avoid deleted experiment conflicts[0m
+[2026-01-22 03:58:43,318][xmgn_reservoir][INFO] - [94mUsing partitioned data loader with 3100 batches[0m
+[2026-01-22 03:58:43,335][xmgn_reservoir][INFO] - [94mUsing partitioned data loader with 388 batches[0m
+[2026-01-22 03:58:43,335][xmgn_reservoir][INFO] - [94mDataset: 3100 training samples, 388 validation samples[0m
+[2026-01-22 03:58:44,638][xmgn_reservoir][INFO] - [94mOptimizer: AdamW (lr=0.001, weight_decay=0.001)[0m
+[2026-01-22 03:58:44,639][xmgn_reservoir][INFO] - [94mTarget variables: ['PRESSURE', 'SWAT'][0m
+[2026-01-22 03:58:44,639][xmgn_reservoir][INFO] - [94mTarget variable weights: [1.0, 1.0][0m
+[2026-01-22 03:58:44,639][xmgn_reservoir][INFO] - [94mLoss functions: ['L2', 'L1'][0m
+[2026-01-22 03:58:44,639][xmgn_reservoir][INFO] - [94mEarly stopping enabled: patience=20, min_delta=1e-06[0m
+[2026-01-22 03:58:44,640][xmgn_reservoir][INFO] - [94mCheckpoint directory: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints[0m
+[2026-01-22 03:58:44,640][xmgn_reservoir][INFO] - [94mBest checkpoint directory: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints[0m
+[2026-01-22 03:58:44,642][xmgn_reservoir][INFO] - [94mResume disabled: Deleting existing checkpoint files...[0m
+[2026-01-22 03:58:44,645][xmgn_reservoir][WARNING] - [93mCould not delete some checkpoint files: [Errno 2] No such file or directory: 'checkpoint.0.25.pt'[0m
+[2026-01-22 03:58:44,645][xmgn_reservoir][INFO] - [94mStarting fresh training anyway...[0m
+[2026-01-22 03:58:44,645][xmgn_reservoir][INFO] - [94mStarting Epoch 1/1000[0m
+[2026-01-22 04:03:53,207][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 04:03:53,208][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 04:03:53,208][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 04:03:53,208][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 04:03:53,208][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 04:03:53,208][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 04:03:53,208][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 04:03:53,208][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 04:03:53,214][xmgn_reservoir][INFO] - [94mCleaned mlruns/.trash directory to avoid deleted experiment conflicts[0m
+[2026-01-22 04:03:53,345][xmgn_reservoir][INFO] - [94mUsing partitioned data loader with 3100 batches[0m
+[2026-01-22 04:03:53,351][xmgn_reservoir][INFO] - [94mUsing partitioned data loader with 388 batches[0m
+[2026-01-22 04:03:53,351][xmgn_reservoir][INFO] - [94mDataset: 3100 training samples, 388 validation samples[0m
+[2026-01-22 04:03:54,611][xmgn_reservoir][INFO] - [94mOptimizer: AdamW (lr=0.001, weight_decay=0.001)[0m
+[2026-01-22 04:03:54,612][xmgn_reservoir][INFO] - [94mTarget variables: ['PRESSURE', 'SWAT'][0m
+[2026-01-22 04:03:54,612][xmgn_reservoir][INFO] - [94mTarget variable weights: [1.0, 1.0][0m
+[2026-01-22 04:03:54,613][xmgn_reservoir][INFO] - [94mLoss functions: ['L2', 'L1'][0m
+[2026-01-22 04:03:54,613][xmgn_reservoir][INFO] - [94mEarly stopping enabled: patience=20, min_delta=1e-06[0m
+[2026-01-22 04:03:54,613][xmgn_reservoir][INFO] - [94mCheckpoint directory: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints[0m
+[2026-01-22 04:03:54,613][xmgn_reservoir][INFO] - [94mBest checkpoint directory: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints[0m
+[2026-01-22 04:03:54,614][xmgn_reservoir][WARNING] - [93mResume enabled but no checkpoints found. Starting fresh training...[0m
+[2026-01-22 04:03:54,614][xmgn_reservoir][INFO] - [94mStarting Epoch 1/1000[0m
+[2026-01-22 04:09:08,206][train][INFO] - [94mEpoch 1 Metrics: train_loss =  5.993e-02, learning_rate =  1.000e-03, best_val_loss =  0.000e+00[0m
+[2026-01-22 04:09:08,207][train][INFO] - [94mEpoch Execution Time:  3.136e+02s, Time/Iter:  3.136e+05ms[0m
+[2026-01-22 04:09:08,225][xmgn_reservoir][INFO] - [94mEpoch 1/1000, Train loss: 0.059933, LR: 0.001000[0m
+[2026-01-22 04:09:08,225][xmgn_reservoir][INFO] - [94mStarting Epoch 2/1000[0m
+[2026-01-22 04:13:19,227][train][INFO] - [94mEpoch 2 Metrics: train_loss =  2.653e-02, learning_rate =  1.000e-03, best_val_loss =  0.000e+00[0m
+[2026-01-22 04:13:19,229][train][INFO] - [94mEpoch Execution Time:  2.510e+02s, Time/Iter:  2.510e+05ms[0m
+[2026-01-22 04:13:19,243][xmgn_reservoir][INFO] - [94mEpoch 2/1000, Train loss: 0.026525, LR: 0.001000[0m
+[2026-01-22 04:13:19,244][xmgn_reservoir][INFO] - [94mStarting Epoch 3/1000[0m
+[2026-01-22 04:17:48,408][train][INFO] - [94mEpoch 3 Metrics: train_loss =  1.569e-02, learning_rate =  1.000e-03, best_val_loss =  0.000e+00[0m
+[2026-01-22 04:17:48,409][train][INFO] - [94mEpoch Execution Time:  2.692e+02s, Time/Iter:  2.692e+05ms[0m
+[2026-01-22 04:17:48,423][xmgn_reservoir][INFO] - [94mEpoch 3/1000, Train loss: 0.015694, LR: 0.001000[0m
+[2026-01-22 04:17:48,423][xmgn_reservoir][INFO] - [94mStarting Epoch 4/1000[0m
+[2026-01-22 04:22:04,324][train][INFO] - [94mEpoch 4 Metrics: train_loss =  1.157e-02, learning_rate =  1.000e-03, best_val_loss =  0.000e+00[0m
+[2026-01-22 04:22:04,324][train][INFO] - [94mEpoch Execution Time:  2.559e+02s, Time/Iter:  2.559e+05ms[0m
+[2026-01-22 04:22:04,338][xmgn_reservoir][INFO] - [94mEpoch 4/1000, Train loss: 0.011570, LR: 0.001000[0m
+[2026-01-22 04:22:04,338][xmgn_reservoir][INFO] - [94mStarting Epoch 5/1000[0m
+[2026-01-22 04:26:13,966][train][INFO] - [94mEpoch 5 Metrics: train_loss =  9.885e-03, learning_rate =  1.000e-03, best_val_loss =  0.000e+00[0m
+[2026-01-22 04:26:13,967][train][INFO] - [94mEpoch Execution Time:  2.496e+02s, Time/Iter:  2.496e+05ms[0m
+[2026-01-22 04:26:35,810][valid][INFO] - [94mEpoch 5 Metrics: val_loss =  1.017e-02, val_denorm_loss =  4.332e+00, val_mae =  1.446e-02, val_mse =  9.855e-04, val_rmse =  3.055e-02, val_mae_pressure =  2.053e-02, val_rmse_pressure =  4.065e-02, val_mae_swat =  8.391e-03, val_rmse_swat =  1.421e-02, val_mae_pressure_denorm =  1.017e+00, val_rmse_pressure_denorm =  2.014e+00, val_mae_swat_denorm =  3.433e-03, val_rmse_swat_denorm =  5.815e-03[0m
+[2026-01-22 04:26:35,810][valid][INFO] - [94mEpoch Execution Time:  1.109e-02s, Time/Iter:  1.109e+01ms[0m
+[2026-01-22 04:26:35,869][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints/MeshGraphNet.0.5.mdlus[0m
+[2026-01-22 04:26:35,893][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints/checkpoint.0.5.pt[0m
+[2026-01-22 04:26:35,910][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/MeshGraphNet.0.5.mdlus[0m
+[2026-01-22 04:26:35,932][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/checkpoint.0.5.pt[0m
+[2026-01-22 04:26:35,932][xmgn_reservoir][INFO] - [94mEpoch 5/1000, Train loss: 0.009885, LR: 0.001000[0m
+[2026-01-22 04:26:35,932][xmgn_reservoir][INFO] - [94mStarting Epoch 6/1000[0m
+[2026-01-22 04:30:45,882][train][INFO] - [94mEpoch 6 Metrics: train_loss =  8.696e-03, learning_rate =  9.999e-04, best_val_loss =  1.017e-02[0m
+[2026-01-22 04:30:45,882][train][INFO] - [94mEpoch Execution Time:  2.500e+02s, Time/Iter:  2.500e+05ms[0m
+[2026-01-22 04:30:45,895][xmgn_reservoir][INFO] - [94mEpoch 6/1000, Train loss: 0.008696, LR: 0.001000[0m
+[2026-01-22 04:30:45,895][xmgn_reservoir][INFO] - [94mStarting Epoch 7/1000[0m
+[2026-01-22 04:34:56,008][train][INFO] - [94mEpoch 7 Metrics: train_loss =  7.878e-03, learning_rate =  9.999e-04, best_val_loss =  1.017e-02[0m
+[2026-01-22 04:34:56,008][train][INFO] - [94mEpoch Execution Time:  2.501e+02s, Time/Iter:  2.501e+05ms[0m
+[2026-01-22 04:34:56,020][xmgn_reservoir][INFO] - [94mEpoch 7/1000, Train loss: 0.007878, LR: 0.001000[0m
+[2026-01-22 04:34:56,020][xmgn_reservoir][INFO] - [94mStarting Epoch 8/1000[0m
+[2026-01-22 04:39:04,742][train][INFO] - [94mEpoch 8 Metrics: train_loss =  7.316e-03, learning_rate =  9.999e-04, best_val_loss =  1.017e-02[0m
+[2026-01-22 04:39:04,742][train][INFO] - [94mEpoch Execution Time:  2.487e+02s, Time/Iter:  2.487e+05ms[0m
+[2026-01-22 04:39:04,754][xmgn_reservoir][INFO] - [94mEpoch 8/1000, Train loss: 0.007316, LR: 0.001000[0m
+[2026-01-22 04:39:04,754][xmgn_reservoir][INFO] - [94mStarting Epoch 9/1000[0m
+[2026-01-22 04:43:22,045][train][INFO] - [94mEpoch 9 Metrics: train_loss =  6.893e-03, learning_rate =  9.998e-04, best_val_loss =  1.017e-02[0m
+[2026-01-22 04:43:22,046][train][INFO] - [94mEpoch Execution Time:  2.573e+02s, Time/Iter:  2.573e+05ms[0m
+[2026-01-22 04:43:22,058][xmgn_reservoir][INFO] - [94mEpoch 9/1000, Train loss: 0.006893, LR: 0.001000[0m
+[2026-01-22 04:43:22,058][xmgn_reservoir][INFO] - [94mStarting Epoch 10/1000[0m
+[2026-01-22 04:47:38,114][train][INFO] - [94mEpoch 10 Metrics: train_loss =  6.728e-03, learning_rate =  9.998e-04, best_val_loss =  1.017e-02[0m
+[2026-01-22 04:47:38,114][train][INFO] - [94mEpoch Execution Time:  2.561e+02s, Time/Iter:  2.561e+05ms[0m
+[2026-01-22 04:47:51,852][valid][INFO] - [94mEpoch 10 Metrics: val_loss =  6.921e-03, val_denorm_loss =  2.920e+00, val_mae =  1.170e-02, val_mse =  6.459e-04, val_rmse =  2.537e-02, val_mae_pressure =  1.767e-02, val_rmse_pressure =  3.445e-02, val_mae_swat =  5.725e-03, val_rmse_swat =  9.984e-03, val_mae_pressure_denorm =  8.757e-01, val_rmse_pressure_denorm =  1.707e+00, val_mae_swat_denorm =  2.342e-03, val_rmse_swat_denorm =  4.084e-03[0m
+[2026-01-22 04:47:51,853][valid][INFO] - [94mEpoch Execution Time:  1.420e-02s, Time/Iter:  1.420e+01ms[0m
+[2026-01-22 04:47:51,899][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints/MeshGraphNet.0.10.mdlus[0m
+[2026-01-22 04:47:51,919][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints/checkpoint.0.10.pt[0m
+[2026-01-22 04:47:51,936][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/MeshGraphNet.0.10.mdlus[0m
+[2026-01-22 04:47:51,957][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/checkpoint.0.10.pt[0m
+[2026-01-22 04:47:51,957][xmgn_reservoir][INFO] - [94mEpoch 10/1000, Train loss: 0.006728, LR: 0.001000[0m
+[2026-01-22 04:47:51,957][xmgn_reservoir][INFO] - [94mStarting Epoch 11/1000[0m
+[2026-01-22 04:52:08,676][train][INFO] - [94mEpoch 11 Metrics: train_loss =  6.179e-03, learning_rate =  9.998e-04, best_val_loss =  6.921e-03[0m
+[2026-01-22 04:52:08,676][train][INFO] - [94mEpoch Execution Time:  2.567e+02s, Time/Iter:  2.567e+05ms[0m
+[2026-01-22 04:52:08,688][xmgn_reservoir][INFO] - [94mEpoch 11/1000, Train loss: 0.006179, LR: 0.001000[0m
+[2026-01-22 04:52:08,688][xmgn_reservoir][INFO] - [94mStarting Epoch 12/1000[0m
+[2026-01-22 04:56:25,437][train][INFO] - [94mEpoch 12 Metrics: train_loss =  5.843e-03, learning_rate =  9.997e-04, best_val_loss =  6.921e-03[0m
+[2026-01-22 04:56:25,437][train][INFO] - [94mEpoch Execution Time:  2.567e+02s, Time/Iter:  2.567e+05ms[0m
+[2026-01-22 04:56:25,449][xmgn_reservoir][INFO] - [94mEpoch 12/1000, Train loss: 0.005843, LR: 0.001000[0m
+[2026-01-22 04:56:25,449][xmgn_reservoir][INFO] - [94mStarting Epoch 13/1000[0m
+[2026-01-22 05:00:55,049][train][INFO] - [94mEpoch 13 Metrics: train_loss =  5.723e-03, learning_rate =  9.996e-04, best_val_loss =  6.921e-03[0m
+[2026-01-22 05:00:55,050][train][INFO] - [94mEpoch Execution Time:  2.696e+02s, Time/Iter:  2.696e+05ms[0m
+[2026-01-22 05:00:55,062][xmgn_reservoir][INFO] - [94mEpoch 13/1000, Train loss: 0.005723, LR: 0.001000[0m
+[2026-01-22 05:00:55,062][xmgn_reservoir][INFO] - [94mStarting Epoch 14/1000[0m
+[2026-01-22 05:06:13,157][train][INFO] - [94mEpoch 14 Metrics: train_loss =  5.482e-03, learning_rate =  9.996e-04, best_val_loss =  6.921e-03[0m
+[2026-01-22 05:06:13,158][train][INFO] - [94mEpoch Execution Time:  3.181e+02s, Time/Iter:  3.181e+05ms[0m
+[2026-01-22 05:06:13,170][xmgn_reservoir][INFO] - [94mEpoch 14/1000, Train loss: 0.005482, LR: 0.001000[0m
+[2026-01-22 05:06:13,170][xmgn_reservoir][INFO] - [94mStarting Epoch 15/1000[0m
+[2026-01-22 05:11:11,030][train][INFO] - [94mEpoch 15 Metrics: train_loss =  5.389e-03, learning_rate =  9.995e-04, best_val_loss =  6.921e-03[0m
+[2026-01-22 05:11:11,030][train][INFO] - [94mEpoch Execution Time:  2.979e+02s, Time/Iter:  2.979e+05ms[0m
+[2026-01-22 05:11:31,795][valid][INFO] - [94mEpoch 15 Metrics: val_loss =  6.351e-03, val_denorm_loss =  2.621e+00, val_mae =  9.968e-03, val_mse =  5.758e-04, val_rmse =  2.275e-02, val_mae_pressure =  1.466e-02, val_rmse_pressure =  3.073e-02, val_mae_swat =  5.277e-03, val_rmse_swat =  8.931e-03, val_mae_pressure_denorm =  7.263e-01, val_rmse_pressure_denorm =  1.522e+00, val_mae_swat_denorm =  2.159e-03, val_rmse_swat_denorm =  3.654e-03[0m
+[2026-01-22 05:11:31,795][valid][INFO] - [94mEpoch Execution Time:  2.062e-02s, Time/Iter:  2.062e+01ms[0m
+[2026-01-22 05:11:31,847][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints/MeshGraphNet.0.15.mdlus[0m
+[2026-01-22 05:11:31,875][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints/checkpoint.0.15.pt[0m
+[2026-01-22 05:11:31,892][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/MeshGraphNet.0.15.mdlus[0m
+[2026-01-22 05:11:31,919][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/checkpoint.0.15.pt[0m
+[2026-01-22 05:11:31,919][xmgn_reservoir][INFO] - [94mEpoch 15/1000, Train loss: 0.005389, LR: 0.000999[0m
+[2026-01-22 05:11:31,919][xmgn_reservoir][INFO] - [94mStarting Epoch 16/1000[0m
+[2026-01-22 05:16:28,449][train][INFO] - [94mEpoch 16 Metrics: train_loss =  5.160e-03, learning_rate =  9.994e-04, best_val_loss =  6.351e-03[0m
+[2026-01-22 05:16:28,449][train][INFO] - [94mEpoch Execution Time:  2.965e+02s, Time/Iter:  2.965e+05ms[0m
+[2026-01-22 05:16:28,461][xmgn_reservoir][INFO] - [94mEpoch 16/1000, Train loss: 0.005160, LR: 0.000999[0m
+[2026-01-22 05:16:28,461][xmgn_reservoir][INFO] - [94mStarting Epoch 17/1000[0m
+[2026-01-22 05:20:54,634][train][INFO] - [94mEpoch 17 Metrics: train_loss =  4.990e-03, learning_rate =  9.994e-04, best_val_loss =  6.351e-03[0m
+[2026-01-22 05:20:54,635][train][INFO] - [94mEpoch Execution Time:  2.662e+02s, Time/Iter:  2.662e+05ms[0m
+[2026-01-22 05:20:54,648][xmgn_reservoir][INFO] - [94mEpoch 17/1000, Train loss: 0.004990, LR: 0.000999[0m
+[2026-01-22 05:20:54,648][xmgn_reservoir][INFO] - [94mStarting Epoch 18/1000[0m
+[2026-01-22 05:25:20,549][train][INFO] - [94mEpoch 18 Metrics: train_loss =  4.915e-03, learning_rate =  9.993e-04, best_val_loss =  6.351e-03[0m
+[2026-01-22 05:25:20,549][train][INFO] - [94mEpoch Execution Time:  2.659e+02s, Time/Iter:  2.659e+05ms[0m
+[2026-01-22 05:25:20,561][xmgn_reservoir][INFO] - [94mEpoch 18/1000, Train loss: 0.004915, LR: 0.000999[0m
+[2026-01-22 05:25:20,561][xmgn_reservoir][INFO] - [94mStarting Epoch 19/1000[0m
+[2026-01-22 05:29:45,654][train][INFO] - [94mEpoch 19 Metrics: train_loss =  4.831e-03, learning_rate =  9.992e-04, best_val_loss =  6.351e-03[0m
+[2026-01-22 05:29:45,654][train][INFO] - [94mEpoch Execution Time:  2.651e+02s, Time/Iter:  2.651e+05ms[0m
+[2026-01-22 05:29:45,667][xmgn_reservoir][INFO] - [94mEpoch 19/1000, Train loss: 0.004831, LR: 0.000999[0m
+[2026-01-22 05:29:45,667][xmgn_reservoir][INFO] - [94mStarting Epoch 20/1000[0m
+[2026-01-22 05:34:11,765][train][INFO] - [94mEpoch 20 Metrics: train_loss =  4.592e-03, learning_rate =  9.991e-04, best_val_loss =  6.351e-03[0m
+[2026-01-22 05:34:11,765][train][INFO] - [94mEpoch Execution Time:  2.661e+02s, Time/Iter:  2.661e+05ms[0m
+[2026-01-22 05:34:26,726][valid][INFO] - [94mEpoch 20 Metrics: val_loss =  4.406e-03, val_denorm_loss =  2.068e+00, val_mae =  9.641e-03, val_mse =  4.522e-04, val_rmse =  2.098e-02, val_mae_pressure =  1.573e-02, val_rmse_pressure =  2.862e-02, val_mae_swat =  3.556e-03, val_rmse_swat =  7.705e-03, val_mae_pressure_denorm =  7.791e-01, val_rmse_pressure_denorm =  1.418e+00, val_mae_swat_denorm =  1.455e-03, val_rmse_swat_denorm =  3.152e-03[0m
+[2026-01-22 05:34:26,727][valid][INFO] - [94mEpoch Execution Time:  1.377e-02s, Time/Iter:  1.377e+01ms[0m
+[2026-01-22 05:34:26,772][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints/MeshGraphNet.0.20.mdlus[0m
+[2026-01-22 05:34:26,792][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints/checkpoint.0.20.pt[0m
+[2026-01-22 05:34:26,808][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/MeshGraphNet.0.20.mdlus[0m
+[2026-01-22 05:34:26,829][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/checkpoint.0.20.pt[0m
+[2026-01-22 05:34:26,829][xmgn_reservoir][INFO] - [94mEpoch 20/1000, Train loss: 0.004592, LR: 0.000999[0m
+[2026-01-22 05:34:26,829][xmgn_reservoir][INFO] - [94mStarting Epoch 21/1000[0m
+[2026-01-22 05:38:51,405][train][INFO] - [94mEpoch 21 Metrics: train_loss =  4.497e-03, learning_rate =  9.990e-04, best_val_loss =  4.406e-03[0m
+[2026-01-22 05:38:51,405][train][INFO] - [94mEpoch Execution Time:  2.646e+02s, Time/Iter:  2.646e+05ms[0m
+[2026-01-22 05:38:51,417][xmgn_reservoir][INFO] - [94mEpoch 21/1000, Train loss: 0.004497, LR: 0.000999[0m
+[2026-01-22 05:38:51,417][xmgn_reservoir][INFO] - [94mStarting Epoch 22/1000[0m
+[2026-01-22 05:43:13,017][train][INFO] - [94mEpoch 22 Metrics: train_loss =  4.370e-03, learning_rate =  9.989e-04, best_val_loss =  4.406e-03[0m
+[2026-01-22 05:43:13,017][train][INFO] - [94mEpoch Execution Time:  2.616e+02s, Time/Iter:  2.616e+05ms[0m
+[2026-01-22 05:43:13,031][xmgn_reservoir][INFO] - [94mEpoch 22/1000, Train loss: 0.004370, LR: 0.000999[0m
+[2026-01-22 05:43:13,031][xmgn_reservoir][INFO] - [94mStarting Epoch 23/1000[0m
+[2026-01-22 05:47:35,426][train][INFO] - [94mEpoch 23 Metrics: train_loss =  4.258e-03, learning_rate =  9.988e-04, best_val_loss =  4.406e-03[0m
+[2026-01-22 05:47:35,426][train][INFO] - [94mEpoch Execution Time:  2.624e+02s, Time/Iter:  2.624e+05ms[0m
+[2026-01-22 05:47:35,439][xmgn_reservoir][INFO] - [94mEpoch 23/1000, Train loss: 0.004258, LR: 0.000999[0m
+[2026-01-22 05:47:35,439][xmgn_reservoir][INFO] - [94mStarting Epoch 24/1000[0m
+[2026-01-22 05:51:58,329][train][INFO] - [94mEpoch 24 Metrics: train_loss =  4.234e-03, learning_rate =  9.987e-04, best_val_loss =  4.406e-03[0m
+[2026-01-22 05:51:58,329][train][INFO] - [94mEpoch Execution Time:  2.629e+02s, Time/Iter:  2.629e+05ms[0m
+[2026-01-22 05:51:58,341][xmgn_reservoir][INFO] - [94mEpoch 24/1000, Train loss: 0.004234, LR: 0.000999[0m
+[2026-01-22 05:51:58,341][xmgn_reservoir][INFO] - [94mStarting Epoch 25/1000[0m
+[2026-01-22 05:56:23,714][train][INFO] - [94mEpoch 25 Metrics: train_loss =  4.116e-03, learning_rate =  9.986e-04, best_val_loss =  4.406e-03[0m
+[2026-01-22 05:56:23,714][train][INFO] - [94mEpoch Execution Time:  2.654e+02s, Time/Iter:  2.654e+05ms[0m
+[2026-01-22 05:56:38,792][valid][INFO] - [94mEpoch 25 Metrics: val_loss =  3.634e-03, val_denorm_loss =  7.473e-01, val_mae =  7.816e-03, val_mse =  1.736e-04, val_rmse =  1.317e-02, val_mae_pressure =  1.231e-02, val_rmse_pressure =  1.741e-02, val_mae_swat =  3.320e-03, val_rmse_swat =  6.619e-03, val_mae_pressure_denorm =  6.100e-01, val_rmse_pressure_denorm =  8.627e-01, val_mae_swat_denorm =  1.358e-03, val_rmse_swat_denorm =  2.708e-03[0m
+[2026-01-22 05:56:38,792][valid][INFO] - [94mEpoch Execution Time:  1.475e-02s, Time/Iter:  1.475e+01ms[0m
+[2026-01-22 05:56:38,838][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints/MeshGraphNet.0.25.mdlus[0m
+[2026-01-22 05:56:38,858][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints/checkpoint.0.25.pt[0m
+[2026-01-22 05:56:38,874][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/MeshGraphNet.0.25.mdlus[0m
+[2026-01-22 05:56:38,893][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/checkpoint.0.25.pt[0m
+[2026-01-22 05:56:38,893][xmgn_reservoir][INFO] - [94mEpoch 25/1000, Train loss: 0.004116, LR: 0.000998[0m
+[2026-01-22 05:56:38,893][xmgn_reservoir][INFO] - [94mStarting Epoch 26/1000[0m
+[2026-01-22 06:01:01,756][train][INFO] - [94mEpoch 26 Metrics: train_loss =  3.889e-03, learning_rate =  9.985e-04, best_val_loss =  3.634e-03[0m
+[2026-01-22 06:01:01,757][train][INFO] - [94mEpoch Execution Time:  2.629e+02s, Time/Iter:  2.629e+05ms[0m
+[2026-01-22 06:01:01,769][xmgn_reservoir][INFO] - [94mEpoch 26/1000, Train loss: 0.003889, LR: 0.000998[0m
+[2026-01-22 06:01:01,769][xmgn_reservoir][INFO] - [94mStarting Epoch 27/1000[0m
+[2026-01-22 06:05:26,391][train][INFO] - [94mEpoch 27 Metrics: train_loss =  3.983e-03, learning_rate =  9.983e-04, best_val_loss =  3.634e-03[0m
+[2026-01-22 06:05:26,391][train][INFO] - [94mEpoch Execution Time:  2.646e+02s, Time/Iter:  2.646e+05ms[0m
+[2026-01-22 06:05:26,404][xmgn_reservoir][INFO] - [94mEpoch 27/1000, Train loss: 0.003983, LR: 0.000998[0m
+[2026-01-22 06:05:26,405][xmgn_reservoir][INFO] - [94mStarting Epoch 28/1000[0m
+[2026-01-22 06:09:50,031][train][INFO] - [94mEpoch 28 Metrics: train_loss =  3.928e-03, learning_rate =  9.982e-04, best_val_loss =  3.634e-03[0m
+[2026-01-22 06:09:50,031][train][INFO] - [94mEpoch Execution Time:  2.636e+02s, Time/Iter:  2.636e+05ms[0m
+[2026-01-22 06:09:50,043][xmgn_reservoir][INFO] - [94mEpoch 28/1000, Train loss: 0.003928, LR: 0.000998[0m
+[2026-01-22 06:09:50,043][xmgn_reservoir][INFO] - [94mStarting Epoch 29/1000[0m
+[2026-01-22 06:14:13,300][train][INFO] - [94mEpoch 29 Metrics: train_loss =  3.818e-03, learning_rate =  9.981e-04, best_val_loss =  3.634e-03[0m
+[2026-01-22 06:14:13,301][train][INFO] - [94mEpoch Execution Time:  2.633e+02s, Time/Iter:  2.633e+05ms[0m
+[2026-01-22 06:14:13,313][xmgn_reservoir][INFO] - [94mEpoch 29/1000, Train loss: 0.003818, LR: 0.000998[0m
+[2026-01-22 06:14:13,313][xmgn_reservoir][INFO] - [94mStarting Epoch 30/1000[0m
+[2026-01-22 06:18:37,917][train][INFO] - [94mEpoch 30 Metrics: train_loss =  3.823e-03, learning_rate =  9.979e-04, best_val_loss =  3.634e-03[0m
+[2026-01-22 06:18:37,917][train][INFO] - [94mEpoch Execution Time:  2.646e+02s, Time/Iter:  2.646e+05ms[0m
+[2026-01-22 06:18:52,851][valid][INFO] - [94mEpoch 30 Metrics: val_loss =  3.258e-03, val_denorm_loss =  8.783e-01, val_mae =  8.335e-03, val_mse =  1.970e-04, val_rmse =  1.402e-02, val_mae_pressure =  1.377e-02, val_rmse_pressure =  1.886e-02, val_mae_swat =  2.896e-03, val_rmse_swat =  6.091e-03, val_mae_pressure_denorm =  6.824e-01, val_rmse_pressure_denorm =  9.346e-01, val_mae_swat_denorm =  1.185e-03, val_rmse_swat_denorm =  2.492e-03[0m
+[2026-01-22 06:18:52,852][valid][INFO] - [94mEpoch Execution Time:  1.441e-02s, Time/Iter:  1.441e+01ms[0m
+[2026-01-22 06:18:52,896][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints/MeshGraphNet.0.30.mdlus[0m
+[2026-01-22 06:18:52,917][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints/checkpoint.0.30.pt[0m
+[2026-01-22 06:18:52,933][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/MeshGraphNet.0.30.mdlus[0m
+[2026-01-22 06:18:52,953][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/checkpoint.0.30.pt[0m
+[2026-01-22 06:18:52,953][xmgn_reservoir][INFO] - [94mEpoch 30/1000, Train loss: 0.003823, LR: 0.000998[0m
+[2026-01-22 06:18:52,953][xmgn_reservoir][INFO] - [94mStarting Epoch 31/1000[0m
+[2026-01-22 06:23:17,296][train][INFO] - [94mEpoch 31 Metrics: train_loss =  3.800e-03, learning_rate =  9.978e-04, best_val_loss =  3.258e-03[0m
+[2026-01-22 06:23:17,297][train][INFO] - [94mEpoch Execution Time:  2.643e+02s, Time/Iter:  2.643e+05ms[0m
+[2026-01-22 06:23:17,309][xmgn_reservoir][INFO] - [94mEpoch 31/1000, Train loss: 0.003800, LR: 0.000998[0m
+[2026-01-22 06:23:17,309][xmgn_reservoir][INFO] - [94mStarting Epoch 32/1000[0m
+[2026-01-22 06:27:41,566][train][INFO] - [94mEpoch 32 Metrics: train_loss =  3.617e-03, learning_rate =  9.976e-04, best_val_loss =  3.258e-03[0m
+[2026-01-22 06:27:41,566][train][INFO] - [94mEpoch Execution Time:  2.643e+02s, Time/Iter:  2.643e+05ms[0m
+[2026-01-22 06:27:41,580][xmgn_reservoir][INFO] - [94mEpoch 32/1000, Train loss: 0.003617, LR: 0.000997[0m
+[2026-01-22 06:27:41,580][xmgn_reservoir][INFO] - [94mStarting Epoch 33/1000[0m
+[2026-01-22 06:32:09,660][train][INFO] - [94mEpoch 33 Metrics: train_loss =  3.579e-03, learning_rate =  9.975e-04, best_val_loss =  3.258e-03[0m
+[2026-01-22 06:32:09,660][train][INFO] - [94mEpoch Execution Time:  2.681e+02s, Time/Iter:  2.681e+05ms[0m
+[2026-01-22 06:32:09,673][xmgn_reservoir][INFO] - [94mEpoch 33/1000, Train loss: 0.003579, LR: 0.000997[0m
+[2026-01-22 06:32:09,673][xmgn_reservoir][INFO] - [94mStarting Epoch 34/1000[0m
+[2026-01-22 06:36:30,636][train][INFO] - [94mEpoch 34 Metrics: train_loss =  3.656e-03, learning_rate =  9.973e-04, best_val_loss =  3.258e-03[0m
+[2026-01-22 06:36:30,636][train][INFO] - [94mEpoch Execution Time:  2.610e+02s, Time/Iter:  2.610e+05ms[0m
+[2026-01-22 06:36:30,649][xmgn_reservoir][INFO] - [94mEpoch 34/1000, Train loss: 0.003656, LR: 0.000997[0m
+[2026-01-22 06:36:30,649][xmgn_reservoir][INFO] - [94mStarting Epoch 35/1000[0m
+[2026-01-22 06:40:54,531][train][INFO] - [94mEpoch 35 Metrics: train_loss =  3.411e-03, learning_rate =  9.972e-04, best_val_loss =  3.258e-03[0m
+[2026-01-22 06:40:54,531][train][INFO] - [94mEpoch Execution Time:  2.639e+02s, Time/Iter:  2.639e+05ms[0m
+[2026-01-22 06:41:09,695][valid][INFO] - [94mEpoch 35 Metrics: val_loss =  3.412e-03, val_denorm_loss =  8.337e-01, val_mae =  8.534e-03, val_mse =  1.890e-04, val_rmse =  1.374e-02, val_mae_pressure =  1.400e-02, val_rmse_pressure =  1.839e-02, val_mae_swat =  3.067e-03, val_rmse_swat =  6.274e-03, val_mae_pressure_denorm =  6.937e-01, val_rmse_pressure_denorm =  9.112e-01, val_mae_swat_denorm =  1.255e-03, val_rmse_swat_denorm =  2.567e-03[0m
+[2026-01-22 06:41:09,695][valid][INFO] - [94mEpoch Execution Time:  1.572e-02s, Time/Iter:  1.572e+01ms[0m
+[2026-01-22 06:41:09,743][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/MeshGraphNet.0.35.mdlus[0m
+[2026-01-22 06:41:09,764][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/checkpoint.0.35.pt[0m
+[2026-01-22 06:41:09,764][xmgn_reservoir][INFO] - [94mEpoch 35/1000, Train loss: 0.003411, LR: 0.000997[0m
+[2026-01-22 06:41:09,764][xmgn_reservoir][INFO] - [94mStarting Epoch 36/1000[0m
+[2026-01-22 06:45:36,787][train][INFO] - [94mEpoch 36 Metrics: train_loss =  3.365e-03, learning_rate =  9.970e-04, best_val_loss =  3.258e-03[0m
+[2026-01-22 06:45:36,788][train][INFO] - [94mEpoch Execution Time:  2.670e+02s, Time/Iter:  2.670e+05ms[0m
+[2026-01-22 06:45:36,803][xmgn_reservoir][INFO] - [94mEpoch 36/1000, Train loss: 0.003365, LR: 0.000997[0m
+[2026-01-22 06:45:36,803][xmgn_reservoir][INFO] - [94mStarting Epoch 37/1000[0m
+[2026-01-22 06:50:01,850][train][INFO] - [94mEpoch 37 Metrics: train_loss =  3.632e-03, learning_rate =  9.968e-04, best_val_loss =  3.258e-03[0m
+[2026-01-22 06:50:01,851][train][INFO] - [94mEpoch Execution Time:  2.650e+02s, Time/Iter:  2.650e+05ms[0m
+[2026-01-22 06:50:01,865][xmgn_reservoir][INFO] - [94mEpoch 37/1000, Train loss: 0.003632, LR: 0.000997[0m
+[2026-01-22 06:50:01,865][xmgn_reservoir][INFO] - [94mStarting Epoch 38/1000[0m
+[2026-01-22 06:54:26,752][train][INFO] - [94mEpoch 38 Metrics: train_loss =  3.450e-03, learning_rate =  9.966e-04, best_val_loss =  3.258e-03[0m
+[2026-01-22 06:54:26,752][train][INFO] - [94mEpoch Execution Time:  2.649e+02s, Time/Iter:  2.649e+05ms[0m
+[2026-01-22 06:54:26,766][xmgn_reservoir][INFO] - [94mEpoch 38/1000, Train loss: 0.003450, LR: 0.000996[0m
+[2026-01-22 06:54:26,767][xmgn_reservoir][INFO] - [94mStarting Epoch 39/1000[0m
+[2026-01-22 06:58:52,816][train][INFO] - [94mEpoch 39 Metrics: train_loss =  3.374e-03, learning_rate =  9.964e-04, best_val_loss =  3.258e-03[0m
+[2026-01-22 06:58:52,817][train][INFO] - [94mEpoch Execution Time:  2.661e+02s, Time/Iter:  2.661e+05ms[0m
+[2026-01-22 06:58:52,829][xmgn_reservoir][INFO] - [94mEpoch 39/1000, Train loss: 0.003374, LR: 0.000996[0m
+[2026-01-22 06:58:52,829][xmgn_reservoir][INFO] - [94mStarting Epoch 40/1000[0m
+[2026-01-22 07:03:19,956][train][INFO] - [94mEpoch 40 Metrics: train_loss =  3.211e-03, learning_rate =  9.963e-04, best_val_loss =  3.258e-03[0m
+[2026-01-22 07:03:19,957][train][INFO] - [94mEpoch Execution Time:  2.671e+02s, Time/Iter:  2.671e+05ms[0m
+[2026-01-22 07:03:34,948][valid][INFO] - [94mEpoch 40 Metrics: val_loss =  4.893e-03, val_denorm_loss =  2.411e+00, val_mae =  1.093e-02, val_mse =  5.173e-04, val_rmse =  2.228e-02, val_mae_pressure =  1.795e-02, val_rmse_pressure =  3.068e-02, val_mae_swat =  3.900e-03, val_rmse_swat =  6.990e-03, val_mae_pressure_denorm =  8.894e-01, val_rmse_pressure_denorm =  1.520e+00, val_mae_swat_denorm =  1.596e-03, val_rmse_swat_denorm =  2.859e-03[0m
+[2026-01-22 07:03:34,948][valid][INFO] - [94mEpoch Execution Time:  1.449e-02s, Time/Iter:  1.449e+01ms[0m
+[2026-01-22 07:03:34,996][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/MeshGraphNet.0.40.mdlus[0m
+[2026-01-22 07:03:35,018][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/checkpoint.0.40.pt[0m
+[2026-01-22 07:03:35,018][xmgn_reservoir][INFO] - [94mEpoch 40/1000, Train loss: 0.003211, LR: 0.000996[0m
+[2026-01-22 07:03:35,019][xmgn_reservoir][INFO] - [94mStarting Epoch 41/1000[0m
+[2026-01-22 07:08:02,116][train][INFO] - [94mEpoch 41 Metrics: train_loss =  3.202e-03, learning_rate =  9.961e-04, best_val_loss =  3.258e-03[0m
+[2026-01-22 07:08:02,117][train][INFO] - [94mEpoch Execution Time:  2.671e+02s, Time/Iter:  2.671e+05ms[0m
+[2026-01-22 07:08:02,129][xmgn_reservoir][INFO] - [94mEpoch 41/1000, Train loss: 0.003202, LR: 0.000996[0m
+[2026-01-22 07:08:02,129][xmgn_reservoir][INFO] - [94mStarting Epoch 42/1000[0m
+[2026-01-22 07:12:26,068][train][INFO] - [94mEpoch 42 Metrics: train_loss =  3.262e-03, learning_rate =  9.959e-04, best_val_loss =  3.258e-03[0m
+[2026-01-22 07:12:26,068][train][INFO] - [94mEpoch Execution Time:  2.639e+02s, Time/Iter:  2.639e+05ms[0m
+[2026-01-22 07:12:26,080][xmgn_reservoir][INFO] - [94mEpoch 42/1000, Train loss: 0.003262, LR: 0.000996[0m
+[2026-01-22 07:12:26,080][xmgn_reservoir][INFO] - [94mStarting Epoch 43/1000[0m
+[2026-01-22 07:16:51,276][train][INFO] - [94mEpoch 43 Metrics: train_loss =  3.166e-03, learning_rate =  9.957e-04, best_val_loss =  3.258e-03[0m
+[2026-01-22 07:16:51,276][train][INFO] - [94mEpoch Execution Time:  2.652e+02s, Time/Iter:  2.652e+05ms[0m
+[2026-01-22 07:16:51,289][xmgn_reservoir][INFO] - [94mEpoch 43/1000, Train loss: 0.003166, LR: 0.000995[0m
+[2026-01-22 07:16:51,289][xmgn_reservoir][INFO] - [94mStarting Epoch 44/1000[0m
+[2026-01-22 07:21:14,932][train][INFO] - [94mEpoch 44 Metrics: train_loss =  3.113e-03, learning_rate =  9.954e-04, best_val_loss =  3.258e-03[0m
+[2026-01-22 07:21:14,933][train][INFO] - [94mEpoch Execution Time:  2.636e+02s, Time/Iter:  2.636e+05ms[0m
+[2026-01-22 07:21:14,945][xmgn_reservoir][INFO] - [94mEpoch 44/1000, Train loss: 0.003113, LR: 0.000995[0m
+[2026-01-22 07:21:14,945][xmgn_reservoir][INFO] - [94mStarting Epoch 45/1000[0m
+[2026-01-22 07:25:40,418][train][INFO] - [94mEpoch 45 Metrics: train_loss =  3.302e-03, learning_rate =  9.952e-04, best_val_loss =  3.258e-03[0m
+[2026-01-22 07:25:40,418][train][INFO] - [94mEpoch Execution Time:  2.655e+02s, Time/Iter:  2.655e+05ms[0m
+[2026-01-22 07:25:55,503][valid][INFO] - [94mEpoch 45 Metrics: val_loss =  2.867e-03, val_denorm_loss =  5.256e-01, val_mae =  6.286e-03, val_mse =  1.224e-04, val_rmse =  1.106e-02, val_mae_pressure =  9.925e-03, val_rmse_pressure =  1.460e-02, val_mae_swat =  2.648e-03, val_rmse_swat =  5.620e-03, val_mae_pressure_denorm =  4.917e-01, val_rmse_pressure_denorm =  7.233e-01, val_mae_swat_denorm =  1.083e-03, val_rmse_swat_denorm =  2.299e-03[0m
+[2026-01-22 07:25:55,503][valid][INFO] - [94mEpoch Execution Time:  1.499e-02s, Time/Iter:  1.499e+01ms[0m
+[2026-01-22 07:25:55,549][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints/MeshGraphNet.0.45.mdlus[0m
+[2026-01-22 07:25:55,568][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints/checkpoint.0.45.pt[0m
+[2026-01-22 07:25:55,585][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/MeshGraphNet.0.45.mdlus[0m
+[2026-01-22 07:25:55,605][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/checkpoint.0.45.pt[0m
+[2026-01-22 07:25:55,605][xmgn_reservoir][INFO] - [94mEpoch 45/1000, Train loss: 0.003302, LR: 0.000995[0m
+[2026-01-22 07:25:55,605][xmgn_reservoir][INFO] - [94mStarting Epoch 46/1000[0m
+[2026-01-22 07:30:21,568][train][INFO] - [94mEpoch 46 Metrics: train_loss =  3.136e-03, learning_rate =  9.950e-04, best_val_loss =  2.867e-03[0m
+[2026-01-22 07:30:21,569][train][INFO] - [94mEpoch Execution Time:  2.660e+02s, Time/Iter:  2.660e+05ms[0m
+[2026-01-22 07:30:21,581][xmgn_reservoir][INFO] - [94mEpoch 46/1000, Train loss: 0.003136, LR: 0.000995[0m
+[2026-01-22 07:30:21,581][xmgn_reservoir][INFO] - [94mStarting Epoch 47/1000[0m
+[2026-01-22 07:34:45,194][train][INFO] - [94mEpoch 47 Metrics: train_loss =  3.231e-03, learning_rate =  9.948e-04, best_val_loss =  2.867e-03[0m
+[2026-01-22 07:34:45,194][train][INFO] - [94mEpoch Execution Time:  2.636e+02s, Time/Iter:  2.636e+05ms[0m
+[2026-01-22 07:34:45,206][xmgn_reservoir][INFO] - [94mEpoch 47/1000, Train loss: 0.003231, LR: 0.000995[0m
+[2026-01-22 07:34:45,206][xmgn_reservoir][INFO] - [94mStarting Epoch 48/1000[0m
+[2026-01-22 07:39:07,990][train][INFO] - [94mEpoch 48 Metrics: train_loss =  3.151e-03, learning_rate =  9.946e-04, best_val_loss =  2.867e-03[0m
+[2026-01-22 07:39:07,990][train][INFO] - [94mEpoch Execution Time:  2.628e+02s, Time/Iter:  2.628e+05ms[0m
+[2026-01-22 07:39:08,002][xmgn_reservoir][INFO] - [94mEpoch 48/1000, Train loss: 0.003151, LR: 0.000994[0m
+[2026-01-22 07:39:08,002][xmgn_reservoir][INFO] - [94mStarting Epoch 49/1000[0m
+[2026-01-22 07:43:32,031][train][INFO] - [94mEpoch 49 Metrics: train_loss =  2.945e-03, learning_rate =  9.943e-04, best_val_loss =  2.867e-03[0m
+[2026-01-22 07:43:32,031][train][INFO] - [94mEpoch Execution Time:  2.640e+02s, Time/Iter:  2.640e+05ms[0m
+[2026-01-22 07:43:32,043][xmgn_reservoir][INFO] - [94mEpoch 49/1000, Train loss: 0.002945, LR: 0.000994[0m
+[2026-01-22 07:43:32,043][xmgn_reservoir][INFO] - [94mStarting Epoch 50/1000[0m
+[2026-01-22 07:47:56,299][train][INFO] - [94mEpoch 50 Metrics: train_loss =  2.970e-03, learning_rate =  9.941e-04, best_val_loss =  2.867e-03[0m
+[2026-01-22 07:47:56,299][train][INFO] - [94mEpoch Execution Time:  2.643e+02s, Time/Iter:  2.643e+05ms[0m
+[2026-01-22 07:48:11,148][valid][INFO] - [94mEpoch 50 Metrics: val_loss =  2.608e-03, val_denorm_loss =  5.962e-01, val_mae =  6.640e-03, val_mse =  1.357e-04, val_rmse =  1.163e-02, val_mae_pressure =  1.092e-02, val_rmse_pressure =  1.554e-02, val_mae_swat =  2.360e-03, val_rmse_swat =  5.401e-03, val_mae_pressure_denorm =  5.410e-01, val_rmse_pressure_denorm =  7.697e-01, val_mae_swat_denorm =  9.654e-04, val_rmse_swat_denorm =  2.210e-03[0m
+[2026-01-22 07:48:11,148][valid][INFO] - [94mEpoch Execution Time:  1.454e-02s, Time/Iter:  1.454e+01ms[0m
+[2026-01-22 07:48:11,195][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints/MeshGraphNet.0.50.mdlus[0m
+[2026-01-22 07:48:11,216][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints/checkpoint.0.50.pt[0m
+[2026-01-22 07:48:11,234][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/MeshGraphNet.0.50.mdlus[0m
+[2026-01-22 07:48:11,255][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/checkpoint.0.50.pt[0m
+[2026-01-22 07:48:11,255][xmgn_reservoir][INFO] - [94mEpoch 50/1000, Train loss: 0.002970, LR: 0.000994[0m
+[2026-01-22 07:48:11,255][xmgn_reservoir][INFO] - [94mStarting Epoch 51/1000[0m
+[2026-01-22 07:52:35,831][train][INFO] - [94mEpoch 51 Metrics: train_loss =  3.024e-03, learning_rate =  9.939e-04, best_val_loss =  2.608e-03[0m
+[2026-01-22 07:52:35,832][train][INFO] - [94mEpoch Execution Time:  2.646e+02s, Time/Iter:  2.646e+05ms[0m
+[2026-01-22 07:52:35,843][xmgn_reservoir][INFO] - [94mEpoch 51/1000, Train loss: 0.003024, LR: 0.000994[0m
+[2026-01-22 07:52:35,843][xmgn_reservoir][INFO] - [94mStarting Epoch 52/1000[0m
+[2026-01-22 11:59:31,883][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 11:59:31,883][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 11:59:31,883][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 11:59:31,883][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 11:59:31,883][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 11:59:31,883][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 11:59:31,883][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 11:59:31,884][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 11:59:31,889][xmgn_reservoir][INFO] - [94mCleaned mlruns/.trash directory to avoid deleted experiment conflicts[0m
+[2026-01-22 12:00:33,556][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 12:00:33,556][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 12:00:33,557][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 12:00:33,557][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 12:00:33,557][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 12:00:33,557][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 12:00:33,557][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 12:00:33,557][xmgn_reservoir][INFO] - [94mXMeshGraphNet - Training for Reservoir Simulation[0m
+[2026-01-22 12:00:33,699][xmgn_reservoir][INFO] - [94mUsing partitioned data loader with 3100 batches[0m
+[2026-01-22 12:00:33,704][xmgn_reservoir][INFO] - [94mUsing partitioned data loader with 388 batches[0m
+[2026-01-22 12:00:33,704][xmgn_reservoir][INFO] - [94mDataset: 3100 training samples, 388 validation samples[0m
+[2026-01-22 12:00:34,948][xmgn_reservoir][INFO] - [94mOptimizer: AdamW (lr=0.001, weight_decay=0.001)[0m
+[2026-01-22 12:00:34,949][xmgn_reservoir][INFO] - [94mTarget variables: ['PRESSURE', 'SWAT'][0m
+[2026-01-22 12:00:34,949][xmgn_reservoir][INFO] - [94mTarget variable weights: [1.0, 1.0][0m
+[2026-01-22 12:00:34,949][xmgn_reservoir][INFO] - [94mLoss functions: ['L2', 'L1'][0m
+[2026-01-22 12:00:34,950][xmgn_reservoir][INFO] - [94mEarly stopping enabled: patience=20, min_delta=1e-06[0m
+[2026-01-22 12:00:34,950][xmgn_reservoir][INFO] - [94mCheckpoint directory: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints[0m
+[2026-01-22 12:00:34,950][xmgn_reservoir][INFO] - [94mBest checkpoint directory: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints[0m
+[2026-01-22 12:00:34,952][xmgn_reservoir][INFO] - [94mResuming training from existing checkpoints...[0m
+[2026-01-22 12:00:34,979][checkpoint][INFO] - [92mLoaded model state dictionary /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/MeshGraphNet.0.50.mdlus to device cuda:4[0m
+[2026-01-22 12:00:34,980][checkpoint][INFO] - [92mLoaded model state dictionary /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/MeshGraphNet.0.50.mdlus to device cuda:5[0m
+[2026-01-22 12:00:34,981][checkpoint][INFO] - [92mLoaded model state dictionary /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/MeshGraphNet.0.50.mdlus to device cuda:2[0m
+[2026-01-22 12:00:34,981][checkpoint][INFO] - [92mLoaded model state dictionary /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/MeshGraphNet.0.50.mdlus to device cuda:0[0m
+[2026-01-22 12:00:34,981][checkpoint][INFO] - [92mLoaded model state dictionary /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/MeshGraphNet.0.50.mdlus to device cuda:3[0m
+[2026-01-22 12:00:34,981][checkpoint][INFO] - [92mLoaded model state dictionary /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/MeshGraphNet.0.50.mdlus to device cuda:1[0m
+[2026-01-22 12:00:34,990][checkpoint][INFO] - [92mLoaded model state dictionary /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/MeshGraphNet.0.50.mdlus to device cuda:7[0m
+[2026-01-22 12:00:34,991][checkpoint][INFO] - [92mLoaded model state dictionary /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/MeshGraphNet.0.50.mdlus to device cuda:6[0m
+[2026-01-22 12:00:35,013][checkpoint][INFO] - [92mLoaded checkpoint file /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/checkpoint.0.50.pt to device cuda:0[0m
+[2026-01-22 12:00:35,014][checkpoint][INFO] - [92mLoaded optimizer state dictionary[0m
+[2026-01-22 12:00:35,014][checkpoint][INFO] - [92mLoaded scheduler state dictionary[0m
+[2026-01-22 12:00:35,014][xmgn_reservoir][INFO] - [94mResuming training from epoch 51. Running validation to get current best validation loss...[0m
+[2026-01-22 12:00:35,014][checkpoint][INFO] - [92mLoaded checkpoint file /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/checkpoint.0.50.pt to device cuda:5[0m
+[2026-01-22 12:00:35,015][checkpoint][INFO] - [92mLoaded checkpoint file /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/checkpoint.0.50.pt to device cuda:4[0m
+[2026-01-22 12:00:35,015][checkpoint][INFO] - [92mLoaded checkpoint file /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/checkpoint.0.50.pt to device cuda:2[0m
+[2026-01-22 12:00:35,015][checkpoint][INFO] - [92mLoaded checkpoint file /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/checkpoint.0.50.pt to device cuda:3[0m
+[2026-01-22 12:00:35,015][checkpoint][INFO] - [92mLoaded checkpoint file /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/checkpoint.0.50.pt to device cuda:1[0m
+[2026-01-22 12:00:35,015][checkpoint][INFO] - [92mLoaded optimizer state dictionary[0m
+[2026-01-22 12:00:35,015][checkpoint][INFO] - [92mLoaded scheduler state dictionary[0m
+[2026-01-22 12:00:35,015][checkpoint][INFO] - [92mLoaded optimizer state dictionary[0m
+[2026-01-22 12:00:35,015][checkpoint][INFO] - [92mLoaded scheduler state dictionary[0m
+[2026-01-22 12:00:35,016][checkpoint][INFO] - [92mLoaded optimizer state dictionary[0m
+[2026-01-22 12:00:35,016][checkpoint][INFO] - [92mLoaded scheduler state dictionary[0m
+[2026-01-22 12:00:35,016][checkpoint][INFO] - [92mLoaded optimizer state dictionary[0m
+[2026-01-22 12:00:35,016][checkpoint][INFO] - [92mLoaded optimizer state dictionary[0m
+[2026-01-22 12:00:35,016][checkpoint][INFO] - [92mLoaded scheduler state dictionary[0m
+[2026-01-22 12:00:35,016][checkpoint][INFO] - [92mLoaded scheduler state dictionary[0m
+[2026-01-22 12:00:35,042][checkpoint][INFO] - [92mLoaded checkpoint file /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/checkpoint.0.50.pt to device cuda:7[0m
+[2026-01-22 12:00:35,043][checkpoint][INFO] - [92mLoaded optimizer state dictionary[0m
+[2026-01-22 12:00:35,043][checkpoint][INFO] - [92mLoaded scheduler state dictionary[0m
+[2026-01-22 12:00:35,043][checkpoint][INFO] - [92mLoaded checkpoint file /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/checkpoint.0.50.pt to device cuda:6[0m
+[2026-01-22 12:00:35,044][checkpoint][INFO] - [92mLoaded optimizer state dictionary[0m
+[2026-01-22 12:00:35,045][checkpoint][INFO] - [92mLoaded scheduler state dictionary[0m
+[2026-01-22 12:00:57,184][xmgn_reservoir][INFO] - [94mCurrent best validation loss: 0.002608[0m
+[2026-01-22 12:00:57,185][xmgn_reservoir][INFO] - [94mStarting Epoch 51/1000[0m
+[2026-01-22 12:06:19,581][train][INFO] - [94mEpoch 51 Metrics: train_loss =  3.029e-03, learning_rate =  9.941e-04, best_val_loss =  2.608e-03[0m
+[2026-01-22 12:06:19,582][train][INFO] - [94mEpoch Execution Time:  3.224e+02s, Time/Iter:  3.224e+05ms[0m
+[2026-01-22 12:06:19,602][xmgn_reservoir][INFO] - [94mEpoch 51/1000, Train loss: 0.003029, LR: 0.000994[0m
+[2026-01-22 12:06:19,603][xmgn_reservoir][INFO] - [94mStarting Epoch 52/1000[0m
+[2026-01-22 12:10:44,682][train][INFO] - [94mEpoch 52 Metrics: train_loss =  2.967e-03, learning_rate =  9.939e-04, best_val_loss =  2.608e-03[0m
+[2026-01-22 12:10:44,684][train][INFO] - [94mEpoch Execution Time:  2.651e+02s, Time/Iter:  2.651e+05ms[0m
+[2026-01-22 12:10:44,697][xmgn_reservoir][INFO] - [94mEpoch 52/1000, Train loss: 0.002967, LR: 0.000994[0m
+[2026-01-22 12:10:44,697][xmgn_reservoir][INFO] - [94mStarting Epoch 53/1000[0m
+[2026-01-22 12:15:28,426][train][INFO] - [94mEpoch 53 Metrics: train_loss =  2.960e-03, learning_rate =  9.936e-04, best_val_loss =  2.608e-03[0m
+[2026-01-22 12:15:28,427][train][INFO] - [94mEpoch Execution Time:  2.837e+02s, Time/Iter:  2.837e+05ms[0m
+[2026-01-22 12:15:28,440][xmgn_reservoir][INFO] - [94mEpoch 53/1000, Train loss: 0.002960, LR: 0.000993[0m
+[2026-01-22 12:15:28,440][xmgn_reservoir][INFO] - [94mStarting Epoch 54/1000[0m
+[2026-01-22 12:19:59,391][train][INFO] - [94mEpoch 54 Metrics: train_loss =  2.924e-03, learning_rate =  9.933e-04, best_val_loss =  2.608e-03[0m
+[2026-01-22 12:19:59,391][train][INFO] - [94mEpoch Execution Time:  2.710e+02s, Time/Iter:  2.710e+05ms[0m
+[2026-01-22 12:19:59,404][xmgn_reservoir][INFO] - [94mEpoch 54/1000, Train loss: 0.002924, LR: 0.000993[0m
+[2026-01-22 12:19:59,404][xmgn_reservoir][INFO] - [94mStarting Epoch 55/1000[0m
+[2026-01-22 12:24:31,069][train][INFO] - [94mEpoch 55 Metrics: train_loss =  3.007e-03, learning_rate =  9.931e-04, best_val_loss =  2.608e-03[0m
+[2026-01-22 12:24:31,069][train][INFO] - [94mEpoch Execution Time:  2.717e+02s, Time/Iter:  2.717e+05ms[0m
+[2026-01-22 12:24:45,528][valid][INFO] - [94mEpoch 55 Metrics: val_loss =  2.092e-03, val_denorm_loss =  4.632e-01, val_mae =  5.502e-03, val_mse =  1.048e-04, val_rmse =  1.023e-02, val_mae_pressure =  9.106e-03, val_rmse_pressure =  1.371e-02, val_mae_swat =  1.898e-03, val_rmse_swat =  4.640e-03, val_mae_pressure_denorm =  4.511e-01, val_rmse_pressure_denorm =  6.792e-01, val_mae_swat_denorm =  7.765e-04, val_rmse_swat_denorm =  1.898e-03[0m
+[2026-01-22 12:24:45,528][valid][INFO] - [94mEpoch Execution Time:  1.187e-02s, Time/Iter:  1.187e+01ms[0m
+[2026-01-22 12:24:45,591][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints/MeshGraphNet.0.55.mdlus[0m
+[2026-01-22 12:24:45,613][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints/checkpoint.0.55.pt[0m
+[2026-01-22 12:24:45,628][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/MeshGraphNet.0.55.mdlus[0m
+[2026-01-22 12:24:45,650][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/checkpoint.0.55.pt[0m
+[2026-01-22 12:24:45,650][xmgn_reservoir][INFO] - [94mEpoch 55/1000, Train loss: 0.003007, LR: 0.000993[0m
+[2026-01-22 12:24:45,650][xmgn_reservoir][INFO] - [94mStarting Epoch 56/1000[0m
+[2026-01-22 12:29:15,429][train][INFO] - [94mEpoch 56 Metrics: train_loss =  2.916e-03, learning_rate =  9.928e-04, best_val_loss =  2.092e-03[0m
+[2026-01-22 12:29:15,430][train][INFO] - [94mEpoch Execution Time:  2.698e+02s, Time/Iter:  2.698e+05ms[0m
+[2026-01-22 12:29:15,442][xmgn_reservoir][INFO] - [94mEpoch 56/1000, Train loss: 0.002916, LR: 0.000993[0m
+[2026-01-22 12:29:15,442][xmgn_reservoir][INFO] - [94mStarting Epoch 57/1000[0m
+[2026-01-22 12:33:45,406][train][INFO] - [94mEpoch 57 Metrics: train_loss =  2.818e-03, learning_rate =  9.926e-04, best_val_loss =  2.092e-03[0m
+[2026-01-22 12:33:45,407][train][INFO] - [94mEpoch Execution Time:  2.700e+02s, Time/Iter:  2.700e+05ms[0m
+[2026-01-22 12:33:45,419][xmgn_reservoir][INFO] - [94mEpoch 57/1000, Train loss: 0.002818, LR: 0.000992[0m
+[2026-01-22 12:33:45,419][xmgn_reservoir][INFO] - [94mStarting Epoch 58/1000[0m
+[2026-01-22 12:38:15,474][train][INFO] - [94mEpoch 58 Metrics: train_loss =  2.822e-03, learning_rate =  9.923e-04, best_val_loss =  2.092e-03[0m
+[2026-01-22 12:38:15,474][train][INFO] - [94mEpoch Execution Time:  2.701e+02s, Time/Iter:  2.701e+05ms[0m
+[2026-01-22 12:38:15,487][xmgn_reservoir][INFO] - [94mEpoch 58/1000, Train loss: 0.002822, LR: 0.000992[0m
+[2026-01-22 12:38:15,487][xmgn_reservoir][INFO] - [94mStarting Epoch 59/1000[0m
+[2026-01-22 12:42:47,087][train][INFO] - [94mEpoch 59 Metrics: train_loss =  2.815e-03, learning_rate =  9.920e-04, best_val_loss =  2.092e-03[0m
+[2026-01-22 12:42:47,087][train][INFO] - [94mEpoch Execution Time:  2.716e+02s, Time/Iter:  2.716e+05ms[0m
+[2026-01-22 12:42:47,100][xmgn_reservoir][INFO] - [94mEpoch 59/1000, Train loss: 0.002815, LR: 0.000992[0m
+[2026-01-22 12:42:47,100][xmgn_reservoir][INFO] - [94mStarting Epoch 60/1000[0m
+[2026-01-22 12:47:17,212][train][INFO] - [94mEpoch 60 Metrics: train_loss =  2.674e-03, learning_rate =  9.917e-04, best_val_loss =  2.092e-03[0m
+[2026-01-22 12:47:17,213][train][INFO] - [94mEpoch Execution Time:  2.701e+02s, Time/Iter:  2.701e+05ms[0m
+[2026-01-22 12:47:32,818][valid][INFO] - [94mEpoch 60 Metrics: val_loss =  2.521e-03, val_denorm_loss =  6.141e-01, val_mae =  6.851e-03, val_mse =  1.373e-04, val_rmse =  1.171e-02, val_mae_pressure =  1.144e-02, val_rmse_pressure =  1.578e-02, val_mae_swat =  2.264e-03, val_rmse_swat =  5.012e-03, val_mae_pressure_denorm =  5.667e-01, val_rmse_pressure_denorm =  7.817e-01, val_mae_swat_denorm =  9.261e-04, val_rmse_swat_denorm =  2.051e-03[0m
+[2026-01-22 12:47:32,819][valid][INFO] - [94mEpoch Execution Time:  1.560e-02s, Time/Iter:  1.560e+01ms[0m
+[2026-01-22 12:47:32,869][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/MeshGraphNet.0.60.mdlus[0m
+[2026-01-22 12:47:32,892][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/checkpoint.0.60.pt[0m
+[2026-01-22 12:47:32,892][xmgn_reservoir][INFO] - [94mEpoch 60/1000, Train loss: 0.002674, LR: 0.000991[0m
+[2026-01-22 12:47:32,892][xmgn_reservoir][INFO] - [94mStarting Epoch 61/1000[0m
+[2026-01-22 12:52:03,843][train][INFO] - [94mEpoch 61 Metrics: train_loss =  2.890e-03, learning_rate =  9.914e-04, best_val_loss =  2.092e-03[0m
+[2026-01-22 12:52:03,843][train][INFO] - [94mEpoch Execution Time:  2.710e+02s, Time/Iter:  2.710e+05ms[0m
+[2026-01-22 12:52:03,856][xmgn_reservoir][INFO] - [94mEpoch 61/1000, Train loss: 0.002890, LR: 0.000991[0m
+[2026-01-22 12:52:03,857][xmgn_reservoir][INFO] - [94mStarting Epoch 62/1000[0m
+[2026-01-22 12:56:35,449][train][INFO] - [94mEpoch 62 Metrics: train_loss =  2.671e-03, learning_rate =  9.912e-04, best_val_loss =  2.092e-03[0m
+[2026-01-22 12:56:35,449][train][INFO] - [94mEpoch Execution Time:  2.716e+02s, Time/Iter:  2.716e+05ms[0m
+[2026-01-22 12:56:35,462][xmgn_reservoir][INFO] - [94mEpoch 62/1000, Train loss: 0.002671, LR: 0.000991[0m
+[2026-01-22 12:56:35,462][xmgn_reservoir][INFO] - [94mStarting Epoch 63/1000[0m
+[2026-01-22 13:01:25,671][train][INFO] - [94mEpoch 63 Metrics: train_loss =  2.705e-03, learning_rate =  9.909e-04, best_val_loss =  2.092e-03[0m
+[2026-01-22 13:01:25,671][train][INFO] - [94mEpoch Execution Time:  2.902e+02s, Time/Iter:  2.902e+05ms[0m
+[2026-01-22 13:01:25,686][xmgn_reservoir][INFO] - [94mEpoch 63/1000, Train loss: 0.002705, LR: 0.000991[0m
+[2026-01-22 13:01:25,686][xmgn_reservoir][INFO] - [94mStarting Epoch 64/1000[0m
+[2026-01-22 13:06:47,062][train][INFO] - [94mEpoch 64 Metrics: train_loss =  2.738e-03, learning_rate =  9.906e-04, best_val_loss =  2.092e-03[0m
+[2026-01-22 13:06:47,062][train][INFO] - [94mEpoch Execution Time:  3.214e+02s, Time/Iter:  3.214e+05ms[0m
+[2026-01-22 13:06:47,077][xmgn_reservoir][INFO] - [94mEpoch 64/1000, Train loss: 0.002738, LR: 0.000990[0m
+[2026-01-22 13:06:47,077][xmgn_reservoir][INFO] - [94mStarting Epoch 65/1000[0m
+[2026-01-22 13:12:06,627][train][INFO] - [94mEpoch 65 Metrics: train_loss =  2.871e-03, learning_rate =  9.902e-04, best_val_loss =  2.092e-03[0m
+[2026-01-22 13:12:06,628][train][INFO] - [94mEpoch Execution Time:  3.196e+02s, Time/Iter:  3.196e+05ms[0m
+[2026-01-22 13:12:27,781][valid][INFO] - [94mEpoch 65 Metrics: val_loss =  3.016e-03, val_denorm_loss =  5.770e-01, val_mae =  6.702e-03, val_mse =  1.316e-04, val_rmse =  1.147e-02, val_mae_pressure =  1.063e-02, val_rmse_pressure =  1.530e-02, val_mae_swat =  2.777e-03, val_rmse_swat =  5.363e-03, val_mae_pressure_denorm =  5.265e-01, val_rmse_pressure_denorm =  7.582e-01, val_mae_swat_denorm =  1.136e-03, val_rmse_swat_denorm =  2.194e-03[0m
+[2026-01-22 13:12:27,781][valid][INFO] - [94mEpoch Execution Time:  1.554e-02s, Time/Iter:  1.554e+01ms[0m
+[2026-01-22 13:12:27,833][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/MeshGraphNet.0.65.mdlus[0m
+[2026-01-22 13:12:27,856][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/checkpoint.0.65.pt[0m
+[2026-01-22 13:12:27,857][xmgn_reservoir][INFO] - [94mEpoch 65/1000, Train loss: 0.002871, LR: 0.000990[0m
+[2026-01-22 13:12:27,857][xmgn_reservoir][INFO] - [94mStarting Epoch 66/1000[0m
+[2026-01-22 13:17:01,730][train][INFO] - [94mEpoch 66 Metrics: train_loss =  2.767e-03, learning_rate =  9.899e-04, best_val_loss =  2.092e-03[0m
+[2026-01-22 13:17:01,731][train][INFO] - [94mEpoch Execution Time:  2.739e+02s, Time/Iter:  2.739e+05ms[0m
+[2026-01-22 13:17:01,745][xmgn_reservoir][INFO] - [94mEpoch 66/1000, Train loss: 0.002767, LR: 0.000990[0m
+[2026-01-22 13:17:01,745][xmgn_reservoir][INFO] - [94mStarting Epoch 67/1000[0m
+[2026-01-22 13:21:37,063][train][INFO] - [94mEpoch 67 Metrics: train_loss =  2.740e-03, learning_rate =  9.896e-04, best_val_loss =  2.092e-03[0m
+[2026-01-22 13:21:37,064][train][INFO] - [94mEpoch Execution Time:  2.753e+02s, Time/Iter:  2.753e+05ms[0m
+[2026-01-22 13:21:37,077][xmgn_reservoir][INFO] - [94mEpoch 67/1000, Train loss: 0.002740, LR: 0.000989[0m
+[2026-01-22 13:21:37,077][xmgn_reservoir][INFO] - [94mStarting Epoch 68/1000[0m
+[2026-01-22 13:26:07,610][train][INFO] - [94mEpoch 68 Metrics: train_loss =  2.697e-03, learning_rate =  9.893e-04, best_val_loss =  2.092e-03[0m
+[2026-01-22 13:26:07,611][train][INFO] - [94mEpoch Execution Time:  2.705e+02s, Time/Iter:  2.705e+05ms[0m
+[2026-01-22 13:26:07,625][xmgn_reservoir][INFO] - [94mEpoch 68/1000, Train loss: 0.002697, LR: 0.000989[0m
+[2026-01-22 13:26:07,625][xmgn_reservoir][INFO] - [94mStarting Epoch 69/1000[0m
+[2026-01-22 13:30:40,018][train][INFO] - [94mEpoch 69 Metrics: train_loss =  2.634e-03, learning_rate =  9.890e-04, best_val_loss =  2.092e-03[0m
+[2026-01-22 13:30:40,018][train][INFO] - [94mEpoch Execution Time:  2.724e+02s, Time/Iter:  2.724e+05ms[0m
+[2026-01-22 13:30:40,031][xmgn_reservoir][INFO] - [94mEpoch 69/1000, Train loss: 0.002634, LR: 0.000989[0m
+[2026-01-22 13:30:40,031][xmgn_reservoir][INFO] - [94mStarting Epoch 70/1000[0m
+[2026-01-22 13:35:12,851][train][INFO] - [94mEpoch 70 Metrics: train_loss =  2.609e-03, learning_rate =  9.886e-04, best_val_loss =  2.092e-03[0m
+[2026-01-22 13:35:12,851][train][INFO] - [94mEpoch Execution Time:  2.728e+02s, Time/Iter:  2.728e+05ms[0m
+[2026-01-22 13:35:27,506][valid][INFO] - [94mEpoch 70 Metrics: val_loss =  1.985e-03, val_denorm_loss =  5.961e-01, val_mae =  6.035e-03, val_mse =  1.317e-04, val_rmse =  1.146e-02, val_mae_pressure =  1.033e-02, val_rmse_pressure =  1.555e-02, val_mae_swat =  1.738e-03, val_rmse_swat =  4.579e-03, val_mae_pressure_denorm =  5.119e-01, val_rmse_pressure_denorm =  7.703e-01, val_mae_swat_denorm =  7.110e-04, val_rmse_swat_denorm =  1.873e-03[0m
+[2026-01-22 13:35:27,506][valid][INFO] - [94mEpoch Execution Time:  1.541e-02s, Time/Iter:  1.541e+01ms[0m
+[2026-01-22 13:35:27,554][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints/MeshGraphNet.0.70.mdlus[0m
+[2026-01-22 13:35:27,577][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints/checkpoint.0.70.pt[0m
+[2026-01-22 13:35:27,593][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/MeshGraphNet.0.70.mdlus[0m
+[2026-01-22 13:35:27,616][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/checkpoint.0.70.pt[0m
+[2026-01-22 13:35:27,616][xmgn_reservoir][INFO] - [94mEpoch 70/1000, Train loss: 0.002609, LR: 0.000988[0m
+[2026-01-22 13:35:27,616][xmgn_reservoir][INFO] - [94mStarting Epoch 71/1000[0m
+[2026-01-22 13:39:56,492][train][INFO] - [94mEpoch 71 Metrics: train_loss =  2.526e-03, learning_rate =  9.883e-04, best_val_loss =  1.985e-03[0m
+[2026-01-22 13:39:56,493][train][INFO] - [94mEpoch Execution Time:  2.689e+02s, Time/Iter:  2.689e+05ms[0m
+[2026-01-22 13:39:56,506][xmgn_reservoir][INFO] - [94mEpoch 71/1000, Train loss: 0.002526, LR: 0.000988[0m
+[2026-01-22 13:39:56,506][xmgn_reservoir][INFO] - [94mStarting Epoch 72/1000[0m
+[2026-01-22 13:44:26,874][train][INFO] - [94mEpoch 72 Metrics: train_loss =  2.718e-03, learning_rate =  9.880e-04, best_val_loss =  1.985e-03[0m
+[2026-01-22 13:44:26,874][train][INFO] - [94mEpoch Execution Time:  2.704e+02s, Time/Iter:  2.704e+05ms[0m
+[2026-01-22 13:44:26,887][xmgn_reservoir][INFO] - [94mEpoch 72/1000, Train loss: 0.002718, LR: 0.000988[0m
+[2026-01-22 13:44:26,887][xmgn_reservoir][INFO] - [94mStarting Epoch 73/1000[0m
+[2026-01-22 13:48:59,110][train][INFO] - [94mEpoch 73 Metrics: train_loss =  2.669e-03, learning_rate =  9.876e-04, best_val_loss =  1.985e-03[0m
+[2026-01-22 13:48:59,110][train][INFO] - [94mEpoch Execution Time:  2.722e+02s, Time/Iter:  2.722e+05ms[0m
+[2026-01-22 13:48:59,123][xmgn_reservoir][INFO] - [94mEpoch 73/1000, Train loss: 0.002669, LR: 0.000987[0m
+[2026-01-22 13:48:59,123][xmgn_reservoir][INFO] - [94mStarting Epoch 74/1000[0m
+[2026-01-22 13:53:32,119][train][INFO] - [94mEpoch 74 Metrics: train_loss =  2.627e-03, learning_rate =  9.873e-04, best_val_loss =  1.985e-03[0m
+[2026-01-22 13:53:32,120][train][INFO] - [94mEpoch Execution Time:  2.730e+02s, Time/Iter:  2.730e+05ms[0m
+[2026-01-22 13:53:32,132][xmgn_reservoir][INFO] - [94mEpoch 74/1000, Train loss: 0.002627, LR: 0.000987[0m
+[2026-01-22 13:53:32,133][xmgn_reservoir][INFO] - [94mStarting Epoch 75/1000[0m
+[2026-01-22 13:58:05,327][train][INFO] - [94mEpoch 75 Metrics: train_loss =  2.629e-03, learning_rate =  9.869e-04, best_val_loss =  1.985e-03[0m
+[2026-01-22 13:58:05,327][train][INFO] - [94mEpoch Execution Time:  2.732e+02s, Time/Iter:  2.732e+05ms[0m
+[2026-01-22 13:58:20,229][valid][INFO] - [94mEpoch 75 Metrics: val_loss =  2.771e-03, val_denorm_loss =  5.053e-01, val_mae =  6.189e-03, val_mse =  1.146e-04, val_rmse =  1.070e-02, val_mae_pressure =  9.817e-03, val_rmse_pressure =  1.432e-02, val_mae_swat =  2.562e-03, val_rmse_swat =  4.913e-03, val_mae_pressure_denorm =  4.864e-01, val_rmse_pressure_denorm =  7.094e-01, val_mae_swat_denorm =  1.048e-03, val_rmse_swat_denorm =  2.010e-03[0m
+[2026-01-22 13:58:20,229][valid][INFO] - [94mEpoch Execution Time:  1.624e-02s, Time/Iter:  1.624e+01ms[0m
+[2026-01-22 13:58:20,284][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/MeshGraphNet.0.75.mdlus[0m
+[2026-01-22 13:58:20,314][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/checkpoint.0.75.pt[0m
+[2026-01-22 13:58:20,314][xmgn_reservoir][INFO] - [94mEpoch 75/1000, Train loss: 0.002629, LR: 0.000987[0m
+[2026-01-22 13:58:20,314][xmgn_reservoir][INFO] - [94mStarting Epoch 76/1000[0m
+[2026-01-22 14:02:49,773][train][INFO] - [94mEpoch 76 Metrics: train_loss =  2.685e-03, learning_rate =  9.866e-04, best_val_loss =  1.985e-03[0m
+[2026-01-22 14:02:49,773][train][INFO] - [94mEpoch Execution Time:  2.695e+02s, Time/Iter:  2.695e+05ms[0m
+[2026-01-22 14:02:49,786][xmgn_reservoir][INFO] - [94mEpoch 76/1000, Train loss: 0.002685, LR: 0.000986[0m
+[2026-01-22 14:02:49,786][xmgn_reservoir][INFO] - [94mStarting Epoch 77/1000[0m
+[2026-01-22 14:07:21,000][train][INFO] - [94mEpoch 77 Metrics: train_loss =  2.710e-03, learning_rate =  9.862e-04, best_val_loss =  1.985e-03[0m
+[2026-01-22 14:07:21,001][train][INFO] - [94mEpoch Execution Time:  2.712e+02s, Time/Iter:  2.712e+05ms[0m
+[2026-01-22 14:07:21,014][xmgn_reservoir][INFO] - [94mEpoch 77/1000, Train loss: 0.002710, LR: 0.000986[0m
+[2026-01-22 14:07:21,014][xmgn_reservoir][INFO] - [94mStarting Epoch 78/1000[0m
+[2026-01-22 14:11:51,530][train][INFO] - [94mEpoch 78 Metrics: train_loss =  2.498e-03, learning_rate =  9.858e-04, best_val_loss =  1.985e-03[0m
+[2026-01-22 14:11:51,530][train][INFO] - [94mEpoch Execution Time:  2.705e+02s, Time/Iter:  2.705e+05ms[0m
+[2026-01-22 14:11:51,544][xmgn_reservoir][INFO] - [94mEpoch 78/1000, Train loss: 0.002498, LR: 0.000985[0m
+[2026-01-22 14:11:51,544][xmgn_reservoir][INFO] - [94mStarting Epoch 79/1000[0m
+[2026-01-22 14:16:23,909][train][INFO] - [94mEpoch 79 Metrics: train_loss =  2.595e-03, learning_rate =  9.855e-04, best_val_loss =  1.985e-03[0m
+[2026-01-22 14:16:23,909][train][INFO] - [94mEpoch Execution Time:  2.724e+02s, Time/Iter:  2.724e+05ms[0m
+[2026-01-22 14:16:23,922][xmgn_reservoir][INFO] - [94mEpoch 79/1000, Train loss: 0.002595, LR: 0.000985[0m
+[2026-01-22 14:16:23,922][xmgn_reservoir][INFO] - [94mStarting Epoch 80/1000[0m
+[2026-01-22 14:20:57,882][train][INFO] - [94mEpoch 80 Metrics: train_loss =  2.505e-03, learning_rate =  9.851e-04, best_val_loss =  1.985e-03[0m
+[2026-01-22 14:20:57,882][train][INFO] - [94mEpoch Execution Time:  2.740e+02s, Time/Iter:  2.740e+05ms[0m
+[2026-01-22 14:21:12,418][valid][INFO] - [94mEpoch 80 Metrics: val_loss =  2.496e-03, val_denorm_loss =  9.000e-01, val_mae =  8.458e-03, val_mse =  1.956e-04, val_rmse =  1.398e-02, val_mae_pressure =  1.479e-02, val_rmse_pressure =  1.913e-02, val_mae_swat =  2.127e-03, val_rmse_swat =  5.001e-03, val_mae_pressure_denorm =  7.327e-01, val_rmse_pressure_denorm =  9.477e-01, val_mae_swat_denorm =  8.699e-04, val_rmse_swat_denorm =  2.046e-03[0m
+[2026-01-22 14:21:12,418][valid][INFO] - [94mEpoch Execution Time:  1.634e-02s, Time/Iter:  1.634e+01ms[0m
+[2026-01-22 14:21:12,473][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/MeshGraphNet.0.80.mdlus[0m
+[2026-01-22 14:21:12,497][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/checkpoint.0.80.pt[0m
+[2026-01-22 14:21:12,497][xmgn_reservoir][INFO] - [94mEpoch 80/1000, Train loss: 0.002505, LR: 0.000985[0m
+[2026-01-22 14:21:12,497][xmgn_reservoir][INFO] - [94mStarting Epoch 81/1000[0m
+[2026-01-22 14:25:43,664][train][INFO] - [94mEpoch 81 Metrics: train_loss =  2.665e-03, learning_rate =  9.847e-04, best_val_loss =  1.985e-03[0m
+[2026-01-22 14:25:43,664][train][INFO] - [94mEpoch Execution Time:  2.712e+02s, Time/Iter:  2.712e+05ms[0m
+[2026-01-22 14:25:43,678][xmgn_reservoir][INFO] - [94mEpoch 81/1000, Train loss: 0.002665, LR: 0.000984[0m
+[2026-01-22 14:25:43,679][xmgn_reservoir][INFO] - [94mStarting Epoch 82/1000[0m
+[2026-01-22 14:30:11,302][train][INFO] - [94mEpoch 82 Metrics: train_loss =  2.675e-03, learning_rate =  9.843e-04, best_val_loss =  1.985e-03[0m
+[2026-01-22 14:30:11,302][train][INFO] - [94mEpoch Execution Time:  2.676e+02s, Time/Iter:  2.676e+05ms[0m
+[2026-01-22 14:30:11,316][xmgn_reservoir][INFO] - [94mEpoch 82/1000, Train loss: 0.002675, LR: 0.000984[0m
+[2026-01-22 14:30:11,317][xmgn_reservoir][INFO] - [94mStarting Epoch 83/1000[0m
+[2026-01-22 14:34:43,166][train][INFO] - [94mEpoch 83 Metrics: train_loss =  2.507e-03, learning_rate =  9.839e-04, best_val_loss =  1.985e-03[0m
+[2026-01-22 14:34:43,166][train][INFO] - [94mEpoch Execution Time:  2.719e+02s, Time/Iter:  2.719e+05ms[0m
+[2026-01-22 14:34:43,179][xmgn_reservoir][INFO] - [94mEpoch 83/1000, Train loss: 0.002507, LR: 0.000984[0m
+[2026-01-22 14:34:43,179][xmgn_reservoir][INFO] - [94mStarting Epoch 84/1000[0m
+[2026-01-22 14:39:15,657][train][INFO] - [94mEpoch 84 Metrics: train_loss =  2.527e-03, learning_rate =  9.835e-04, best_val_loss =  1.985e-03[0m
+[2026-01-22 14:39:15,657][train][INFO] - [94mEpoch Execution Time:  2.725e+02s, Time/Iter:  2.725e+05ms[0m
+[2026-01-22 14:39:15,670][xmgn_reservoir][INFO] - [94mEpoch 84/1000, Train loss: 0.002527, LR: 0.000983[0m
+[2026-01-22 14:39:15,670][xmgn_reservoir][INFO] - [94mStarting Epoch 85/1000[0m
+[2026-01-22 14:43:51,443][train][INFO] - [94mEpoch 85 Metrics: train_loss =  2.515e-03, learning_rate =  9.831e-04, best_val_loss =  1.985e-03[0m
+[2026-01-22 14:43:51,444][train][INFO] - [94mEpoch Execution Time:  2.758e+02s, Time/Iter:  2.758e+05ms[0m
+[2026-01-22 14:44:06,818][valid][INFO] - [94mEpoch 85 Metrics: val_loss =  1.996e-03, val_denorm_loss =  6.079e-01, val_mae =  6.508e-03, val_mse =  1.336e-04, val_rmse =  1.156e-02, val_mae_pressure =  1.127e-02, val_rmse_pressure =  1.573e-02, val_mae_swat =  1.744e-03, val_rmse_swat =  4.461e-03, val_mae_pressure_denorm =  5.585e-01, val_rmse_pressure_denorm =  7.791e-01, val_mae_swat_denorm =  7.133e-04, val_rmse_swat_denorm =  1.825e-03[0m
+[2026-01-22 14:44:06,819][valid][INFO] - [94mEpoch Execution Time:  1.604e-02s, Time/Iter:  1.604e+01ms[0m
+[2026-01-22 14:44:06,874][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/MeshGraphNet.0.85.mdlus[0m
+[2026-01-22 14:44:06,896][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/checkpoint.0.85.pt[0m
+[2026-01-22 14:44:06,897][xmgn_reservoir][INFO] - [94mEpoch 85/1000, Train loss: 0.002515, LR: 0.000983[0m
+[2026-01-22 14:44:06,897][xmgn_reservoir][INFO] - [94mStarting Epoch 86/1000[0m
+[2026-01-22 14:48:39,712][train][INFO] - [94mEpoch 86 Metrics: train_loss =  2.417e-03, learning_rate =  9.827e-04, best_val_loss =  1.985e-03[0m
+[2026-01-22 14:48:39,712][train][INFO] - [94mEpoch Execution Time:  2.728e+02s, Time/Iter:  2.728e+05ms[0m
+[2026-01-22 14:48:39,725][xmgn_reservoir][INFO] - [94mEpoch 86/1000, Train loss: 0.002417, LR: 0.000982[0m
+[2026-01-22 14:48:39,725][xmgn_reservoir][INFO] - [94mStarting Epoch 87/1000[0m
+[2026-01-22 14:53:13,053][train][INFO] - [94mEpoch 87 Metrics: train_loss =  2.563e-03, learning_rate =  9.823e-04, best_val_loss =  1.985e-03[0m
+[2026-01-22 14:53:13,054][train][INFO] - [94mEpoch Execution Time:  2.733e+02s, Time/Iter:  2.733e+05ms[0m
+[2026-01-22 14:53:13,067][xmgn_reservoir][INFO] - [94mEpoch 87/1000, Train loss: 0.002563, LR: 0.000982[0m
+[2026-01-22 14:53:13,067][xmgn_reservoir][INFO] - [94mStarting Epoch 88/1000[0m
+[2026-01-22 14:57:43,741][train][INFO] - [94mEpoch 88 Metrics: train_loss =  2.569e-03, learning_rate =  9.819e-04, best_val_loss =  1.985e-03[0m
+[2026-01-22 14:57:43,741][train][INFO] - [94mEpoch Execution Time:  2.707e+02s, Time/Iter:  2.707e+05ms[0m
+[2026-01-22 14:57:43,754][xmgn_reservoir][INFO] - [94mEpoch 88/1000, Train loss: 0.002569, LR: 0.000981[0m
+[2026-01-22 14:57:43,754][xmgn_reservoir][INFO] - [94mStarting Epoch 89/1000[0m
+[2026-01-22 15:02:15,191][train][INFO] - [94mEpoch 89 Metrics: train_loss =  2.516e-03, learning_rate =  9.815e-04, best_val_loss =  1.985e-03[0m
+[2026-01-22 15:02:15,192][train][INFO] - [94mEpoch Execution Time:  2.714e+02s, Time/Iter:  2.714e+05ms[0m
+[2026-01-22 15:02:15,204][xmgn_reservoir][INFO] - [94mEpoch 89/1000, Train loss: 0.002516, LR: 0.000981[0m
+[2026-01-22 15:02:15,204][xmgn_reservoir][INFO] - [94mStarting Epoch 90/1000[0m
+[2026-01-22 15:06:48,795][train][INFO] - [94mEpoch 90 Metrics: train_loss =  2.425e-03, learning_rate =  9.810e-04, best_val_loss =  1.985e-03[0m
+[2026-01-22 15:06:48,796][train][INFO] - [94mEpoch Execution Time:  2.736e+02s, Time/Iter:  2.736e+05ms[0m
+[2026-01-22 15:07:03,663][valid][INFO] - [94mEpoch 90 Metrics: val_loss =  2.238e-03, val_denorm_loss =  4.810e-01, val_mae =  5.654e-03, val_mse =  1.088e-04, val_rmse =  1.042e-02, val_mae_pressure =  9.270e-03, val_rmse_pressure =  1.396e-02, val_mae_swat =  2.037e-03, val_rmse_swat =  4.712e-03, val_mae_pressure_denorm =  4.593e-01, val_rmse_pressure_denorm =  6.918e-01, val_mae_swat_denorm =  8.333e-04, val_rmse_swat_denorm =  1.928e-03[0m
+[2026-01-22 15:07:03,664][valid][INFO] - [94mEpoch Execution Time:  1.584e-02s, Time/Iter:  1.584e+01ms[0m
+[2026-01-22 15:07:03,698][xmgn_reservoir][INFO] - [94mEarly stopping triggered at epoch 90. Best val_loss: 0.001985, Current: 0.002238, Epochs without improvement: 20/20[0m
+[2026-01-22 15:07:03,716][checkpoint][INFO] - [92mSaved model state dictionary: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/MeshGraphNet.0.90.mdlus[0m
+[2026-01-22 15:07:03,738][checkpoint][INFO] - [92mSaved training checkpoint: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/checkpoints/checkpoint.0.90.pt[0m
+[2026-01-22 15:07:03,739][xmgn_reservoir][INFO] - [94mEpoch 90/1000, Train loss: 0.002425, LR: 0.000981[0m
+[2026-01-22 15:07:03,739][xmgn_reservoir][INFO] - [94mTraining stopped early at epoch 90 due to early stopping[0m
+[2026-01-22 15:07:03,739][xmgn_reservoir][INFO] - [94mTraining completed! Best validation loss: 0.001985[0m
+[2026-01-22 15:07:03,739][xmgn_reservoir][INFO] - [92mTraining completed successfully![0m
+[2026-01-23 03:34:17,460][xmgn_inference][INFO] - [94mXMeshGraphNet - Autoregressive Inference for Reservoir Simulation[0m
+[2026-01-23 03:34:17,480][xmgn_inference][INFO] - [94mUsing automatic best checkpoint selection[0m
+[2026-01-23 03:34:17,482][xmgn_inference][INFO] - [94mFound 10 checkpoint files in best_checkpoints:[0m
+[2026-01-23 03:34:17,482][xmgn_inference][INFO] - [94m   - checkpoint.0.10.pt[0m
+[2026-01-23 03:34:17,482][xmgn_inference][INFO] - [94m   - checkpoint.0.15.pt[0m
+[2026-01-23 03:34:17,482][xmgn_inference][INFO] - [94m   - checkpoint.0.20.pt[0m
+[2026-01-23 03:34:17,482][xmgn_inference][INFO] - [94m   - checkpoint.0.25.pt[0m
+[2026-01-23 03:34:17,482][xmgn_inference][INFO] - [94m   - checkpoint.0.30.pt[0m
+[2026-01-23 03:34:17,482][xmgn_inference][INFO] - [94m   - checkpoint.0.45.pt[0m
+[2026-01-23 03:34:17,482][xmgn_inference][INFO] - [94m   - checkpoint.0.5.pt[0m
+[2026-01-23 03:34:17,482][xmgn_inference][INFO] - [94m   - checkpoint.0.50.pt[0m
+[2026-01-23 03:34:17,482][xmgn_inference][INFO] - [94m   - checkpoint.0.55.pt[0m
+[2026-01-23 03:34:17,482][xmgn_inference][INFO] - [94m   - checkpoint.0.70.pt[0m
+[2026-01-23 03:34:17,482][xmgn_inference][INFO] - [94mPhysicsNeMo will automatically select the best performing checkpoint[0m
+[2026-01-23 03:34:17,510][checkpoint][INFO] - [92mLoaded model state dictionary /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints/MeshGraphNet.0.70.mdlus to device cuda[0m
+[2026-01-23 03:34:17,684][checkpoint][INFO] - [92mLoaded checkpoint file /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints/checkpoint.0.70.pt to device cuda[0m
+[2026-01-23 03:34:17,684][xmgn_inference][INFO] - [94mLoaded BEST checkpoint from epoch 70[0m
+[2026-01-23 03:34:17,684][xmgn_inference][INFO] - [94mCheckpoint directory: /workspace/examples/reservoir_simulation/xmgn/outputs/XMGN_Norne/best_checkpoints[0m
+[2026-01-23 03:34:17,692][xmgn_inference][INFO] - [94mTest dataset loaded with 3100 samples[0m
+[2026-01-23 03:34:17,692][xmgn_inference][INFO] - [94m======================================================================[0m
+[2026-01-23 03:34:17,692][xmgn_inference][INFO] - [94mSTARTING INFERENCE[0m
+[2026-01-23 03:34:17,692][xmgn_inference][INFO] - [94m======================================================================[0m
+[2026-01-23 03:34:17,692][xmgn_inference][INFO] - [94mInitial timesteps with true features: 3[0m
+[2026-01-23 03:34:17,692][xmgn_inference][INFO] - [94mSubsequent timesteps: predictions feed into next timestep (autoregressive)[0m
+[2026-01-23 03:34:17,695][xmgn_inference][INFO] - [94mProcessing 50 cases...[0m
+[2026-01-23 03:34:17,695][xmgn_inference][INFO] - [94m[1/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0003 (62 timesteps)[0m
+[2026-01-23 03:34:20,935][xmgn_inference][INFO] - [94m[2/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0012 (62 timesteps)[0m
+[2026-01-23 03:34:23,762][xmgn_inference][INFO] - [94m[3/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0013 (62 timesteps)[0m
+[2026-01-23 03:34:26,663][xmgn_inference][INFO] - [94m[4/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0015 (62 timesteps)[0m
+[2026-01-23 03:34:29,363][xmgn_inference][INFO] - [94m[5/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0016 (62 timesteps)[0m
+[2026-01-23 03:34:32,014][xmgn_inference][INFO] - [94m[6/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0044 (62 timesteps)[0m
+[2026-01-23 03:34:34,894][xmgn_inference][INFO] - [94m[7/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0047 (62 timesteps)[0m
+[2026-01-23 03:34:37,774][xmgn_inference][INFO] - [94m[8/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0052 (62 timesteps)[0m
+[2026-01-23 03:34:40,457][xmgn_inference][INFO] - [94m[9/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0057 (62 timesteps)[0m
+[2026-01-23 03:34:43,140][xmgn_inference][INFO] - [94m[10/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0071 (62 timesteps)[0m
+[2026-01-23 03:34:45,819][xmgn_inference][INFO] - [94m[11/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0079 (62 timesteps)[0m
+[2026-01-23 03:34:48,588][xmgn_inference][INFO] - [94m[12/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0081 (62 timesteps)[0m
+[2026-01-23 03:34:51,251][xmgn_inference][INFO] - [94m[13/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0101 (62 timesteps)[0m
+[2026-01-23 03:34:53,961][xmgn_inference][INFO] - [94m[14/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0110 (62 timesteps)[0m
+[2026-01-23 03:34:56,635][xmgn_inference][INFO] - [94m[15/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0111 (62 timesteps)[0m
+[2026-01-23 03:34:59,514][xmgn_inference][INFO] - [94m[16/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0112 (62 timesteps)[0m
+[2026-01-23 03:35:02,179][xmgn_inference][INFO] - [94m[17/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0114 (62 timesteps)[0m
+[2026-01-23 03:35:04,879][xmgn_inference][INFO] - [94m[18/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0119 (62 timesteps)[0m
+[2026-01-23 03:35:07,628][xmgn_inference][INFO] - [94m[19/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0125 (62 timesteps)[0m
+[2026-01-23 03:35:10,383][xmgn_inference][INFO] - [94m[20/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0140 (62 timesteps)[0m
+[2026-01-23 03:35:13,161][xmgn_inference][INFO] - [94m[21/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0142 (62 timesteps)[0m
+[2026-01-23 03:35:15,936][xmgn_inference][INFO] - [94m[22/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0172 (62 timesteps)[0m
+[2026-01-23 03:35:18,716][xmgn_inference][INFO] - [94m[23/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0174 (62 timesteps)[0m
+[2026-01-23 03:35:21,375][xmgn_inference][INFO] - [94m[24/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0214 (62 timesteps)[0m
+[2026-01-23 03:35:24,082][xmgn_inference][INFO] - [94m[25/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0216 (62 timesteps)[0m
+[2026-01-23 03:35:26,874][xmgn_inference][INFO] - [94m[26/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0229 (62 timesteps)[0m
+[2026-01-23 03:35:29,651][xmgn_inference][INFO] - [94m[27/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0258 (62 timesteps)[0m
+[2026-01-23 03:35:32,488][xmgn_inference][INFO] - [94m[28/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0279 (62 timesteps)[0m
+[2026-01-23 03:35:35,163][xmgn_inference][INFO] - [94m[29/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0287 (62 timesteps)[0m
+[2026-01-23 03:35:37,811][xmgn_inference][INFO] - [94m[30/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0301 (62 timesteps)[0m
+[2026-01-23 03:35:40,728][xmgn_inference][INFO] - [94m[31/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0302 (62 timesteps)[0m
+[2026-01-23 03:35:43,529][xmgn_inference][INFO] - [94m[32/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0308 (62 timesteps)[0m
+[2026-01-23 03:35:46,421][xmgn_inference][INFO] - [94m[33/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0327 (62 timesteps)[0m
+[2026-01-23 03:35:49,178][xmgn_inference][INFO] - [94m[34/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0332 (62 timesteps)[0m
+[2026-01-23 03:35:51,961][xmgn_inference][INFO] - [94m[35/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0346 (62 timesteps)[0m
+[2026-01-23 03:35:54,667][xmgn_inference][INFO] - [94m[36/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0357 (62 timesteps)[0m
+[2026-01-23 03:35:57,355][xmgn_inference][INFO] - [94m[37/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0359 (62 timesteps)[0m
+[2026-01-23 03:36:00,137][xmgn_inference][INFO] - [94m[38/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0366 (62 timesteps)[0m
+[2026-01-23 03:36:02,930][xmgn_inference][INFO] - [94m[39/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0377 (62 timesteps)[0m
+[2026-01-23 03:36:05,611][xmgn_inference][INFO] - [94m[40/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0379 (62 timesteps)[0m
+[2026-01-23 03:36:08,306][xmgn_inference][INFO] - [94m[41/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0388 (62 timesteps)[0m
+[2026-01-23 03:36:11,167][xmgn_inference][INFO] - [94m[42/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0390 (62 timesteps)[0m
+[2026-01-23 03:36:14,066][xmgn_inference][INFO] - [94m[43/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0412 (62 timesteps)[0m
+[2026-01-23 03:36:16,805][xmgn_inference][INFO] - [94m[44/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0414 (62 timesteps)[0m
+[2026-01-23 03:36:19,514][xmgn_inference][INFO] - [94m[45/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0445 (62 timesteps)[0m
+[2026-01-23 03:36:22,243][xmgn_inference][INFO] - [94m[46/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0456 (62 timesteps)[0m
+[2026-01-23 03:36:25,179][xmgn_inference][INFO] - [94m[47/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0464 (62 timesteps)[0m
+[2026-01-23 03:36:27,869][xmgn_inference][INFO] - [94m[48/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0483 (62 timesteps)[0m
+[2026-01-23 03:36:30,577][xmgn_inference][INFO] - [94m[49/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0486 (62 timesteps)[0m
+[2026-01-23 03:36:33,301][xmgn_inference][INFO] - [94m[50/50] Processing case: NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0496 (62 timesteps)[0m
+[2026-01-23 03:36:36,214][xmgn_inference][INFO] - [94m[0m
+[2026-01-23 03:36:36,214][xmgn_inference][INFO] - [94mSaving inference results to HDF5 files...[0m
+[2026-01-23 03:36:39,575][xmgn_inference][INFO] - [94mSaved 50 HDF5 files to: inference[0m
+[2026-01-23 03:36:39,575][xmgn_inference][INFO] - [94mSaved metadata: inference/inference_metadata.json[0m
+[2026-01-23 03:36:41,737][xmgn_inference][INFO] - [94m[0m
+[2026-01-23 03:36:41,737][xmgn_inference][INFO] - [94m======================================================================[0m
+[2026-01-23 03:36:41,737][xmgn_inference][INFO] - [94mAUTOREGRESSIVE INFERENCE RESULTS[0m
+[2026-01-23 03:36:41,737][xmgn_inference][INFO] - [94m======================================================================[0m
+[2026-01-23 03:36:41,737][xmgn_inference][INFO] - [94mTest samples processed: 3100[0m
+[2026-01-23 03:36:41,737][xmgn_inference][INFO] - [94mSimulation cases: 50[0m
+[2026-01-23 03:36:41,737][xmgn_inference][INFO] - [94mAverage normalized MSE: 2.909487e-02[0m
+[2026-01-23 03:36:41,737][xmgn_inference][INFO] - [94mAverage denormalized MSE: 7.071370e+01[0m
+[2026-01-23 03:36:41,737][xmgn_inference][INFO] - [94mOverall MAE: 2.200293e+00[0m
+[2026-01-23 03:36:41,737][xmgn_inference][INFO] - [94mOverall RMSE: 8.433134e+00[0m
+[2026-01-23 03:36:41,737][xmgn_inference][INFO] - [94m[0m
+[2026-01-23 03:36:41,737][xmgn_inference][INFO] - [94mPer-Variable Metrics:[0m
+[2026-01-23 03:36:41,737][xmgn_inference][INFO] - [94m----------------------------------------------------------------------[0m
+[2026-01-23 03:36:42,610][xmgn_inference][INFO] - [94m      PRESSURE  |  MAE: 4.394702e+00  |  RMSE: 1.192627e+01[0m
+[2026-01-23 03:36:43,485][xmgn_inference][INFO] - [94m          SWAT  |  MAE: 5.880660e-03  |  RMSE: 9.784492e-03[0m
+[2026-01-23 03:36:43,485][xmgn_inference][INFO] - [94m======================================================================[0m
+[2026-01-23 03:36:43,509][xmgn_inference][INFO] - [94m[0m
+[2026-01-23 03:36:43,510][xmgn_inference][INFO] - [94m======================================================================[0m
+[2026-01-23 03:36:43,510][xmgn_inference][INFO] - [94mPOST-PROCESSING: GENERATING GRDECL FILES[0m
+[2026-01-23 03:36:43,510][xmgn_inference][INFO] - [94m======================================================================[0m
+[2026-01-23 03:36:43,512][xmgn_inference][INFO] - [94mOutput directory: inference[0m
+[2026-01-23 03:36:43,512][xmgn_inference][INFO] - [94mProcessing 50 HDF5 file(s)...[0m
+[2026-01-23 03:36:43,512][xmgn_inference][INFO] - [94m[1/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0003...[0m
+[2026-01-23 03:36:43,514][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0003.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0003.DATA[0m
+[2026-01-23 03:36:43,514][xmgn_inference][INFO] - [94m[2/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0012...[0m
+[2026-01-23 03:36:43,514][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0012.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0012.DATA[0m
+[2026-01-23 03:36:43,514][xmgn_inference][INFO] - [94m[3/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0013...[0m
+[2026-01-23 03:36:43,515][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0013.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0013.DATA[0m
+[2026-01-23 03:36:43,515][xmgn_inference][INFO] - [94m[4/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0015...[0m
+[2026-01-23 03:36:43,515][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0015.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0015.DATA[0m
+[2026-01-23 03:36:43,515][xmgn_inference][INFO] - [94m[5/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0016...[0m
+[2026-01-23 03:36:43,516][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0016.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0016.DATA[0m
+[2026-01-23 03:36:43,516][xmgn_inference][INFO] - [94m[6/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0044...[0m
+[2026-01-23 03:36:43,516][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0044.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0044.DATA[0m
+[2026-01-23 03:36:43,516][xmgn_inference][INFO] - [94m[7/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0047...[0m
+[2026-01-23 03:36:43,517][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0047.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0047.DATA[0m
+[2026-01-23 03:36:43,517][xmgn_inference][INFO] - [94m[8/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0052...[0m
+[2026-01-23 03:36:43,517][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0052.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0052.DATA[0m
+[2026-01-23 03:36:43,517][xmgn_inference][INFO] - [94m[9/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0057...[0m
+[2026-01-23 03:36:43,517][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0057.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0057.DATA[0m
+[2026-01-23 03:36:43,518][xmgn_inference][INFO] - [94m[10/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0071...[0m
+[2026-01-23 03:36:43,518][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0071.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0071.DATA[0m
+[2026-01-23 03:36:43,518][xmgn_inference][INFO] - [94m[11/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0079...[0m
+[2026-01-23 03:36:43,518][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0079.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0079.DATA[0m
+[2026-01-23 03:36:43,518][xmgn_inference][INFO] - [94m[12/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0081...[0m
+[2026-01-23 03:36:43,519][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0081.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0081.DATA[0m
+[2026-01-23 03:36:43,519][xmgn_inference][INFO] - [94m[13/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0101...[0m
+[2026-01-23 03:36:43,519][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0101.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0101.DATA[0m
+[2026-01-23 03:36:43,519][xmgn_inference][INFO] - [94m[14/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0110...[0m
+[2026-01-23 03:36:43,520][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0110.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0110.DATA[0m
+[2026-01-23 03:36:43,520][xmgn_inference][INFO] - [94m[15/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0111...[0m
+[2026-01-23 03:36:43,520][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0111.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0111.DATA[0m
+[2026-01-23 03:36:43,520][xmgn_inference][INFO] - [94m[16/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0112...[0m
+[2026-01-23 03:36:43,521][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0112.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0112.DATA[0m
+[2026-01-23 03:36:43,521][xmgn_inference][INFO] - [94m[17/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0114...[0m
+[2026-01-23 03:36:43,521][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0114.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0114.DATA[0m
+[2026-01-23 03:36:43,521][xmgn_inference][INFO] - [94m[18/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0119...[0m
+[2026-01-23 03:36:43,522][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0119.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0119.DATA[0m
+[2026-01-23 03:36:43,522][xmgn_inference][INFO] - [94m[19/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0125...[0m
+[2026-01-23 03:36:43,523][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0125.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0125.DATA[0m
+[2026-01-23 03:36:43,523][xmgn_inference][INFO] - [94m[20/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0140...[0m
+[2026-01-23 03:36:43,523][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0140.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0140.DATA[0m
+[2026-01-23 03:36:43,523][xmgn_inference][INFO] - [94m[21/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0142...[0m
+[2026-01-23 03:36:43,524][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0142.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0142.DATA[0m
+[2026-01-23 03:36:43,524][xmgn_inference][INFO] - [94m[22/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0172...[0m
+[2026-01-23 03:36:43,524][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0172.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0172.DATA[0m
+[2026-01-23 03:36:43,524][xmgn_inference][INFO] - [94m[23/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0174...[0m
+[2026-01-23 03:36:43,525][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0174.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0174.DATA[0m
+[2026-01-23 03:36:43,525][xmgn_inference][INFO] - [94m[24/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0214...[0m
+[2026-01-23 03:36:43,525][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0214.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0214.DATA[0m
+[2026-01-23 03:36:43,525][xmgn_inference][INFO] - [94m[25/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0216...[0m
+[2026-01-23 03:36:43,526][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0216.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0216.DATA[0m
+[2026-01-23 03:36:43,526][xmgn_inference][INFO] - [94m[26/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0229...[0m
+[2026-01-23 03:36:43,526][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0229.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0229.DATA[0m
+[2026-01-23 03:36:43,526][xmgn_inference][INFO] - [94m[27/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0258...[0m
+[2026-01-23 03:36:43,527][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0258.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0258.DATA[0m
+[2026-01-23 03:36:43,527][xmgn_inference][INFO] - [94m[28/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0279...[0m
+[2026-01-23 03:36:43,527][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0279.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0279.DATA[0m
+[2026-01-23 03:36:43,527][xmgn_inference][INFO] - [94m[29/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0287...[0m
+[2026-01-23 03:36:43,528][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0287.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0287.DATA[0m
+[2026-01-23 03:36:43,528][xmgn_inference][INFO] - [94m[30/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0301...[0m
+[2026-01-23 03:36:43,528][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0301.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0301.DATA[0m
+[2026-01-23 03:36:43,528][xmgn_inference][INFO] - [94m[31/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0302...[0m
+[2026-01-23 03:36:43,529][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0302.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0302.DATA[0m
+[2026-01-23 03:36:43,529][xmgn_inference][INFO] - [94m[32/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0308...[0m
+[2026-01-23 03:36:43,529][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0308.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0308.DATA[0m
+[2026-01-23 03:36:43,529][xmgn_inference][INFO] - [94m[33/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0327...[0m
+[2026-01-23 03:36:43,530][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0327.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0327.DATA[0m
+[2026-01-23 03:36:43,530][xmgn_inference][INFO] - [94m[34/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0332...[0m
+[2026-01-23 03:36:43,530][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0332.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0332.DATA[0m
+[2026-01-23 03:36:43,530][xmgn_inference][INFO] - [94m[35/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0346...[0m
+[2026-01-23 03:36:43,531][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0346.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0346.DATA[0m
+[2026-01-23 03:36:43,531][xmgn_inference][INFO] - [94m[36/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0357...[0m
+[2026-01-23 03:36:43,531][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0357.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0357.DATA[0m
+[2026-01-23 03:36:43,531][xmgn_inference][INFO] - [94m[37/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0359...[0m
+[2026-01-23 03:36:43,532][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0359.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0359.DATA[0m
+[2026-01-23 03:36:43,532][xmgn_inference][INFO] - [94m[38/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0366...[0m
+[2026-01-23 03:36:43,532][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0366.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0366.DATA[0m
+[2026-01-23 03:36:43,532][xmgn_inference][INFO] - [94m[39/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0377...[0m
+[2026-01-23 03:36:43,533][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0377.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0377.DATA[0m
+[2026-01-23 03:36:43,533][xmgn_inference][INFO] - [94m[40/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0379...[0m
+[2026-01-23 03:36:43,533][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0379.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0379.DATA[0m
+[2026-01-23 03:36:43,533][xmgn_inference][INFO] - [94m[41/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0388...[0m
+[2026-01-23 03:36:43,534][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0388.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0388.DATA[0m
+[2026-01-23 03:36:43,534][xmgn_inference][INFO] - [94m[42/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0390...[0m
+[2026-01-23 03:36:43,534][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0390.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0390.DATA[0m
+[2026-01-23 03:36:43,534][xmgn_inference][INFO] - [94m[43/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0412...[0m
+[2026-01-23 03:36:43,535][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0412.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0412.DATA[0m
+[2026-01-23 03:36:43,535][xmgn_inference][INFO] - [94m[44/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0414...[0m
+[2026-01-23 03:36:43,535][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0414.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0414.DATA[0m
+[2026-01-23 03:36:43,535][xmgn_inference][INFO] - [94m[45/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0445...[0m
+[2026-01-23 03:36:43,536][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0445.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0445.DATA[0m
+[2026-01-23 03:36:43,536][xmgn_inference][INFO] - [94m[46/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0456...[0m
+[2026-01-23 03:36:43,536][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0456.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0456.DATA[0m
+[2026-01-23 03:36:43,536][xmgn_inference][INFO] - [94m[47/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0464...[0m
+[2026-01-23 03:36:43,537][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0464.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0464.DATA[0m
+[2026-01-23 03:36:43,537][xmgn_inference][INFO] - [94m[48/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0483...[0m
+[2026-01-23 03:36:43,537][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0483.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0483.DATA[0m
+[2026-01-23 03:36:43,537][xmgn_inference][INFO] - [94m[49/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0486...[0m
+[2026-01-23 03:36:43,538][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0486.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0486.DATA[0m
+[2026-01-23 03:36:43,538][xmgn_inference][INFO] - [94m[50/50] Generating GRDECL for NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0496...[0m
+[2026-01-23 03:36:43,538][xmgn_inference][ERROR] - [91mFailed to process NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0496.hdf5: Simulator data file not found: /workspace/xmgn/../dataset/Norne/NORNE_ATW2013_LHS.sim/NORNE_ATW2013_DOE_TOP15_EXTENDED_LHS_0496.DATA[0m
+[2026-01-23 03:36:43,538][xmgn_inference][INFO] - [94m[0m
+[2026-01-23 03:36:43,538][xmgn_inference][INFO] - [94m======================================================================[0m
+[2026-01-23 03:36:43,539][xmgn_inference][INFO] - [94mGRDECL files saved to: inference[0m
+[2026-01-23 03:36:43,539][xmgn_inference][INFO] - [94m======================================================================[0m
+[2026-01-23 03:36:43,539][xmgn_inference][INFO] - [92mInference and post-processing completed successfully![0m
