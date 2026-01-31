@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 # Transolver Training Configuration for Stokes Flow
-# Lab 5: Physics-Attention and Transolver
+# Lab 3: Physics-Attention and Transolver
 
 # Model Architecture (PhysicsNeMo Transolver)
 model:

@@ -4,17 +4,22 @@ This workshop will provide researchers hands-on approaches on how to use NVIDIA 
 
 ## Workshop contents:
 
-The content is structured in two modules covering the following: 
+- **Lab 1**: [Physics Informed FNO for Nonlinear Shallow Water Equations](./lab_1/swe_nonlinear_pino.ipynb)
 
-
-- Lab 1 : [Physics Informed FNO for Nonlinear Shallow Water Equations](./lab_1/swe_nonlinear_pino.ipynb)
-
-    This example demonstrates physics informing of a data-driven model using numerical derivatives (PINO) during the training stage.
+    Physics informing of a data-driven model using numerical derivatives (PINO) during training.
   
-- Lab 2 : [Learning the flow field of Stokes flow](./lab_2/stokes_mgn.ipynb)
+- **Lab 2**: [Learning the flow field of Stokes flow](./lab_2/stokes_mgn.ipynb)
 
-    This example demonstrates how to train the MeshGraphNet model to learn the flow field of Stokes flow and further improve the accuary of the model predictions by physics-informed inference. This example also demonstrates how to use physics utilites from PhysicsNeMo-Sym to introduce physics-based constraints.
+    Train MeshGraphNet to learn Stokes flow and improve accuracy via physics-informed inference.
 
-  - Part 1: Physics-Informed inference using PINNs
+- **Lab 3**: [Transolver - Physics-Aware Transformers for PDEs](./lab_3/README.md)
 
-  - Part 2: Physics-Informed inference using Meshgraphnet finetuning
+    Introduction to Transolver and Physics-Attention for efficient transformer-based PDE solvers.
+
+- **Lab 4**: [Reservoir Simulation with xMGN](./lab_4/xmgn/README.md)
+
+    Multi-scale graph networks for reservoir simulation.
+
+- **Lab 5**: [Diffusion Models for FWI](./lab_5/diffusion_fwi_generation_notebook.ipynb)
+
+    Conditional diffusion models for full waveform inversion.

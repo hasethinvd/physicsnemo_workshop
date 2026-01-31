@@ -1,4 +1,4 @@
-# Lab 5: Transolver - Physics-Aware Transformers for PDEs
+# Lab 3: Transolver - Physics-Aware Transformers for PDEs
 
 This lab introduces **Transolver**, a transformer architecture designed for physics simulations. Unlike standard transformers that have O(N²) complexity, Transolver uses **Physics-Attention** to achieve O(N) complexity while learning physically meaningful representations.
 
@@ -7,7 +7,7 @@ This lab follows the same structure as PhysicsNeMo examples (see `examples/cfd/d
 ## Structure
 
 ```
-lab_5/
+lab_3/
 ├── conf/
 │   └── config.yaml              # Configuration (Hydra/OmegaConf)
 ├── 01_physics_attention.ipynb   # Theory: Standard vs Physics-Attention

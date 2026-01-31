@@ -1,0 +1,7 @@
+torch>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.8.0
+einops>=0.7.0
+hydra-core>=1.2.0
+omegaconf>=2.3.0
+pyvista>=0.43.0
