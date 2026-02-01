@@ -44,12 +44,13 @@ RUN git clone --depth 1 --branch ${PHYSICSNEMO_BRANCH} \
 
 # ============================================
 # PhysicsNeMo-Sym (from source)
+# Requires --no-build-isolation because it needs torch during build
 # ============================================
 ARG PHYSICSNEMO_SYM_BRANCH=main
 RUN git clone --depth 1 --branch ${PHYSICSNEMO_SYM_BRANCH} \
     https://github.com/NVIDIA/physicsnemo-sym.git /opt/physicsnemo-sym && \
     cd /opt/physicsnemo-sym && \
-    pip install --no-cache-dir -e .
+    pip install --no-cache-dir --no-build-isolation -e .
 
 # ============================================
 # Core ML/Scientific dependencies
