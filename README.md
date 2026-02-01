@@ -35,27 +35,6 @@ docker run --gpus all -it \
 # Access Jupyter Lab at http://localhost:8888
 ```
 
-### Running Specific Labs
-```bash
-# Enter the container shell
-docker compose exec workshop bash
-
-# Run Lab 1 (PINO)
-cd lab_1 && python train_swe_nl_pino.py
-
-# Run Lab 2 (Transolver)
-cd lab_2 && python train_transolver_stokes.py
-
-# Run Lab 3 (xMGN)
-cd lab_3/xmgn && python src/train.py
-
-# Run Lab 4 (MeshGraphNet)
-cd lab_4 && python train.py
-
-# Run Lab 5 (Diffusion)
-cd lab_5 && jupyter notebook diffusion_fwi_generation_notebook.ipynb
-```
-
 ---
 
 ## Workshop Contents
