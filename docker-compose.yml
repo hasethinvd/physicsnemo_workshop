@@ -1,0 +1,58 @@
+# PhysicsNeMo Workshop Docker Compose
+# Usage: docker compose up
+
+services:
+  workshop:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        BASE_CONTAINER: nvcr.io/nvidia/pytorch:24.12-py3
+        PHYSICSNEMO_BRANCH: main
+        PHYSICSNEMO_SYM_BRANCH: main
+    image: physicsnemo-workshop:latest
+    container_name: physicsnemo-workshop
+    
+    # GPU access
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    
+    # Port mapping
+    ports:
+      - "8888:8888"  # Jupyter Lab
+      - "6006:6006"  # TensorBoard
+      - "5000:5000"  # MLflow
+    
+    # Volumes for persistence
+    volumes:
+      # Mount workshop directory for live editing
+      - .:/workspace/physicsnemo_workshop
+      # Persist Jupyter settings
+      - jupyter_data:/root/.jupyter
+      # Persist MLflow data
+      - mlflow_data:/workspace/mlruns
+    
+    # Environment variables
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - CUDA_VISIBLE_DEVICES=0
+      - PYTHONPATH=/workspace/physicsnemo_workshop
+    
+    # Keep container running
+    stdin_open: true
+    tty: true
+    
+    # Shared memory for PyTorch DataLoader
+    shm_size: '16gb'
+    
+    # Working directory
+    working_dir: /workspace/physicsnemo_workshop
+
+volumes:
+  jupyter_data:
+  mlflow_data:

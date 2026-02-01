@@ -1,7 +1,7 @@
+torch>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.8.0
+einops>=0.7.0
 hydra-core>=1.2.0
-wandb>=0.15.1
-psutil>=6.0.0
-scipy>=1.15.0
-vtk>=9.2.6
-termcolor>=2.1.1
-pyvista>=0.40.1
+omegaconf>=2.3.0
+pyvista>=0.43.0

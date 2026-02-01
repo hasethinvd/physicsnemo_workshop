@@ -1,0 +1,70 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.cursor/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ML outputs (will be generated at runtime)
+mlruns/
+mlartifacts/
+outputs/
+results/
+checkpoints/
+
+# Large data files (download at runtime)
+lab_1/datasets/
+lab_1/outputs_pino/
+lab_3/xmgn/outputs/
+lab_4/dataset/
+lab_4/checkpoints/
+lab_4/outputs/
+lab_4/results/
+lab_5/outputs_cond/
+
+# Simulation output files
+*.GRDECL
+*.UNRST
+*.INIT
+*.SMSPEC
+*.UNSMRY
+*.RFT
+*.DBG
+*.PRT
+*.Ecl
+
+# Extra physicsnemo repo (too large for container)
+extra/
+
+# Documentation
+*.pdf
+*.md
+!README.md
+!lab_*/README.md

@@ -1,181 +1,107 @@
-# SPDX-FileCopyrightText: Copyright (c) 2023 - 2024 NVIDIA CORPORATION & AFFILIATES.
-# SPDX-FileCopyrightText: All rights reserved.
+# SPDX-FileCopyrightText: Copyright (c) 2023 - 2025 NVIDIA CORPORATION & AFFILIATES.
 # SPDX-License-Identifier: Apache-2.0
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#     http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
 
-import dgl
+"""Utility functions for Lab 2: Transolver"""
+
+import os
+import subprocess
+import zipfile
+import shutil
 import numpy as np
-import torch
-import vtk
-from torch import Tensor
 
-try:
-    import pyvista as pv
-except:
-    raise ImportError(
-        "Stokes Dataset requires the pyvista library. Install with "
-        + "pip install pyvista"
-    )
+# Require pyvista for VTP files
+import pyvista as pv
 
 
-def relative_lp_error(pred, y, p=2):
+def softmax(x, axis=-1):
+    """Numerically stable softmax."""
+    e_x = np.exp(x - np.max(x, axis=axis, keepdims=True))
+    return e_x / e_x.sum(axis=axis, keepdims=True)
+
+
+def download_stokes_dataset(data_dir="../lab_4/dataset", max_samples=100):
     """
-    Calculate relative L2 error norm
-
-    Parameters:
-    -----------
-    pred: torch.Tensor
-        Prediction
-    y: torch.Tensor
-        Ground truth
-
+    Download Stokes flow dataset from NGC (uses same location as Lab 2).
+    
+    Args:
+        data_dir: Directory to store processed VTP files (default: ../lab_4/dataset)
+        max_samples: Maximum number of samples to keep
+    
     Returns:
-    --------
-    error: float
-        Calculated relative L2 error norm (percentage) on cpu
+        bool: True if dataset is available
     """
+    # Check if dataset already exists
+    if os.path.exists(data_dir):
+        vtp_files = [f for f in os.listdir(data_dir) if f.endswith('.vtp')]
+        if vtp_files:
+            print(f"✓ Dataset already exists at {data_dir} ({len(vtp_files)} VTP files)")
+            return True
+    
+    print("Downloading Stokes flow dataset from NGC...")
+    url = 'https://api.ngc.nvidia.com/v2/resources/org/nvidia/team/physicsnemo/physicsnemo_datasets_stokes_flow/0.0.1/files?redirect=true&path=results_polygon.zip'
+    
+    # Download
+    subprocess.run(
+        ['wget', '--content-disposition', url, '-O', 'results_polygon.zip'], 
+        check=True
+    )
+    
+    # Extract
+    with zipfile.ZipFile('results_polygon.zip', 'r') as zip_ref:
+        zip_ref.extractall('.')
+    
+    # Create dataset directory
+    os.makedirs(data_dir, exist_ok=True)
+    
+    # Move VTP files from extracted 'results' folder
+    raw_dir = './results'
+    if os.path.exists(raw_dir):
+        vtp_files = sorted([f for f in os.listdir(raw_dir) if f.endswith('.vtp')])
+        for f in vtp_files[:max_samples]:
+            shutil.copy(os.path.join(raw_dir, f), data_dir)
+        # Cleanup raw dir
+        shutil.rmtree(raw_dir, ignore_errors=True)
+    
+    # Cleanup zip
+    if os.path.exists('results_polygon.zip'):
+        os.remove('results_polygon.zip')
+        
+    print(f"✓ Downloaded {len(os.listdir(data_dir))} samples to {data_dir}")
+    return True
 
-    error = torch.mean(torch.norm(pred - y, p=p) / torch.norm(y, p=p)).cpu().numpy()
-    return error * 100
+
+def load_stokes_sample(data_dir="../lab_4/dataset", sample_idx=0):
+    """
+    Load a sample VTP file from the Stokes dataset.
+    
+    Args:
+        data_dir: Directory containing VTP files
+        sample_idx: Index of sample to load
+    
+    Returns:
+        tuple: (coords, u, v, p) arrays
+    """
+    if not os.path.exists(data_dir):
+        raise FileNotFoundError(f"Dataset not found at {data_dir}. Run download_stokes_dataset() first.")
+    
+    vtp_files = sorted([f for f in os.listdir(data_dir) if f.endswith('.vtp')])
+    if not vtp_files:
+        raise FileNotFoundError(f"No VTP files found in {data_dir}. Run download_stokes_dataset() first.")
+    
+    if sample_idx >= len(vtp_files):
+        raise IndexError(f"Sample index {sample_idx} out of range (only {len(vtp_files)} files)")
+    
+    mesh = pv.read(os.path.join(data_dir, vtp_files[sample_idx]))
+    coords = np.array(mesh.points[:, :2])  # 2D coordinates
+    u = np.array(mesh.point_data.get('u', np.zeros(len(coords))))
+    v = np.array(mesh.point_data.get('v', np.zeros(len(coords))))
+    p = np.array(mesh.point_data.get('p', np.zeros(len(coords))))
+    print(f"✓ Loaded {vtp_files[sample_idx]} ({len(coords)} points)")
+    return coords, u, v, p
 
 
-# Inflow boundary condition
-def parabolic_inflow(y, U_max):
-    """parabolic inflow"""
-    u = 4 * U_max * y * (0.4 - y) / (0.4**2)
-    v = np.zeros_like(y)
-    return u, v
-
-
-def get_dataset(path, return_graph=False):
-    """get_dataset file."""
-    pv_mesh = pv.read(path)
-
-    coords = np.array(pv_mesh.points[:, 0:2])
-
-    # Extract the boundary markers
-    mask = pv_mesh.point_data["marker"]
-
-    inflow_coord_idx = mask == 1
-    outflow_coord_idx = mask == 2
-    wall_coords_idx = mask == 3
-    polygon_coords_idx = mask == 4
-
-    inflow_coords = coords[inflow_coord_idx]
-    outflow_coords = coords[outflow_coord_idx]
-    wall_coords = coords[wall_coords_idx]
-    polygon_coords = coords[polygon_coords_idx]
-
-    ref_u = np.array(pv_mesh.point_data["u"]).reshape(-1, 1)
-    ref_v = np.array(pv_mesh.point_data["v"]).reshape(-1, 1)
-    ref_p = np.array(pv_mesh.point_data["p"]).reshape(-1, 1)
-
-    gnn_u = np.array(pv_mesh.point_data["pred_u"]).reshape(-1, 1)
-    gnn_v = np.array(pv_mesh.point_data["pred_v"]).reshape(-1, 1)
-    gnn_p = np.array(pv_mesh.point_data["pred_p"]).reshape(-1, 1)
-
-    nu = 0.01
-
-    if return_graph:
-        # generate DGL graph
-        polys = pv_mesh.GetPolys()
-        polys.InitTraversal()
-        edge_list = []
-        id_list = vtk.vtkIdList()
-        for _ in range(polys.GetNumberOfCells()):
-            polys.GetNextCell(id_list)
-            num_ids = id_list.GetNumberOfIds()
-            for j in range(num_ids):
-                edge_list.append(  # noqa: PERF401
-                    (id_list.GetId(j), id_list.GetId((j + 1) % num_ids))
-                )
-
-        graph = dgl.graph(edge_list, idtype=torch.int32)
-
-        # Assign node features using the vertex data
-        points = pv_mesh.GetPoints()
-        vertices = np.array(
-            [points.GetPoint(i) for i in range(points.GetNumberOfPoints())]
-        )
-        graph.ndata["pos"] = torch.tensor(vertices[:, :2], dtype=torch.float32)
-
-        # Add one-hot embedding of markers
-        point_data = pv_mesh.GetPointData()
-        marker = np.array(point_data.GetArray("marker"))
-        num_classes = 5
-        one_hot_marker = np.eye(num_classes)[marker.astype(int)]
-        graph.ndata["marker"] = torch.tensor(one_hot_marker, dtype=torch.float32)
-
-        # Extract node attributes from the vtkPolyData
-        for i in range(point_data.GetNumberOfArrays()):
-            array = point_data.GetArray(i)
-            array_name = array.GetName()
-            if array_name in ["u", "v", "p"]:
-                array_data = np.zeros(
-                    (points.GetNumberOfPoints(), array.GetNumberOfComponents())
-                )
-                for j in range(points.GetNumberOfPoints()):
-                    array.GetTuple(j, array_data[j])
-
-                # Assign node attributes to the DGL graph
-                graph.ndata[array_name] = torch.tensor(array_data, dtype=torch.float32)
-
-        # compute freq features
-        B = 10 * torch.randn((2, 64))
-        x_proj = torch.matmul(graph.ndata["pos"], B)
-        x_proj = torch.cat([torch.sin(x_proj), torch.cos(x_proj)], dim=-1)
-        graph.ndata["freq"] = x_proj
-
-        graph.ndata["x"] = torch.cat(
-            [graph.ndata[key] for key in ["pos", "marker", "freq"]], dim=-1
-        )
-        graph.ndata["y"] = torch.cat(
-            [graph.ndata[key] for key in ["u", "v", "p"]], dim=-1
-        )
-
-        pos = graph.ndata["pos"]
-        row, col = graph.edges()
-        disp = torch.tensor(pos[row.long()] - pos[col.long()])
-        disp_norm = torch.linalg.norm(disp, dim=-1, keepdim=True)
-        graph.edata["x"] = torch.cat((disp, disp_norm), dim=-1)
-        return (
-            ref_u,
-            ref_v,
-            ref_p,
-            gnn_u,
-            gnn_v,
-            gnn_p,
-            coords,
-            inflow_coords,
-            outflow_coords,
-            wall_coords,
-            polygon_coords,
-            nu,
-            graph,
-        )
-    else:
-        return (
-            ref_u,
-            ref_v,
-            ref_p,
-            gnn_u,
-            gnn_v,
-            gnn_p,
-            coords,
-            inflow_coords,
-            outflow_coords,
-            wall_coords,
-            polygon_coords,
-            nu,
-        )
+def get_num_samples(data_dir="../lab_4/dataset"):
+    """Get number of available samples in dataset."""
+    if os.path.exists(data_dir):
+        return len([f for f in os.listdir(data_dir) if f.endswith('.vtp')])
+    return 0

@@ -12,20 +12,24 @@ __pycache__/
 mlruns/
 mlartifacts/
 
-# lab_3 (Transolver) downloaded data
-lab_3/dataset/
-lab_3/results/
+# lab_2 (Transolver) - uses dataset from lab_4, no local data
 
-# lab_4 (xmgn/reservoir) large simulation files (not model files)
-lab_4/dataset/**/*.GRDECL
-lab_4/dataset/**/*.UNRST
-lab_4/dataset/**/*.EGRID
-lab_4/dataset/**/*.INIT
-lab_4/dataset/**/*.RFT
-lab_4/dataset/**/*.SMSPEC
-lab_4/dataset/**/*.UNSMRY
-lab_4/dataset/**/*.DBG
-lab_4/dataset/**/*.PRT
+# lab_3 (xmgn/reservoir) large simulation files (not model files)
+lab_3/dataset/**/*.GRDECL
+lab_3/dataset/**/*.UNRST
+lab_3/dataset/**/*.EGRID
+lab_3/dataset/**/*.INIT
+lab_3/dataset/**/*.RFT
+lab_3/dataset/**/*.SMSPEC
+lab_3/dataset/**/*.UNSMRY
+lab_3/dataset/**/*.DBG
+lab_3/dataset/**/*.PRT
+
+# lab_4 (MeshGraphNet Stokes) downloaded data
+lab_4/dataset/
+lab_4/checkpoints/
+lab_4/outputs/
+lab_4/results/
 
 # OS files
 .DS_Store

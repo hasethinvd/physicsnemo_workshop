@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 # Transolver Training Configuration for Stokes Flow
-# Lab 2: Physics-Attention and Transolver
+# Lab 5: Physics-Attention and Transolver
 
 # Model Architecture (PhysicsNeMo Transolver)
 model:
@@ -29,7 +29,7 @@ model:
 
 # Data
 data:
-  dataset_path: "../lab_4/dataset"
+  dataset_path: "../lab_2/dataset"
 
 # Scheduler (following PhysicsNeMo pattern)
 scheduler:
