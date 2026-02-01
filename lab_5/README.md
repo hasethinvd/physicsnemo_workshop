@@ -1,51 +1,45 @@
-# Lab 5: Transolver - Physics-Aware Transformers for PDEs
+# Lab 5: Diffusion Models for Full Waveform Inversion (FWI)
 
-This lab introduces **Transolver**, a transformer architecture designed for physics simulations. Unlike standard transformers that have O(N²) complexity, Transolver uses **Physics-Attention** to achieve O(N) complexity while learning physically meaningful representations.
+This lab introduces **conditional diffusion models** for generating velocity models in Full Waveform Inversion (FWI) applications.
 
-This lab follows the same structure as PhysicsNeMo examples (see `examples/cfd/darcy_transolver`).
+## Overview
+
+Full Waveform Inversion is a technique used in geophysics to create high-resolution images of the Earth's subsurface. This lab demonstrates how diffusion models can be used to generate realistic velocity models conditioned on seismic observations.
 
 ## Structure
 
 ```
 lab_5/
-├── conf/
-│   └── config.yaml              # Configuration (Hydra/OmegaConf)
-├── 01_physics_attention.ipynb   # Theory: Standard vs Physics-Attention
-├── 02_transolver_stokes.ipynb   # Training with visualization
-├── train_transolver_stokes.py   # Production training script
-├── utils.py                     # Utility functions
+├── diffusion_fwi_generation_notebook.ipynb   # Main tutorial notebook
+├── checkpoints/                               # Pre-trained model weights
+│   └── conditional/
+├── outputs_cond/                              # Sample outputs
+├── utils/                                     # Utility functions
+│   ├── diffusion.py                          # Diffusion process utilities
+│   ├── nn.py                                 # Neural network components
+│   ├── preconditioning.py                    # Preconditioning utilities
+│   ├── metrics.py                            # Evaluation metrics
+│   └── plot.py                               # Visualization utilities
 └── requirements.txt
 ```
 
-## Notebooks
+## Notebook
 
 | Notebook | Description |
 |----------|-------------|
-| `01_physics_attention.ipynb` | Understand why standard attention is expensive for physics and how Physics-Attention solves it |
-| `02_transolver_stokes.ipynb` | Train PhysicsNeMo's Transolver on Stokes flow and visualize learned slices |
-
-## Training Script
-
-For production training (following PhysicsNeMo patterns):
-
-```bash
-python train_transolver_stokes.py
-```
+| `diffusion_fwi_generation_notebook.ipynb` | Generate velocity models using conditional diffusion |
 
 ## Key Concepts
 
-### The Problem with Standard Attention
-- Standard transformers compute attention between ALL pairs of points: O(N²)
-- For meshes with 100K+ points, this is computationally prohibitive
-- But physics is mostly **local** - distant points rarely interact directly
+### Diffusion Models
+- **Forward process**: Gradually add noise to data
+- **Reverse process**: Learn to denoise and generate samples
+- **Conditioning**: Guide generation based on input observations
 
-### The Transolver Solution: Physics-Attention
-1. **Slice**: Learn to group mesh points into M physics-meaningful "slices"
-2. **Aggregate**: Compress N points → M tokens (N >> M)
-3. **Attend**: Standard attention on M tokens only: O(M²) where M ≈ 64
-4. **Deslice**: Broadcast back to N points
-
-This reduces complexity from O(N²) to O(N·M) ≈ O(N).
+### Full Waveform Inversion
+- Estimate subsurface velocity from seismic data
+- Traditional methods are computationally expensive
+- Diffusion models can generate plausible velocity models quickly
 
 ## Prerequisites
 
@@ -55,5 +49,5 @@ pip install -r requirements.txt
 
 ## References
 
-- [Transolver: A Fast Transformer Solver for PDEs on General Geometries](https://arxiv.org/abs/2402.02366)
-- [Learning Mesh-Based Simulation with Graph Networks](https://arxiv.org/abs/2010.03409)
+- [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239)
+- [Score-Based Generative Modeling](https://arxiv.org/abs/2011.13456)
