@@ -19,7 +19,7 @@ WORKDIR /workspace
 RUN apt-get update && apt-get install -y --no-install-recommends \
     git-lfs \
     graphviz \
-    libgl1-mesa-glx \
+    libgl1 \
     libglib2.0-0 \
     wget \
     curl \
