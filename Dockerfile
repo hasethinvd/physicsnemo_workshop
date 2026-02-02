@@ -56,36 +56,36 @@ RUN git clone --depth 1 --branch ${PHYSICSNEMO_SYM_BRANCH} \
 # Core ML/Scientific dependencies
 # ============================================
 RUN pip install --no-cache-dir \
-    "numpy>=1.24.0,<2.0" \
-    "scipy>=1.10.0" \
-    "h5py>=3.7.0" \
-    "matplotlib>=3.8.0" \
-    "einops>=0.7.0"
+    'numpy>=1.24.0,<2.0' \
+    'scipy>=1.10.0' \
+    'h5py>=3.7.0' \
+    'matplotlib>=3.8.0' \
+    'einops>=0.7.0'
 
 # ============================================
 # Hydra / Config management
 # ============================================
 RUN pip install --no-cache-dir \
-    "hydra-core>=1.3.0" \
-    "omegaconf>=2.3.0"
+    hydra-core>=1.3.0 \
+    omegaconf>=2.3.0
 
 # ============================================
 # Visualization
 # ============================================
 RUN pip install --no-cache-dir \
-    "vtk>=9.2.6" \
-    "pyvista>=0.43.0" \
-    "plotly>=5.18.0" \
-    "imageio>=2.31.0"
+    vtk>=9.2.6 \
+    pyvista>=0.43.0 \
+    plotly>=5.18.0 \
+    imageio>=2.31.0
 
 # ============================================
 # Experiment tracking
 # ============================================
 RUN pip install --no-cache-dir \
-    "wandb>=0.15.1" \
-    "mlflow>=2.1.1" \
-    "termcolor>=2.1.1" \
-    "tqdm>=4.60.0"
+    wandb>=0.15.1 \
+    mlflow>=2.1.1 \
+    termcolor>=2.1.1 \
+    tqdm>=4.60.0
 
 # ============================================
 # Lab 4: MeshGraphNet (DGL)
@@ -93,16 +93,16 @@ RUN pip install --no-cache-dir \
 # ============================================
 RUN pip install --no-cache-dir \
     dgl -f https://data.dgl.ai/wheels/torch-2.5/cu124/repo.html \
-    "psutil>=6.0.0"
+    psutil>=6.0.0
 
 # ============================================
 # Lab 3: xMGN (PyTorch Geometric)
 # ============================================
 RUN pip install --no-cache-dir \
-    "torch_geometric>=2.6.0"
+    torch_geometric>=2.6.0
 
 # Install PyG extensions (scatter, sparse, cluster)
-RUN pip install --no-cache-dir \
+RUN pip install --no-cache-dir --no-build-isolation \
     torch_scatter \
     torch_sparse \
     torch_cluster \
@@ -110,16 +110,18 @@ RUN pip install --no-cache-dir \
 
 # ============================================
 # Lab 5: Diffusion / FWI
+# Note: deepwave build requires significant memory and is optional
+# Uncomment to install if needed for Lab 5
 # ============================================
-RUN pip install --no-cache-dir \
-    "deepwave>=0.0.21"
+# RUN pip install --no-cache-dir \
+#     deepwave>=0.0.21
 
 # ============================================
 # Jupyter Lab for interactive notebooks
 # ============================================
 RUN pip install --no-cache-dir \
-    "jupyterlab>=4.0.0" \
-    "ipywidgets>=8.0.0"
+    jupyterlab>=4.0.0 \
+    ipywidgets>=8.0.0
 
 # ============================================
 # Copy workshop materials
