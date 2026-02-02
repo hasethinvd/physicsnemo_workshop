@@ -97,16 +97,20 @@ RUN pip install --no-cache-dir \
 
 # ============================================
 # Lab 3: xMGN (PyTorch Geometric)
+# Build extensions from source to match container's PyTorch version
 # ============================================
-RUN pip install --no-cache-dir \
-    torch_geometric>=2.6.0
+RUN pip install --no-cache-dir "torch_geometric>=2.6.0"
 
-# Install PyG extensions (scatter, sparse, cluster)
+# Build PyG extensions from source (ensures compatibility)
+ENV TORCH_CUDA_ARCH_LIST="7.0 7.5 8.0 8.6 9.0"
+ENV FORCE_CUDA=1
+ENV MAX_JOBS=4
 RUN pip install --no-cache-dir --no-build-isolation \
-    torch_scatter \
-    torch_sparse \
-    torch_cluster \
-    -f https://data.pyg.org/whl/torch-2.5.0+cu124.html
+    git+https://github.com/rusty1s/pytorch_scatter.git
+RUN pip install --no-cache-dir --no-build-isolation \
+    git+https://github.com/rusty1s/pytorch_sparse.git  
+RUN pip install --no-cache-dir --no-build-isolation \
+    git+https://github.com/rusty1s/pytorch_cluster.git
 
 # ============================================
 # Lab 5: Diffusion / FWI
