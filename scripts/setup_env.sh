@@ -134,6 +134,29 @@ if [ ! -d "$WORKSHOP_DIR/physicsnemo-sym" ]; then
     git clone --depth 1 https://github.com/NVIDIA/physicsnemo-sym.git "$WORKSHOP_DIR/physicsnemo-sym"
 fi
 echo -e "${GREEN}Installing PhysicsNeMo-Sym...${NC}"
+
+# Set CUDA architectures based on CUDA version to avoid compilation errors
+# compute_100 (Blackwell) requires CUDA 12.8+, compute_90 (Hopper) requires CUDA 12.0+
+case "$CUDA_VERSION" in
+    12.8*|12.9*|12.10*|13.*)
+        # CUDA 12.8+ supports Blackwell (compute_100)
+        export TORCH_CUDA_ARCH_LIST="7.5;8.0;8.6;9.0;10.0"
+        ;;
+    12.0*|12.1*|12.2*|12.3*|12.4*|12.5*|12.6*|12.7*)
+        # CUDA 12.0-12.7 supports up to Hopper (compute_90)
+        export TORCH_CUDA_ARCH_LIST="7.5;8.0;8.6;9.0"
+        ;;
+    11.8*)
+        # CUDA 11.8 supports up to Hopper (compute_90)
+        export TORCH_CUDA_ARCH_LIST="7.5;8.0;8.6;9.0"
+        ;;
+    *)
+        # Default for older CUDA versions
+        export TORCH_CUDA_ARCH_LIST="7.5;8.0;8.6"
+        ;;
+esac
+echo -e "Building for CUDA architectures: ${YELLOW}${TORCH_CUDA_ARCH_LIST}${NC}"
+
 $PIP install --no-build-isolation -e "$WORKSHOP_DIR/physicsnemo-sym"
 
 echo ""
