@@ -44,14 +44,28 @@ echo ""
 PYTHON_VERSION=$(python3 -c "import sys; print(f'{sys.version_info.major}.{sys.version_info.minor}')")
 echo -e "Python version: ${YELLOW}${PYTHON_VERSION}${NC}"
 
-# Check CUDA
-if command -v nvcc &> /dev/null; then
+# Check CUDA version from nvidia-smi or nvcc
+if command -v nvidia-smi &> /dev/null; then
+    CUDA_VERSION=$(nvidia-smi | grep "CUDA Version" | sed 's/.*CUDA Version: //' | sed 's/ .*//' | cut -d'.' -f1,2)
+    echo -e "CUDA version (nvidia-smi): ${YELLOW}${CUDA_VERSION}${NC}"
+elif command -v nvcc &> /dev/null; then
     CUDA_VERSION=$(nvcc --version | grep "release" | sed 's/.*release //' | sed 's/,.*//')
-    echo -e "CUDA version: ${YELLOW}${CUDA_VERSION}${NC}"
+    echo -e "CUDA version (nvcc): ${YELLOW}${CUDA_VERSION}${NC}"
 else
     echo -e "${YELLOW}CUDA not found - will install CPU-only versions${NC}"
     CUDA_VERSION="cpu"
 fi
+
+# Map CUDA version to wheel suffix
+case "$CUDA_VERSION" in
+    12.4*|12.5*|12.6*) CUDA_WHEEL="cu124" ;;
+    12.1*|12.2*|12.3*) CUDA_WHEEL="cu121" ;;
+    11.8*) CUDA_WHEEL="cu118" ;;
+    11.7*) CUDA_WHEEL="cu117" ;;
+    cpu) CUDA_WHEEL="cpu" ;;
+    *) CUDA_WHEEL="cu121" ; echo -e "${YELLOW}Unknown CUDA $CUDA_VERSION, defaulting to cu121${NC}" ;;
+esac
+echo -e "Using wheel suffix: ${YELLOW}${CUDA_WHEEL}${NC}"
 
 echo ""
 
@@ -80,13 +94,21 @@ $PIP install "torch_geometric>=2.6.0"
 
 # Step 6: DGL (Lab 4: MeshGraphNet)
 echo -e "${GREEN}[6/6] Installing DGL...${NC}"
-if [[ "$CUDA_VERSION" != "cpu" ]]; then
-    # Try to install DGL for CUDA
-    $PIP install dgl -f https://data.dgl.ai/wheels/torch-2.4/cu124/repo.html || \
-    $PIP install dgl -f https://data.dgl.ai/wheels/torch-2.3/cu121/repo.html || \
+if [[ "$CUDA_WHEEL" != "cpu" ]]; then
+    # Try to install DGL for detected CUDA version
+    $PIP install dgl -f https://data.dgl.ai/wheels/torch-2.4/${CUDA_WHEEL}/repo.html || \
+    $PIP install dgl -f https://data.dgl.ai/wheels/torch-2.3/${CUDA_WHEEL}/repo.html || \
     echo -e "${YELLOW}DGL installation failed - install manually${NC}"
 else
     $PIP install dgl
+fi
+
+# Step 7: PyG extensions (for Lab 3: xMGN)
+echo -e "${GREEN}[7/7] Installing PyG extensions...${NC}"
+if [[ "$CUDA_WHEEL" != "cpu" ]]; then
+    $PIP install torch_scatter torch_sparse torch_cluster \
+        -f https://data.pyg.org/whl/torch-2.4.0+${CUDA_WHEEL}.html || \
+    echo -e "${YELLOW}PyG extensions failed - may need manual install${NC}"
 fi
 
 echo ""
