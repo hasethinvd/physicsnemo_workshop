@@ -16,9 +16,6 @@ mlartifacts/
 
 # lab_3 (xmgn/reservoir) large simulation files (not model files)
 lab_3/dataset/**/*.GRDECL
-lab_3/dataset/**/*.UNRST
-lab_3/dataset/**/*.EGRID
-lab_3/dataset/**/*.INIT
 lab_3/dataset/**/*.RFT
 lab_3/dataset/**/*.SMSPEC
 lab_3/dataset/**/*.UNSMRY

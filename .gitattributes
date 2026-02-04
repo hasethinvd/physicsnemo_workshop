@@ -1,3 +1,6 @@
 *.mdlus filter=lfs diff=lfs merge=lfs -text
 *.pt filter=lfs diff=lfs merge=lfs -text
 *.hdf5 filter=lfs diff=lfs merge=lfs -text
+*.UNRST filter=lfs diff=lfs merge=lfs -text
+*.EGRID filter=lfs diff=lfs merge=lfs -text
+*.INIT filter=lfs diff=lfs merge=lfs -text
