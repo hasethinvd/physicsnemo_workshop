@@ -19,7 +19,18 @@ from typing import Any, Dict, List, Tuple, TypeAlias, Literal
 from collections.abc import Callable, Sequence
 
 import torch
-import nvtx
+
+try:
+    import nvtx
+    _NVTX_AVAILABLE = True
+except ImportError:
+    _NVTX_AVAILABLE = False
+    from contextlib import nullcontext as _nullcontext
+    class _NvtxStub:
+        @staticmethod
+        def annotate(*args, **kwargs):
+            return _nullcontext()
+    nvtx = _NvtxStub()
 
 from physicsnemo.diffusion.utils import StackedRandomGenerator
 
