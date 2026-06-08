@@ -4,7 +4,7 @@
 # PhysicsNeMo Workshop Dockerfile
 # Builds container with all dependencies for Labs 1-5
 
-ARG BASE_CONTAINER=nvcr.io/nvidia/pytorch:25.07-py3
+ARG BASE_CONTAINER=nvcr.io/nvidia/pytorch:26.04-py3
 FROM ${BASE_CONTAINER}
 
 # Avoid interactive prompts
