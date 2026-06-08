@@ -72,11 +72,11 @@ echo ""
 # Step 1: Core dependencies
 echo -e "${GREEN}[1/6] Installing core dependencies...${NC}"
 $PIP install --upgrade pip setuptools wheel
-$PIP install "numpy>=1.24.0,<2.0" "scipy>=1.10.0" "h5py>=3.7.0" "matplotlib>=3.8.0" "einops>=0.7.0"
+$PIP install "numpy>=1.22.4" "scipy>=1.10.0" "h5py>=3.15.0" "matplotlib>=3.8.0" "einops>=0.8.1"
 
 # Step 2: Config & tracking
 echo -e "${GREEN}[2/6] Installing config and tracking tools...${NC}"
-$PIP install "hydra-core>=1.3.0" "omegaconf>=2.3.0" "wandb>=0.15.1" "mlflow>=2.1.1" "termcolor>=2.1.1" "tqdm>=4.60.0"
+$PIP install "hydra-core>=1.3.2" "omegaconf>=2.3.0" "wandb>=0.15.1" "mlflow>=2.1.1" "termcolor>=2.1.1" "tqdm>=4.60.0"
 
 # Step 3: Visualization
 echo -e "${GREEN}[3/6] Installing visualization tools...${NC}"
@@ -92,22 +92,10 @@ $PIP install "torch_geometric>=2.6.0"
 # Note: torch_scatter, torch_sparse, torch_cluster may need manual install
 # based on your PyTorch/CUDA version
 
-# Step 6: DGL (Lab 4: MeshGraphNet)
-echo -e "${GREEN}[6/6] Installing DGL...${NC}"
+# Step 6: PyG extensions (for Lab 3: xMGN)
+echo -e "${GREEN}[6/6] Installing PyG extensions...${NC}"
 if [[ "$CUDA_WHEEL" != "cpu" ]]; then
-    # Try to install DGL for detected CUDA version
-    $PIP install dgl -f https://data.dgl.ai/wheels/torch-2.4/${CUDA_WHEEL}/repo.html || \
-    $PIP install dgl -f https://data.dgl.ai/wheels/torch-2.3/${CUDA_WHEEL}/repo.html || \
-    echo -e "${YELLOW}DGL installation failed - install manually${NC}"
-else
-    $PIP install dgl
-fi
-
-# Step 7: PyG extensions (for Lab 3: xMGN)
-echo -e "${GREEN}[7/7] Installing PyG extensions...${NC}"
-if [[ "$CUDA_WHEEL" != "cpu" ]]; then
-    $PIP install torch_scatter torch_sparse torch_cluster \
-        -f https://data.pyg.org/whl/torch-2.4.0+${CUDA_WHEEL}.html || \
+    $PIP install torch_scatter torch_sparse torch_cluster || \
     echo -e "${YELLOW}PyG extensions failed - may need manual install${NC}"
 fi
 
@@ -117,47 +105,12 @@ echo -e "${GREEN}  PhysicsNeMo Installation${NC}"
 echo -e "${GREEN}================================================${NC}"
 echo ""
 
-# Clone and install PhysicsNeMo
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-WORKSHOP_DIR="$(dirname "$SCRIPT_DIR")"
-
-if [ ! -d "$WORKSHOP_DIR/physicsnemo" ]; then
-    echo -e "${GREEN}Cloning PhysicsNeMo...${NC}"
-    git clone --depth 1 https://github.com/NVIDIA/physicsnemo.git "$WORKSHOP_DIR/physicsnemo"
-fi
-echo -e "${GREEN}Installing PhysicsNeMo...${NC}"
-$PIP install -e "$WORKSHOP_DIR/physicsnemo"
-
-# Clone and install PhysicsNeMo-Sym
-if [ ! -d "$WORKSHOP_DIR/physicsnemo-sym" ]; then
-    echo -e "${GREEN}Cloning PhysicsNeMo-Sym...${NC}"
-    git clone --depth 1 https://github.com/NVIDIA/physicsnemo-sym.git "$WORKSHOP_DIR/physicsnemo-sym"
-fi
-echo -e "${GREEN}Installing PhysicsNeMo-Sym...${NC}"
-
-# Set CUDA architectures based on CUDA version to avoid compilation errors
-# compute_100 (Blackwell) requires CUDA 12.8+, compute_90 (Hopper) requires CUDA 12.0+
-case "$CUDA_VERSION" in
-    12.8*|12.9*|12.10*|13.*)
-        # CUDA 12.8+ supports Blackwell (compute_100)
-        export TORCH_CUDA_ARCH_LIST="7.5;8.0;8.6;9.0;10.0"
-        ;;
-    12.0*|12.1*|12.2*|12.3*|12.4*|12.5*|12.6*|12.7*)
-        # CUDA 12.0-12.7 supports up to Hopper (compute_90)
-        export TORCH_CUDA_ARCH_LIST="7.5;8.0;8.6;9.0"
-        ;;
-    11.8*)
-        # CUDA 11.8 supports up to Hopper (compute_90)
-        export TORCH_CUDA_ARCH_LIST="7.5;8.0;8.6;9.0"
-        ;;
-    *)
-        # Default for older CUDA versions
-        export TORCH_CUDA_ARCH_LIST="7.5;8.0;8.6"
-        ;;
-esac
-echo -e "Building for CUDA architectures: ${YELLOW}${TORCH_CUDA_ARCH_LIST}${NC}"
-
-$PIP install --no-build-isolation -e "$WORKSHOP_DIR/physicsnemo-sym"
+# Install PhysicsNeMo from PyPI
+# nvidia-physicsnemo v2.1.0+ includes physicsnemo.sym built-in via the [sym] extra.
+# The separate physicsnemo-sym package has been archived.
+PHYSICSNEMO_VERSION="${PHYSICSNEMO_VERSION:-2.1.0}"
+echo -e "${GREEN}Installing nvidia-physicsnemo[sym]==${PHYSICSNEMO_VERSION}...${NC}"
+$PIP install "nvidia-physicsnemo[sym]==${PHYSICSNEMO_VERSION}"
 
 echo ""
 echo -e "${GREEN}================================================${NC}"
@@ -172,5 +125,5 @@ echo "  jupyter lab"
 echo ""
 echo -e "${YELLOW}Note: For PyG extensions (torch_scatter, torch_sparse, torch_cluster),${NC}"
 echo -e "${YELLOW}you may need to install manually based on your PyTorch/CUDA version:${NC}"
-echo "  pip install torch_scatter torch_sparse torch_cluster -f https://data.pyg.org/whl/torch-2.x.0+cuXXX.html"
+echo "  pip install torch_scatter torch_sparse torch_cluster"
 echo ""

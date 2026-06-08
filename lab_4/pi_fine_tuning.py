@@ -48,8 +48,6 @@ from physicsnemo.utils.logging.wandb import initialize_wandb
 from physicsnemo.models.mlp.fully_connected import FullyConnected
 from physicsnemo.sym.eq.pde import PDE
 from physicsnemo.sym.eq.phy_informer import PhysicsInformer
-from physicsnemo.sym.key import Key
-from physicsnemo.sym.models.arch import Arch
 from sympy import Function, Number, Symbol
 
 from utils import get_dataset, relative_lp_error
@@ -149,53 +147,30 @@ class DNN(torch.nn.Module):
         return out
 
 
-class MdlsSymDNN(Arch):
+class MdlsSymDNN(torch.nn.Module):
     """
-    Wrapper model to convert PyTorch model to PhysicsNeMo-Sym model.
-
-    PhysicsNeMo Sym relies on the inputs/outputs of the model being dictionary of tensors.
-    This wrapper converts the input dictionary of tensors to a single tensor by
-    concatenating them along appropriate dimension before passing them as an input to
-    the pytorch model. During the output, the process is reversed,
-    the output tensor from pytorch model is split across appropriate dimensions and then
-    converted to a dictionary with appropriate keys to produce the final output.
-
-    The model arguments thus become a list of `Key` objects that informs the model
-    about the input and output dimensionality of the pytorch model.
-
-    For more details on PhysicsNeMo Sym models, refer:
-    https://docs.nvidia.com/deeplearning/physicsnemo/physicsnemo-core/tutorials/simple_training_example.html#using-custom-models-in-physicsnemo
-    For more details on Key class, refer:
-    https://docs.nvidia.com/deeplearning/physicsnemo/physicsnemo-sym/api/physicsnemo.sym.html#module-physicsnemo.sym.key
+    Wrapper model that takes a dict of input tensors, concatenates them, runs a DNN,
+    then splits the output back into a dict keyed by output_keys.
     """
 
     def __init__(
         self,
-        input_keys=[Key("x"), Key("y")],
-        output_keys=[Key("u"), Key("v"), Key("p")],
+        input_keys=["x", "y"],
+        output_keys=["u", "v", "p"],
         layers=[2, 128, 128, 128, 128, 3],
         fourier_features=64,
     ):
-        super().__init__(
-            input_keys=input_keys,
-            output_keys=output_keys,
-        )
-
+        super().__init__()
+        self.input_keys = input_keys
+        self.output_keys = output_keys
         self.mdls_model = DNN(layers, fourier_features)
 
     def forward(self, dict_tensor: Dict[str, torch.Tensor]):
-        # Use concat_input method of the Arch class to convert dict of tensors to
-        # a single multi-dimensional tensor. Ref: https://github.com/NVIDIA/physicsnemo-sym/blob/main/physicsnemo/sym/models/arch.py#L251
-        x = self.concat_input(
-            dict_tensor,
-            self.input_key_dict,
-            detach_dict=self.detach_key_dict,
-            dim=-1,
-        )
+        x = torch.cat([dict_tensor[k] for k in self.input_keys], dim=-1)
         out = self.mdls_model(x)
-        # Use split_output method of the Arch class to convert a single muli-dimensional
-        # tensor to a dict of tensors. Ref: https://github.com/NVIDIA/physicsnemo-sym/blob/main/physicsnemo/sym/models/arch.py#L381
-        return self.split_output(out, self.output_key_dict, dim=1)
+        split_size = out.shape[-1] // len(self.output_keys)
+        splits = torch.split(out, split_size, dim=-1)
+        return {k: v for k, v in zip(self.output_keys, splits)}
 
 
 class PhysicsInformedFineTuner:
@@ -239,8 +214,8 @@ class PhysicsInformedFineTuner:
         )
 
         self.model = MdlsSymDNN(
-            input_keys=[Key("x"), Key("y")],
-            output_keys=[Key("u"), Key("v"), Key("p")],
+            input_keys=["x", "y"],
+            output_keys=["u", "v", "p"],
             layers=[2, 128, 128, 128, 128, 3],
             fourier_features=64,
         ).to(self.device)

@@ -48,7 +48,7 @@ from physicsnemo.utils.logging.wandb import initialize_wandb
 from physicsnemo.models.meshgraphnet import MeshGraphNet
 from physicsnemo.sym.eq.pde import PDE
 from physicsnemo.sym.eq.phy_informer import PhysicsInformer
-from physicsnemo.sym.eq.spatial_grads.spatial_grads import compute_connectivity_tensor
+from physicsnemo.sym.eq.gradients import compute_connectivity_tensor
 from sympy import Function, Number, Symbol
 
 from utils import get_dataset, relative_lp_error

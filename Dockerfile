@@ -1,10 +1,10 @@
-# SPDX-FileCopyrightText: Copyright (c) 2023 - 2025 NVIDIA CORPORATION & AFFILIATES.
+# SPDX-FileCopyrightText: Copyright (c) 2023 - 2026 NVIDIA CORPORATION & AFFILIATES.
 # SPDX-License-Identifier: Apache-2.0
 #
 # PhysicsNeMo Workshop Dockerfile
 # Builds container with all dependencies for Labs 1-5
 
-ARG BASE_CONTAINER=nvcr.io/nvidia/pytorch:24.12-py3
+ARG BASE_CONTAINER=nvcr.io/nvidia/pytorch:25.07-py3
 FROM ${BASE_CONTAINER}
 
 # Avoid interactive prompts
@@ -34,39 +34,28 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 RUN pip install --upgrade pip setuptools wheel hatchling editables
 
 # ============================================
-# PhysicsNeMo Core (from source)
+# PhysicsNeMo (nvidia-physicsnemo v2.1.0)
+# physicsnemo.sym is now built-in via the [sym] extra.
+# The separate physicsnemo-sym package has been archived.
 # ============================================
-ARG PHYSICSNEMO_BRANCH=main
-RUN git clone --depth 1 --branch ${PHYSICSNEMO_BRANCH} \
-    https://github.com/NVIDIA/physicsnemo.git /opt/physicsnemo && \
-    cd /opt/physicsnemo && \
-    pip install --no-cache-dir -e .
-
-# ============================================
-# PhysicsNeMo-Sym (from source)
-# Requires --no-build-isolation because it needs torch during build
-# ============================================
-ARG PHYSICSNEMO_SYM_BRANCH=main
-RUN git clone --depth 1 --branch ${PHYSICSNEMO_SYM_BRANCH} \
-    https://github.com/NVIDIA/physicsnemo-sym.git /opt/physicsnemo-sym && \
-    cd /opt/physicsnemo-sym && \
-    pip install --no-cache-dir --no-build-isolation -e .
+ARG PHYSICSNEMO_VERSION=2.1.0
+RUN pip install --no-cache-dir "nvidia-physicsnemo[sym]==${PHYSICSNEMO_VERSION}"
 
 # ============================================
 # Core ML/Scientific dependencies
 # ============================================
 RUN pip install --no-cache-dir \
-    "numpy>=1.24.0,<2.0" \
+    "numpy>=1.22.4" \
     "scipy>=1.10.0" \
-    "h5py>=3.7.0" \
+    "h5py>=3.15.0" \
     "matplotlib>=3.8.0" \
-    "einops>=0.7.0"
+    "einops>=0.8.1"
 
 # ============================================
 # Hydra / Config management
 # ============================================
 RUN pip install --no-cache-dir \
-    "hydra-core>=1.3.0" \
+    "hydra-core>=1.3.2" \
     "omegaconf>=2.3.0"
 
 # ============================================
@@ -88,28 +77,25 @@ RUN pip install --no-cache-dir \
     "tqdm>=4.60.0"
 
 # ============================================
-# Lab 4: MeshGraphNet (DGL)
-# Note: DGL requires matching CUDA version
-# ============================================
-RUN TORCH_MAJOR_MINOR=$(python -c "import torch; v=torch.__version__.split('+')[0].split('.'); print(f'{v[0]}.{v[1]}')") && \
-    CUDA_VERSION=$(python -c "import torch; print('cu' + ''.join(torch.version.cuda.split('.')))") && \
-    echo "Installing DGL for PyTorch ${TORCH_MAJOR_MINOR} with ${CUDA_VERSION}" && \
-    pip install --no-cache-dir \
-    dgl -f https://data.dgl.ai/wheels/torch-${TORCH_MAJOR_MINOR}/${CUDA_VERSION}/repo.html \
-    "psutil>=6.0.0"
-
-# ============================================
 # Lab 3: xMGN (PyTorch Geometric)
 # ============================================
 RUN pip install --no-cache-dir \
     "torch_geometric>=2.6.0"
 
 # Install PyG extensions (scatter, sparse, cluster)
-# Build from source with --no-build-isolation for PyTorch 2.6.0a0 compatibility
+# Build from source with --no-build-isolation for PyTorch compatibility
 RUN pip install --no-cache-dir --no-build-isolation \
     torch_scatter \
     torch_sparse \
     torch_cluster
+
+# ============================================
+# Lab 4: MeshGraphNet
+# DGL is no longer required; MeshGraphNet now uses PyTorch Geometric backend.
+# psutil is still used for memory profiling.
+# ============================================
+RUN pip install --no-cache-dir \
+    "psutil>=6.0.0"
 
 # ============================================
 # Lab 5: Diffusion / FWI
