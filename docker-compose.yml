@@ -7,9 +7,8 @@ services:
       context: .
       dockerfile: Dockerfile
       args:
-        BASE_CONTAINER: nvcr.io/nvidia/pytorch:24.12-py3
-        PHYSICSNEMO_BRANCH: main
-        PHYSICSNEMO_SYM_BRANCH: main
+        BASE_CONTAINER: nvcr.io/nvidia/pytorch:26.04-py3
+        PHYSICSNEMO_VERSION: "2.1.0"
     image: physicsnemo-workshop:latest
     container_name: physicsnemo-workshop
     
