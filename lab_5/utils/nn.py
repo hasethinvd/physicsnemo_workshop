@@ -449,31 +449,23 @@ class DiffusionFWINet(Module):
     def forward(
         self,
         x: torch.Tensor,
-        y: torch.Tensor,
-        sigma: torch.Tensor,
+        t: torch.Tensor,
+        condition: torch.Tensor | None = None,
     ) -> torch.Tensor:
         B, C_x, H, W = x.shape
-        _, C_y, T, _ = y.shape
 
-        # Validate inputs
-        if y.shape != (B, self.y_channels) + self.y_resolution:
-            raise ValueError(
-                f"y shape mismatch: expected "
-                f"{(B, self.y_channels) + self.y_resolution}, but got {y.shape}"
-            )
-        if x.shape != (B, self.x_channels) + self.x_resolution:
-            raise ValueError(
-                f"x shape mismatch: expected "
-                f"{(B, self.x_channels) + self.x_resolution}, but got {x.shape}"
-            )
-        if sigma.shape != (B,):
-            raise ValueError(
-                f"sigma shape mismatch: expected {(B,)}, but got {sigma.shape}"
-            )
+        if not torch.compiler.is_compiling():
+            if x.shape != (B, self.x_channels) + self.x_resolution:
+                raise ValueError(
+                    f"x shape mismatch: expected "
+                    f"{(B, self.x_channels) + self.x_resolution}, but got {x.shape}"
+                )
+            if t.shape != (B,):
+                raise ValueError(
+                    f"t shape mismatch: expected {(B,)}, but got {t.shape}"
+                )
 
-        if self.unconditional:
-            # Unconditional model: create zero tensor instead of encoding y
-            # Shape: (B, C_hidden//2, H, W)
+        if self.unconditional or condition is None:
             y_encoded = torch.zeros(
                 B,
                 self.encoder_hidden_channels // 2,
@@ -483,15 +475,16 @@ class DiffusionFWINet(Module):
                 device=x.device,
             )
         else:
-            # Conditional model: process y through time signal encoder
+            y = condition
             _, C_y, T, _ = y.shape
 
-            # Validate y inputs
-            if y.shape != (B, self.y_channels) + self.y_resolution:
-                raise ValueError(
-                    f"y shape mismatch: expected "
-                    f"{(B, self.y_channels) + self.y_resolution}, but got {y.shape}"
-                )
+            if not torch.compiler.is_compiling():
+                if y.shape != (B, self.y_channels) + self.y_resolution:
+                    raise ValueError(
+                        f"condition shape mismatch: expected "
+                        f"{(B, self.y_channels) + self.y_resolution}, "
+                        f"but got {y.shape}"
+                    )
 
             # Embed grid coordinates and concatenate to seismic data
             pos_embd = self.unet.pos_embd  # (N_grid, H, W)
@@ -511,7 +504,7 @@ class DiffusionFWINet(Module):
         # Concatenate latent state vector and encoded seismic data (or zeros)
         x = torch.cat((x, y_encoded), dim=1)  # (B, C_x + C_hidden//2, H, W)
 
-        # Denoise
-        x = self.unet(x=x, noise_labels=sigma, class_labels=None)  # (B, C_x, H, W)
+        # Denoise — t is the EDM noise label (c_noise = log(sigma)/4)
+        x = self.unet(x=x, noise_labels=t, class_labels=None)  # (B, C_x, H, W)
 
         return x
