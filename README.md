@@ -42,6 +42,8 @@ docker run --gpus all -it \
 - **Lab 1**: [Physics Informed FNO for Nonlinear Shallow Water Equations](./lab_1/swe_nonlinear_pino.ipynb)
 
     Physics informing of a data-driven model using numerical derivatives (PINO) during training.
+
+    [Source example](https://github.com/NVIDIA/physicsnemo/tree/main/examples/cfd/swe_nonlinear_pino)
   
 - **Lab 2**: [Transolver - Physics-Aware Transformers for PDEs](./lab_2/README.md)
 
@@ -51,10 +53,16 @@ docker run --gpus all -it \
 
     Multi-scale graph networks for reservoir simulation.
 
+    [Source example](https://github.com/NVIDIA/physicsnemo/tree/main/examples/reservoir_simulation/xmgn)
+
 - **Lab 4**: [Learning the flow field of Stokes flow](./lab_4/stokes_mgn.ipynb)
 
     Train MeshGraphNet to learn Stokes flow and improve accuracy via physics-informed inference.
 
+    [Source example](https://github.com/NVIDIA/physicsnemo/tree/main/examples/cfd/stokes_mgn)
+
 - **Lab 5**: [Diffusion Models for FWI](./lab_5/diffusion_fwi_generation_notebook.ipynb)
 
     Conditional diffusion models for full waveform inversion.
+
+    [Source example](https://github.com/NVIDIA/physicsnemo/tree/main/examples/geophysics/diffusion_fwi)
